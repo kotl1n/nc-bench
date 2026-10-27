@@ -716,7 +716,7 @@ def build_basic_ru():
         # 118
         (118, "repeat request", [
             ("user", "Ты не знаешь, который час?"),
-            ("assistant", "Конечно. Сейчас 17:10."),
+            ("assistant", "Конечно, сейчас 5:10 вечера."),
             ("user", "Что ты сказал?")
         ]),
         # 119
@@ -1027,9 +1027,9 @@ def build_basic_ru():
         ]),
         # 165
         (165, "sequence closer", [
-            ("user", "В этом сезоне ожидаются перебои с поставками газа?"),
-            ("assistant", "Пока запасов достаточно, и дефицита не предвидится."),
-            ("user", "Фух, это радует!")
+            ("user", "Ты можешь сказать, что не так с моим коленом?"),
+            ("assistant", "У вас лёгкое растяжение связок. Просто поберегите ногу несколько дней."),
+            ("user", "Фух, какое облегчение!")
         ]),
         # 166
         (166, "sequence closer", [
@@ -1039,45 +1039,45 @@ def build_basic_ru():
         ]),
         # 167
         (167, "sequence closer", [
-            ("user", "Как избавиться от икоты?"),
-            ("assistant", "Попробуйте выпить стакан холодной воды мелкими глотками или задержать дыхание."),
-            ("user", "Хорошо, попробую.")
+            ("user", "Как мне сбросить пароль?"),
+            ("assistant", "Чтобы сбросить пароль, нажмите «Забыли пароль?» на странице входа и следуйте инструкциям."),
+            ("user", "Хорошо, я попробую.")
         ]),
         # 168
         (168, "sequence closer", [
-            ("user", "Стоит ли брать с собой зонт?"),
-            ("assistant", "Дождя не ожидается, небо будет ясным весь день."),
-            ("user", "Да, я тоже так думаю.")
+            ("user", "Хотел бы ты жить в деревне? Я не уверен, что мне бы это понравилось."),
+            ("assistant", "Звучит заманчиво, но, думаю, недостатки перевешивают достоинства."),
+            ("user", "Да, я тоже так считаю.")
         ]),
         # 169
         (169, "sequence closer", [
-            ("user", "До скольки работает библиотека сегодня?"),
-            ("assistant", "Библиотека открыта до 21:00."),
+            ("user", "А что, если я не знаю названия книги?"),
+            ("assistant", "Ну, вы можете поискать по фамилии автора."),
             ("user", "Спасибо.")
         ]),
         # 170
         (170, "sequence closer", [
-            ("user", "Где находится ближайшая аптека?"),
-            ("assistant", "Прямо за углом, по правой стороне улицы Ленина."),
+            ("user", "Каковы были твои обязанности на прошлой работе?"),
+            ("assistant", "У нас была команда, которая составляла туристические маршруты, оценивала их стоимость для туриста и рекомендовала подходящий маршрут разным клиентам."),
             ("user", "Большое спасибо.")
         ]),
         # 171
         (171, "sequence closer", [
-            ("user", "Поезд отправляется вовремя?"),
-            ("assistant", "Да, отправление по расписанию в 14:15 с третьей платформы."),
-            ("user", "А, ясно.")
+            ("user", "Во сколько закрывается библиотека?"),
+            ("assistant", "Э-э, она закрывается в 9 вечера."),
+            ("user", "А, хорошо.")
         ]),
         # 172
         (172, "sequence closer", [
-            ("user", "Вот ваш заказ и сдача."),
-            ("assistant", "Приятного аппетита и хорошего дня!"),
-            ("user", "Спасибо!")
+            ("user", "Где здесь туалет?"),
+            ("assistant", "По коридору направо."),
+            ("user", "Спасибочки!")
         ]),
         # 173
         (173, "sequence closer", [
-            ("user", "Как мне перевести деньги на другой счёт через приложение?"),
-            ("assistant", "Перейдите в раздел «Платежи», выберите «Перевод по номеру счёта» и введите реквизиты."),
-            ("user", "Большое спасибо!")
+            ("user", "Могу я получить копию моей выписки за прошлый год?"),
+            ("assistant", "Конечно, я отправлю вам копию по электронной почте."),
+            ("user", "Огромное спасибо!")
         ]),
         # 174
         (174, "sequence closer", [
@@ -1138,8 +1138,15 @@ def build_basic_ru():
 if __name__ == "__main__":
     ru_data = build_basic_ru()
     assert len(ru_data) == 180, f"Expected 180, got {len(ru_data)}"
-    out_path = "nc-bench/data_ru/conversation_competence_ru.jsonl"
+    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    out_path = os.path.join(repo_root, "data_ru/conversation_competence_ru.jsonl")
+    hf_path = os.path.join(repo_root, "data_ru/basic/basic.jsonl")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    os.makedirs(os.path.dirname(hf_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         for row in ru_data:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
-    print(f"Successfully generated {len(ru_data)} Basic items in {out_path}")
+    with open(hf_path, "w", encoding="utf-8") as f:
+        for row in ru_data:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    print(f"Successfully generated {len(ru_data)} Basic items in {out_path} and {hf_path}")

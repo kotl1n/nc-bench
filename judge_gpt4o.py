@@ -17,6 +17,8 @@ def get_args():
     parser.add_argument('--judgments_file', type=str, required=True)
     parser.add_argument('--max_new_tokens', default=128, type=int)
     parser.add_argument('--language', default='ru', choices=['ru', 'en'], help='Judge prompt language (ru or en)')
+    parser.add_argument('--truncate_first_line', action='store_true', help='Legacy mode: evaluate only first line of response')
+    parser.add_argument('--ignore_missing', action='store_true', help='Ignore tasks missing from generations instead of penalizing as empty')
     args = parser.parse_args()
     return args
 
@@ -49,6 +51,8 @@ def main(args):
         prompts_file=args.prompts_file,
         generations_file=args.generations_file,
         language=args.language,
+        truncate_first_line=args.truncate_first_line,
+        include_missing=not args.ignore_missing,
     )
     dataset = datasets.Dataset.from_list(judge_prompts)
 

@@ -198,10 +198,13 @@ def_expansion_open_request = '''
 - Other: An utterance that does not fit any of the above classes.
 '''
 
-def generate_judge_prompts(prompts_file, generations_file, language='en'):
+def generate_judge_prompts(prompts_file, generations_file, language='en', truncate_first_line=False, include_missing=True):
     if language == 'ru':
         from utils_ru import generate_judge_prompts_ru
-        return generate_judge_prompts_ru(prompts_file, generations_file, language='ru')
+        return generate_judge_prompts_ru(
+            prompts_file, generations_file, language='ru',
+            truncate_first_line=truncate_first_line, include_missing=include_missing
+        )
 
     # Read the chat prompts from the first JSONL file (chat)
     with open(prompts_file, 'r', encoding='utf-8') as f:
@@ -213,63 +216,80 @@ def generate_judge_prompts(prompts_file, generations_file, language='en'):
 
     # Prepare the output data
     combined_data = []
-    for task_id in chat_data:
+    for task_id, chat_entry in chat_data.items():
         if task_id in response_data:
-            chat_entry = chat_data[task_id]
             response_entry = response_data[task_id]
-            prior_turn = ''
-            task_description = response_entry['task']
-            # Bug fix: fall back to chat_entry['request_details'] if absent in response_entry
-            request_details = response_entry.get('request_details') or chat_entry.get('request_details', '')
+            is_missing = False
+        else:
+            if not include_missing:
+                continue
+            response_entry = {
+                'id': task_id,
+                'task': chat_entry['task'],
+                'output': '[empty]',
+            }
+            is_missing = True
 
-            # Task label assignment based on task description
-            if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):
-                label = def_inquiry
-            elif task_description == 'repeat request':
-                label = def_repeat
-            elif task_description == 'paraphrase request':
-                label = def_para
-            elif task_description == 'definition request':
-                label = def_def
-            elif task_description == 'example request':
-                label = def_example
-            elif task_description in ('sequence closer', 'sequence closer-acknowledgment (include)',
-                                      'sequence closer-agreement (include)', 'sequence closer-appreciation (include)',
-                                      'sequence closer-assessment (include)'):
-                label = def_closer
-            elif task_description == 'sequence abort':
-                label = def_abort
-            elif task_description == 'self-correction':
-                label = def_correction
-            elif task_description in ('Self-Correction', 'Recommendation-Compact', 'Recommendation-Expanded', 'Recommendation-Incremental', 'Detail Request-Partial', 'Detail Request-All', 'Detail Request-Expanded'):
-                label = def_correction_open_request
-            elif task_description in ('Repeat', 'Partial Repeat'):
-                label = def_repeat_open_request
-            elif task_description in ('Paraphrase', 'Example', 'Definition'):
-                label = def_repair_open_request
-            elif task_description in ('Closer', 'Abort'):
-                label = def_closer_open_request
-            elif task_description in ('Preliminary-Screen', 'Preliminary-Detail'):
-                label = def_preliminary_open_request
-            elif task_description in ('Expansion-Choices', 'Expansion-Repair'):
-                label = def_expansion_open_request
-            else:
-                raise RuntimeError(f"Unknown task description: {task_description}")
+        prior_turn = ''
+        task_description = response_entry.get('task') or chat_entry.get('task')
+        # Bug fix: fall back to chat_entry['request_details'] if absent in response_entry
+        request_details = response_entry.get('request_details') or chat_entry.get('request_details', '')
 
-            
-            # Dynamically build the prompt from the chat_prompt
-            label_prompt_parts = []
-            for i, message in enumerate(chat_entry['chat_prompt']):
-                role = message['role']
-                content = message['content']
-                if role == "user":
-                    label_prompt_parts.append(f"{i} USER: {content}")
-                elif role == "assistant" or role == "agent":
-                    label_prompt_parts.append(f"{i} AGENT: {content}")
+        # Task label assignment based on task description
+        if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):
+            label = def_inquiry
+        elif task_description == 'repeat request':
+            label = def_repeat
+        elif task_description == 'paraphrase request':
+            label = def_para
+        elif task_description == 'definition request':
+            label = def_def
+        elif task_description == 'example request':
+            label = def_example
+        elif task_description in ('sequence closer', 'sequence closer-acknowledgment (include)',
+                                  'sequence closer-agreement (include)', 'sequence closer-appreciation (include)',
+                                  'sequence closer-assessment (include)'):
+            label = def_closer
+        elif task_description == 'sequence abort':
+            label = def_abort
+        elif task_description == 'self-correction':
+            label = def_correction
+        elif task_description in ('Self-Correction', 'Recommendation-Compact', 'Recommendation-Expanded', 'Recommendation-Incremental', 'Detail Request-Partial', 'Detail Request-All', 'Detail Request-Expanded'):
+            label = def_correction_open_request
+        elif task_description in ('Repeat', 'Partial Repeat'):
+            label = def_repeat_open_request
+        elif task_description in ('Paraphrase', 'Example', 'Definition'):
+            label = def_repair_open_request
+        elif task_description in ('Closer', 'Abort'):
+            label = def_closer_open_request
+        elif task_description in ('Preliminary-Screen', 'Preliminary-Detail'):
+            label = def_preliminary_open_request
+        elif task_description in ('Expansion-Choices', 'Expansion-Repair'):
+            label = def_expansion_open_request
+        else:
+            raise RuntimeError(f"Unknown task description: {task_description}")
 
-            # Add the response output as the last part of the prompt
-            first_line = response_entry['output'].split('\n')[0].strip()
-            label_prompt_parts.append(f"{i+1} AGENT: {first_line}")
+        # Dynamically build the prompt from the chat_prompt
+        label_prompt_parts = []
+        for i, message in enumerate(chat_entry['chat_prompt']):
+            role = message['role']
+            content = message['content']
+            if role == "user":
+                label_prompt_parts.append(f"{i} USER: {content}")
+            elif role == "assistant" or role == "agent":
+                label_prompt_parts.append(f"{i} AGENT: {content}")
+
+        # Add the response output as the last part of the prompt
+        raw_output = response_entry.get('output', '')
+        if truncate_first_line:
+            agent_turn_text = raw_output.split('\n')[0].strip() if raw_output else ''
+        else:
+            agent_turn_text = " ".join([line.strip() for line in raw_output.splitlines() if line.strip()])
+
+        if not agent_turn_text:
+            agent_turn_text = "[empty]"
+
+        label_prompt_parts.append(f"{i+1} AGENT: {agent_turn_text}")
 
 
             # Combine into one string

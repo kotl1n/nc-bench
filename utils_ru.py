@@ -119,12 +119,14 @@ def_expansion_open_request_ru = '''
 '''
 
 
-def generate_judge_prompts_ru(prompts_file, generations_file, language='ru'):
+def generate_judge_prompts_ru(prompts_file, generations_file, language='ru', truncate_first_line=False, include_missing=True):
     """
     Generate evaluation prompts for judge LLM.
     Supports language='ru' (Russian instructions & definitions) and language='en' (original).
-    Fixes upstream bug: falls back to chat_entry['request_details'] so grounded slot details
-    are never blanked out.
+    Fixes upstream bugs:
+      1. Falls back to chat_entry['request_details'] so grounded slot details are never blanked out.
+      2. Preserves the full agent response (not just line 1) unless truncate_first_line=True.
+      3. Handles omitted/missing tasks so models that fail or drop tasks receive score 0 instead of being ignored.
     """
     from utils import (
         sys_prompt as sys_prompt_en,
@@ -158,117 +160,139 @@ def generate_judge_prompts_ru(prompts_file, generations_file, language='ru'):
         response_data = {json.loads(line)['id']: json.loads(line) for line in f}
 
     combined_data = []
-    for task_id in chat_data:
+    for task_id, chat_entry in chat_data.items():
         if task_id in response_data:
-            chat_entry = chat_data[task_id]
             response_entry = response_data[task_id]
-            task_description = response_entry['task']
-
-            # Bug fix: check response_entry first, then fall back to chat_entry
-            request_details = response_entry.get('request_details') or chat_entry.get('request_details', '')
-
-            if is_ru:
-                if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):
-                    label = def_inquiry_ru
-                elif task_description == 'repeat request':
-                    label = def_repeat_ru
-                elif task_description == 'paraphrase request':
-                    label = def_para_ru
-                elif task_description == 'definition request':
-                    label = def_def_ru
-                elif task_description == 'example request':
-                    label = def_example_ru
-                elif task_description in ('sequence closer', 'sequence closer-acknowledgment (include)',
-                                          'sequence closer-agreement (include)', 'sequence closer-appreciation (include)',
-                                          'sequence closer-assessment (include)'):
-                    label = def_closer_ru
-                elif task_description == 'sequence abort':
-                    label = def_abort_ru
-                elif task_description == 'self-correction':
-                    label = def_correction_ru
-                elif task_description in ('Self-Correction', 'Recommendation-Compact', 'Recommendation-Expanded', 'Recommendation-Incremental', 'Detail Request-Partial', 'Detail Request-All', 'Detail Request-Expanded'):
-                    label = def_correction_open_request_ru
-                elif task_description in ('Repeat', 'Partial Repeat'):
-                    label = def_repeat_open_request_ru
-                elif task_description in ('Paraphrase', 'Example', 'Definition'):
-                    label = def_repair_open_request_ru
-                elif task_description in ('Closer', 'Abort'):
-                    label = def_closer_open_request_ru
-                elif task_description in ('Preliminary-Screen', 'Preliminary-Detail'):
-                    label = def_preliminary_open_request_ru
-                elif task_description in ('Expansion-Choices', 'Expansion-Repair'):
-                    label = def_expansion_open_request_ru
-                else:
-                    raise RuntimeError(f"Unknown task description: {task_description}")
-            else:
-                if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):
-                    label = def_inquiry_en
-                elif task_description == 'repeat request':
-                    label = def_repeat_en
-                elif task_description == 'paraphrase request':
-                    label = def_para_en
-                elif task_description == 'definition request':
-                    label = def_def_en
-                elif task_description == 'example request':
-                    label = def_example_en
-                elif task_description in ('sequence closer', 'sequence closer-acknowledgment (include)',
-                                          'sequence closer-agreement (include)', 'sequence closer-appreciation (include)',
-                                          'sequence closer-assessment (include)'):
-                    label = def_closer_en
-                elif task_description == 'sequence abort':
-                    label = def_abort_en
-                elif task_description == 'self-correction':
-                    label = def_correction_en
-                elif task_description in ('Self-Correction', 'Recommendation-Compact', 'Recommendation-Expanded', 'Recommendation-Incremental', 'Detail Request-Partial', 'Detail Request-All', 'Detail Request-Expanded'):
-                    label = def_correction_open_request_en
-                elif task_description in ('Repeat', 'Partial Repeat'):
-                    label = def_repeat_open_request_en
-                elif task_description in ('Paraphrase', 'Example', 'Definition'):
-                    label = def_repair_open_request_en
-                elif task_description in ('Closer', 'Abort'):
-                    label = def_closer_open_request_en
-                elif task_description in ('Preliminary-Screen', 'Preliminary-Detail'):
-                    label = def_preliminary_open_request_en
-                elif task_description in ('Expansion-Choices', 'Expansion-Repair'):
-                    label = def_expansion_open_request_en
-                else:
-                    raise RuntimeError(f"Unknown task description: {task_description}")
-
-            # Build transcript with turn numbers
-            label_prompt_parts = []
-            for i, message in enumerate(chat_entry['chat_prompt']):
-                role = message['role']
-                content = message['content']
-                if role == "user":
-                    label_prompt_parts.append(f"{i} USER: {content}")
-                elif role in ("assistant", "agent"):
-                    label_prompt_parts.append(f"{i} AGENT: {content}")
-
-            # Model output line
-            first_line = response_entry['output'].split('\n')[0].strip()
-            label_prompt_parts.append(f"{i+1} AGENT: {first_line}")
-            label_prompt = "\n".join(label_prompt_parts)
-
-            prior_turn = ''
-            if i - 1 >= 1:
-                prior_turn = ('строка ' if is_ru else 'line ') + str(i - 1)
-
-            judge_prompt_final = (
-                cur_judge_prompt.replace("<labels>", label.strip())
-                .replace("<last_agent_turn_num>", str(i + 1))
-                .replace("<transcript_with_turn_num>", label_prompt)
-                .replace("<prior_turn>", prior_turn)
-                .replace("<request_details>", request_details)
-            )
-
-            combined_entry = {
-                "id": task_id,
-                "task": chat_entry["task"],
-                "chat_prompt": [
-                    {"role": "system", "content": cur_sys_prompt},
-                    {"role": "user", "content": judge_prompt_final}
-                ]
+            is_missing = False
+        else:
+            if not include_missing:
+                continue
+            # Missing output: model did not generate an answer for this prompt
+            response_entry = {
+                'id': task_id,
+                'task': chat_entry['task'],
+                'output': '[empty]',
             }
-            combined_data.append(combined_entry)
+            is_missing = True
+
+        task_description = response_entry.get('task') or chat_entry.get('task')
+
+        # Bug fix: check response_entry first, then fall back to chat_entry
+        request_details = response_entry.get('request_details') or chat_entry.get('request_details', '')
+
+        if is_ru:
+            if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):
+                label = def_inquiry_ru
+            elif task_description == 'repeat request':
+                label = def_repeat_ru
+            elif task_description == 'paraphrase request':
+                label = def_para_ru
+            elif task_description == 'definition request':
+                label = def_def_ru
+            elif task_description == 'example request':
+                label = def_example_ru
+            elif task_description in ('sequence closer', 'sequence closer-acknowledgment (include)',
+                                      'sequence closer-agreement (include)', 'sequence closer-appreciation (include)',
+                                      'sequence closer-assessment (include)'):
+                label = def_closer_ru
+            elif task_description == 'sequence abort':
+                label = def_abort_ru
+            elif task_description == 'self-correction':
+                label = def_correction_ru
+            elif task_description in ('Self-Correction', 'Recommendation-Compact', 'Recommendation-Expanded', 'Recommendation-Incremental', 'Detail Request-Partial', 'Detail Request-All', 'Detail Request-Expanded'):
+                label = def_correction_open_request_ru
+            elif task_description in ('Repeat', 'Partial Repeat'):
+                label = def_repeat_open_request_ru
+            elif task_description in ('Paraphrase', 'Example', 'Definition'):
+                label = def_repair_open_request_ru
+            elif task_description in ('Closer', 'Abort'):
+                label = def_closer_open_request_ru
+            elif task_description in ('Preliminary-Screen', 'Preliminary-Detail'):
+                label = def_preliminary_open_request_ru
+            elif task_description in ('Expansion-Choices', 'Expansion-Repair'):
+                label = def_expansion_open_request_ru
+            else:
+                raise RuntimeError(f"Unknown task description: {task_description}")
+        else:
+            if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):
+                label = def_inquiry_en
+            elif task_description == 'repeat request':
+                label = def_repeat_en
+            elif task_description == 'paraphrase request':
+                label = def_para_en
+            elif task_description == 'definition request':
+                label = def_def_en
+            elif task_description == 'example request':
+                label = def_example_en
+            elif task_description in ('sequence closer', 'sequence closer-acknowledgment (include)',
+                                      'sequence closer-agreement (include)', 'sequence closer-appreciation (include)',
+                                      'sequence closer-assessment (include)'):
+                label = def_closer_en
+            elif task_description == 'sequence abort':
+                label = def_abort_en
+            elif task_description == 'self-correction':
+                label = def_correction_en
+            elif task_description in ('Self-Correction', 'Recommendation-Compact', 'Recommendation-Expanded', 'Recommendation-Incremental', 'Detail Request-Partial', 'Detail Request-All', 'Detail Request-Expanded'):
+                label = def_correction_open_request_en
+            elif task_description in ('Repeat', 'Partial Repeat'):
+                label = def_repeat_open_request_en
+            elif task_description in ('Paraphrase', 'Example', 'Definition'):
+                label = def_repair_open_request_en
+            elif task_description in ('Closer', 'Abort'):
+                label = def_closer_open_request_en
+            elif task_description in ('Preliminary-Screen', 'Preliminary-Detail'):
+                label = def_preliminary_open_request_en
+            elif task_description in ('Expansion-Choices', 'Expansion-Repair'):
+                label = def_expansion_open_request_en
+            else:
+                raise RuntimeError(f"Unknown task description: {task_description}")
+
+        # Build transcript with turn numbers
+        label_prompt_parts = []
+        for i, message in enumerate(chat_entry['chat_prompt']):
+            role = message['role']
+            content = message['content']
+            if role == "user":
+                label_prompt_parts.append(f"{i} USER: {content}")
+            elif role in ("assistant", "agent"):
+                label_prompt_parts.append(f"{i} AGENT: {content}")
+
+        # Model output formatting: evaluate full response by default, preserving all sentences
+        raw_output = response_entry.get('output', '')
+        if truncate_first_line:
+            agent_turn_text = raw_output.split('\n')[0].strip() if raw_output else ''
+        else:
+            # Full response: clean and normalize internal line breaks so all sentences are evaluated
+            agent_turn_text = " ".join([line.strip() for line in raw_output.splitlines() if line.strip()])
+
+        if not agent_turn_text:
+            agent_turn_text = "[empty]"
+
+        label_prompt_parts.append(f"{i+1} AGENT: {agent_turn_text}")
+        label_prompt = "\n".join(label_prompt_parts)
+
+        prior_turn = ''
+        if i - 1 >= 1:
+            prior_turn = ('строка ' if is_ru else 'line ') + str(i - 1)
+
+        judge_prompt_final = (
+            cur_judge_prompt.replace("<labels>", label.strip())
+            .replace("<last_agent_turn_num>", str(i + 1))
+            .replace("<transcript_with_turn_num>", label_prompt)
+            .replace("<prior_turn>", prior_turn)
+            .replace("<request_details>", request_details)
+        )
+
+        combined_entry = {
+            "id": task_id,
+            "task": chat_entry["task"],
+            "is_missing": is_missing,
+            "chat_prompt": [
+                {"role": "system", "content": cur_sys_prompt},
+                {"role": "user", "content": judge_prompt_final}
+            ]
+        }
+        combined_data.append(combined_entry)
 
     return combined_data
+

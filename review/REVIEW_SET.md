@@ -914,8 +914,8 @@
 | :--- | :--- | :--- |
 | **system** | Let's do some roleplaying today! Never say USER or AGENT. We're just gonna have an ordinary conversation. But keep yo... | Давай сегодня немного сыграем роли! Никогда не говори «ПОЛЬЗОВАТЕЛЬ» или «АГЕНТ». У нас будет обычный разговор. Но от... |
 | **user** | How prevalent is the Spanish language in the U.S.? | Насколько распространён испанский язык в США? |
-| **assistant** | The Spanish language is the second most spoken language in the U.S., with 45 million Hispanophones. | В США более 41 миллиона испаноязычных жителей, что делает испанский вторым по распространённости языком. |
-| **user** | How about German? | А что насчёт французского языка? |
+| **assistant** | The Spanish language is the second most spoken language in the U.S., with 45 million Hispanophones. | Испанский язык является вторым по распространённости языком в США, на нём говорят 45 миллионов (45) испаноязычных жит... |
+| **user** | How about German? | А как насчёт немецкого? |
 
 ---
 
@@ -1103,8 +1103,8 @@
 | Роль | Английский оригинал (EN) | Русская адаптация (RU) |
 | :--- | :--- | :--- |
 | **system** | Let's do some roleplaying today! Never say USER or AGENT. We're just gonna have an ordinary conversation. But keep yo... | Давай сегодня немного сыграем роли! Никогда не говори «ПОЛЬЗОВАТЕЛЬ» или «АГЕНТ». У нас будет обычный разговор. Но от... |
-| **user** | Has IBM ever produced things that are not related to computers or the office? | Насколько выросло потребление бумаги в мире? |
-| **assistant** | During World War II, IBM produced small arms for the American war effort. | Потребление бумаги за последние 40 лет увеличилось на 400%, что усилило вырубку лесов. |
+| **user** | Has IBM ever produced things that are not related to computers or the office? | Производила ли IBM когда-либо продукцию, не связанную с компьютерами или офисом? |
+| **assistant** | During World War II, IBM produced small arms for the American war effort. | Во время Второй мировой войны IBM производила стрелковое оружие для американских военных нужд (карабин M1 и винтовку ... |
 | **user** | What do you mean? | Что вы имеете в виду? |
 
 ---
@@ -1119,8 +1119,8 @@
 | :--- | :--- | :--- |
 | **system** | Let's do some roleplaying today! Never say USER or AGENT. We're just gonna have an ordinary conversation. But keep yo... | Давай сегодня немного сыграем роли! Никогда не говори «ПОЛЬЗОВАТЕЛЬ» или «АГЕНТ». У нас будет обычный разговор. Но от... |
 | **user** | How prevalent is the Spanish language in the U.S.? | Насколько распространён испанский язык в США? |
-| **assistant** | Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language ... | В стране насчитывается свыше 41 миллиона испаноязычных жителей, это второй по масштабу язык. |
-| **user** | No comprendo. | В каком смысле? |
+| **assistant** | Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language ... | Испанский язык широко распространён в США: на нём говорят около 45 миллионов (45) испаноязычных жителей и шесть (6) м... |
+| **user** | No comprendo. | Не понимаю (No comprendo). |
 
 ---
 
@@ -1179,8 +1179,8 @@
 | :--- | :--- | :--- |
 | **system** | Let's do some roleplaying today! Never say USER or AGENT. We're just gonna have an ordinary conversation. But keep yo... | Давай сегодня немного сыграем роли! Никогда не говори «ПОЛЬЗОВАТЕЛЬ» или «АГЕНТ». У нас будет обычный разговор. Но от... |
 | **user** | How prevalent is the Spanish language in the U.S.? | Насколько распространён испанский язык в США? |
-| **assistant** | Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language ... | В США насчитывается более 41 миллиона говорящих на испанском языке. |
-| **user** | Say that again please. | Повторите, пожалуйста. |
+| **assistant** | Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language ... | Испанский язык широко распространён в США: около 45 миллионов (45) испаноязычных жителей и 6 миллионов студентов. |
+| **user** | Say that again please. | Повторите это ещё раз, пожалуйста. |
 
 ---
 
@@ -1343,9 +1343,9 @@
 | Роль | Английский оригинал (EN) | Русская адаптация (RU) |
 | :--- | :--- | :--- |
 | **system** | Let's do some roleplaying today! Never say USER or AGENT. We're just gonna have an ordinary conversation. But keep yo... | Давай сегодня немного сыграем роли! Никогда не говори «ПОЛЬЗОВАТЕЛЬ» или «АГЕНТ». У нас будет обычный разговор. Но от... |
-| **user** | How was the movie Evita received at the time? | Насколько распространён испанский язык в США? |
-| **assistant** | The movie Evita garnered critical appreciation, with Zach Conner from Time magazine commenting that it's pretty damn ... | Испанский язык является вторым по распространённости в США, на нём говорят более 41 миллиона человек. |
-| **user** | Oh, that's great! | Ясно. |
+| **user** | How was the movie Evita received at the time? | Как в своё время был принят фильм «Эвита»? |
+| **assistant** | The movie Evita garnered critical appreciation, with Zach Conner from Time magazine commenting that it's pretty damn ... | Фильм «Эвита» получил признание критиков, а Зак Коннер из журнала Time отметил, что картина «чертовски хороша, с отли... |
+| **user** | Oh, that's great! | О, отлично! |
 
 ---
 

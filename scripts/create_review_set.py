@@ -10,18 +10,20 @@ Generates:
 import json
 import os
 
+repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
 SUBSETS = {
     "Basic": {
-        "ru_file": "nc-bench/data_ru/conversation_competence_ru.jsonl",
-        "en_file": "nc-bench/scripts/basic_en.json",
+        "ru_file": os.path.join(repo_root, "data_ru/conversation_competence_ru.jsonl"),
+        "en_file": os.path.join(repo_root, "scripts/basic_en.json"),
     },
     "RAG": {
-        "ru_file": "nc-bench/data_ru/conversation_competence_rag_ru.jsonl",
-        "en_file": "nc-bench/scripts/rag_en.json",
+        "ru_file": os.path.join(repo_root, "data_ru/conversation_competence_rag_ru.jsonl"),
+        "en_file": os.path.join(repo_root, "scripts/rag_en.json"),
     },
     "Complex Request": {
-        "ru_file": "nc-bench/data_ru/conversation_competence_open_request_ru.jsonl",
-        "en_file": "nc-bench/scripts/complex_en.json",
+        "ru_file": os.path.join(repo_root, "data_ru/conversation_competence_open_request_ru.jsonl"),
+        "en_file": os.path.join(repo_root, "scripts/complex_en.json"),
     }
 }
 
@@ -123,13 +125,15 @@ def main():
                 review_items.append(review_entry)
 
     # Write review_set.jsonl
-    jsonl_path = "nc-bench/review/review_set.jsonl"
+    review_dir = os.path.join(repo_root, "review")
+    os.makedirs(review_dir, exist_ok=True)
+    jsonl_path = os.path.join(review_dir, "review_set.jsonl")
     with open(jsonl_path, "w", encoding="utf-8") as f:
         for it in review_items:
             f.write(json.dumps(it, ensure_ascii=False) + "\n")
 
     # Write REVIEW_SET.md
-    md_path = "nc-bench/review/REVIEW_SET.md"
+    md_path = os.path.join(review_dir, "REVIEW_SET.md")
     with open(md_path, "w", encoding="utf-8") as f:
         f.write("# NC-Bench-RU: Набор для независимого экспертного ручного ревью\n\n")
         f.write("> [!IMPORTANT]\n")

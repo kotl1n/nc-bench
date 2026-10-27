@@ -95,7 +95,8 @@ python3 pred_hf.py \
 
 ### Шаг 2. Разметка ответов моделью-судьёй
 
-Для оценки ответов используется LLM-судья с русскоязычными инструкциями (`--language ru`):
+Для оценки ответов используется LLM-судья с русскоязычными инструкциями (`--language ru`).
+По умолчанию оценивается **полный связный ответ модели** (все предложения сохраняются для классификации по правилу 2, без обрезания по первой строке), и **учитываются все задания** тестового набора (`include_missing=True`).
 
 ```bash
 # Локальный судья на Hugging Face (например, Mistral-Large, Llama-3.3-70B или Qwen2.5-72B)
@@ -117,22 +118,30 @@ python3 judge_gpt4o.py \
     --language ru
 ```
 
+> [!TIP]
+> **Флаги совместимости со старым поведением IBM upstream**:
+> - `--truncate_first_line`: включает устаревшее обрезание ответа до первой строки (`.split('\n')[0]`).
+> - `--ignore_missing`: исключает пропущенные моделью задания из формирования запросов к судье (вместо их маркировки `is_missing`).
+
 ### Шаг 3. Агрегация результатов и подсчёт метрик
 
-Мы предоставляем расширенный агрегатор `aggregator_ru.py`, поддерживающий два режима:
+Мы предоставляем расширенный агрегатор `aggregator_ru.py`, поддерживающий защиту от неполных прогонов и два режима:
 
 ```bash
-# Режим 1: Полная совместимость с upstream IBM NC-Bench
+# Режим 1 (Рекомендуемый, strict):
+# Рассчитывает evaluated_accuracy (на отвеченных), benchmark_accuracy (с пенализацией пропусков),
+# выявляет ошибки судьи и очищает маркдаун.
+python3 aggregator_ru.py \
+    --judgments_dir outputs/judgments/ \
+    --evaluations_dir outputs/evaluations/ \
+    --prompts_file data_ru/conversation_competence_ru.jsonl \
+    --mode strict
+
+# Режим 2: Полная совместимость с upstream IBM NC-Bench
 python3 aggregator_ru.py \
     --judgments_dir outputs/judgments/ \
     --evaluations_dir outputs/evaluations/ \
     --mode original
-
-# Режим 2: Строгий/робастный режим (очистка пунктуации/markdown, учёт ошибок судьи, макро- и микро-усреднение)
-python3 aggregator_ru.py \
-    --judgments_dir outputs/judgments/ \
-    --evaluations_dir outputs/evaluations/ \
-    --mode strict
 ```
 
 ---

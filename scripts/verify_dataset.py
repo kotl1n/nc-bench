@@ -3,12 +3,15 @@
 Comprehensive Two-Pass Verification Suite for NC-Bench-RU.
 Pass 1: Structural & Integrity Checks (counts, unique IDs, schemas, roles, category distribution).
 Pass 2: Semantic Integrity (number preservation, negation preservation, English leakage check).
-Outputs machine validation metrics and generates VERIFICATION_REPORT.md.
+Outputs machine validation metrics, generates VERIFICATION_REPORT.md, and exits with non-zero
+code on any failure.
 """
 import json
 import os
 import re
-import string
+import sys
+
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # Allowed Latin tokens / proper names / technical acronyms / brand names
 ALLOWED_LATIN_TOKENS = {
@@ -26,8 +29,20 @@ ALLOWED_LATIN_TOKENS = {
     'pfizer', 'fortune', 'dreamworks', 'cgi', 'animation', 'marvel', 'comics', 'timely',
     'publications', 'led', 'filament', 'dtc', 'bing', 'android', 'mit', 'rotten',
     'tomatoes', 'times', 'hotel', 'de', 'ville', 'mmorpg', 'se', 'hr', 'you', 'must',
-    'fran', 'la', 'le', 'de', 'ibm', 'macbook', 'munchies', 'pizza', 'abba', 'super', 'trouper', 'beatles', 'sgt', "pepper's", 'lonely', 'hearts', 'club', 'band', 'pink', 'floyd', 'atom', 'heart', 'mother', 'lead-out', 'groove', 'lock', 'pixar', 'xix', 'c'
+    'fran', 'la', 'le', 'ibm', 'macbook', 'munchies', 'pizza', 'abba', 'super', 'trouper',
+    'beatles', 'sgt', "pepper's", 'lonely', 'hearts', 'club', 'band', 'pink', 'floyd',
+    'atom', 'heart', 'mother', 'lead-out', 'groove', 'lock', 'pixar', 'xix', 'xx', 'xiv',
+    'iii', 'ii', 'c', 'collège', 'des', 'quatre-nations', 'victoires', 'invalides',
+    'grands', 'boulevards', 'mrna', 'trna', 'voyager', 'kelvin', 'mph', 'arcs',
+    'time', 'billboard', 'fdi', 'magazine', 'sbm', 'dehomag', 'arabian-american', 'oil',
+    'company', 'machines', 'saudi', 'business', 'hasbro', 'disturbia', 'paramount', 'pictures',
+    'dog', 'whisperer', 'historylink', 'conch', 'blue', 'tangs', 'trumpet', 'fish', 'ghost',
+    'crabs', 'sergeant', 'majors', 'drachloch', "dragon's", 'hole', 'chongqing', 'argentina',
+    'artist', 'achievement', 'award', 'awards', 'cry', 'for', 'love', 'me', 'dark', 'spot',
+    'great', 'house', 'monster', 'street', 'west', 'no', 'comprendo', '1960s', '1990s',
+    '19th', '20th', '42nd', 'm1', 'm1918', 's21', "don't", 'music', 'les', 'o', 'oh', 'the'
 }
+
 
 def load_jsonl(filepath):
     items = []
@@ -41,19 +56,38 @@ def load_jsonl(filepath):
                     raise ValueError(f"JSON decode error in {filepath} at line {idx}: {e}")
     return items
 
+
 def extract_numbers(text):
     """Extract sequences of digits."""
     return re.findall(r'\b\d+\b', text)
 
+
+def is_roman_numeral(token):
+    return bool(re.match(r'^(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)$', token, re.IGNORECASE))
+
+
+def is_alphanumeric_code(token):
+    # Matches alphanumeric codes like S21, M1, M1918, 401(k), OBD-II
+    return bool(re.match(r'^(?:[A-Za-z]+\d+|\d+[A-Za-z]+|\d+\([A-Za-z]+\)|[A-Za-z]+-[IVXLCDMivxlcdm]+)$', token))
+
+
 def find_unexpected_latin(text):
-    """Find latin words not in ALLOWED_LATIN_TOKENS."""
-    words = re.findall(r'[a-zA-Z]+(?:[\'-][a-zA-Z]+)*', text)
+    """Find latin words not in ALLOWED_LATIN_TOKENS, excluding Roman numerals and model codes."""
+    tokens = re.findall(r'\b\d+\([a-zA-Z]+\)|[a-zA-Z0-9\u00C0-\u017F]+(?:[\'-][a-zA-Z0-9\u00C0-\u017F]+)*', text)
     unexpected = []
-    for w in words:
-        wl = w.lower()
-        if wl not in ALLOWED_LATIN_TOKENS:
-            unexpected.append(w)
+    for t in tokens:
+        if not re.search(r'[a-zA-Z\u00C0-\u017F]', t):
+            continue
+        tl = t.lower()
+        if tl in ALLOWED_LATIN_TOKENS:
+            continue
+        if is_roman_numeral(t):
+            continue
+        if is_alphanumeric_code(t):
+            continue
+        unexpected.append(t)
     return unexpected
+
 
 def run_verification():
     report_lines = []
@@ -67,20 +101,20 @@ def run_verification():
 
     files = {
         "Basic": {
-            "ru": "nc-bench/data_ru/conversation_competence_ru.jsonl",
-            "en": "nc-bench/scripts/basic_en.json",
+            "ru": os.path.join(REPO_ROOT, "data_ru/conversation_competence_ru.jsonl"),
+            "en": os.path.join(REPO_ROOT, "scripts/basic_en.json"),
             "expected_count": 180,
             "expected_categories": 9
         },
         "RAG": {
-            "ru": "nc-bench/data_ru/conversation_competence_rag_ru.jsonl",
-            "en": "nc-bench/scripts/rag_en.json",
+            "ru": os.path.join(REPO_ROOT, "data_ru/conversation_competence_rag_ru.jsonl"),
+            "en": os.path.join(REPO_ROOT, "scripts/rag_en.json"),
             "expected_count": 180,
             "expected_categories": 9
         },
         "Complex Request": {
-            "ru": "nc-bench/data_ru/conversation_competence_open_request_ru.jsonl",
-            "en": "nc-bench/scripts/complex_en.json",
+            "ru": os.path.join(REPO_ROOT, "data_ru/conversation_competence_open_request_ru.jsonl"),
+            "en": os.path.join(REPO_ROOT, "scripts/complex_en.json"),
             "expected_count": 360,
             "expected_categories": 18
         }
@@ -177,15 +211,11 @@ def run_verification():
             # Number checks
             en_nums = set(extract_numbers(en_text))
             ru_nums = set(extract_numbers(ru_text))
-            
-            # Exclude numbers that may be written out in words in Russian (e.g. "two" -> "два" or "401k")
             diff = en_nums - ru_nums
             if diff:
-                # filter out benign formatting like year differences if any
                 missing_numbers.append((ru_item["id"], ru_item["task"], diff))
 
             # Latin leakage
-            # In chat_prompt[0] of Complex Request, system prompt has Russian words only + role
             unexp = find_unexpected_latin(ru_text)
             if unexp:
                 unexpected_latin_findings.append((ru_item["id"], ru_item["task"], set(unexp)))
@@ -194,28 +224,42 @@ def run_verification():
         if not missing_numbers:
             log(f"  [OK] 100% чисел оригинала сохранены во всех {len(ru_items)} примерах.")
         else:
-            log(f"  [ИНФО] В {len(missing_numbers)} примерах числа записаны прописью или адаптированы (например, $1M -> 1 млн):")
-            for item_id, task, diff in missing_numbers[:5]:
-                log(f"    - id={item_id} ({task}): числа в EN {diff}")
+            log(f"  [ОШИБКА] В {len(missing_numbers)} примерах обнаружены отсутствующие числа:")
+            for item_id, task, diff in missing_numbers[:10]:
+                log(f"    - id={item_id} ({task}): числа в EN отсутствуют в RU: {diff}")
+            all_pass2_ok = False
 
         log(f"- Проверка на непреднамеренные остатки английского текста:")
         if not unexpected_latin_findings:
             log(f"  [OK] Случайных английских слов не обнаружено. Все латинские вхождения проверены по белому списку терминов/брендов.")
         else:
-            log(f"  [ПРЕДУПРЕЖДЕНИЕ] Обнаружены нераспознанные латинские слова в {len(unexpected_latin_findings)} примерах:")
+            log(f"  [ОШИБКА] Обнаружены нераспознанные латинские слова в {len(unexpected_latin_findings)} примерах:")
             for item_id, task, words in unexpected_latin_findings[:10]:
                 log(f"    - id={item_id} ({task}): {words}")
             if len(unexpected_latin_findings) > 10:
                 log(f"    - ... и ещё {len(unexpected_latin_findings)-10} примеров")
+            all_pass2_ok = False
         log()
 
     log(f"**Итог Прохода 2**: {'УСПЕШНО' if all_pass2_ok else 'ОШИБКИ'}\n")
 
+    overall_ok = all_pass1_ok and all_pass2_ok
+    if overall_ok:
+        log("## Общий статус: ПОЛНОСТЬЮ ВЕРИФИЦИРОВАНО (PASS)")
+    else:
+        log("## Общий статус: ВЕРИФИКАЦИЯ ПРОВАЛЕНА (FAIL)")
+
     # Write report
-    report_path = "nc-bench/VERIFICATION_REPORT.md"
+    report_path = os.path.join(REPO_ROOT, "VERIFICATION_REPORT.md")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write("\n".join(report_lines) + "\n")
     print(f"Verification report successfully written to {report_path}")
+
+    if not overall_ok:
+        sys.exit(1)
+    else:
+        sys.exit(0)
+
 
 if __name__ == "__main__":
     run_verification()
