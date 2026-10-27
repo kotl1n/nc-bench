@@ -1,0 +1,1262 @@
+[
+  {
+    "original_id": 0,
+    "ru_id": "rag_000",
+    "task": "definition request",
+    "en_user_last_turn": "What does CNG stand for?",
+    "ru_user_last_turn": "Что означает аббревиатура КПГ?"
+  },
+  {
+    "original_id": 1,
+    "ru_id": "rag_001",
+    "task": "definition request",
+    "en_user_last_turn": "What do you mean by private sector?",
+    "ru_user_last_turn": "Что вы имеете в виду под частным сектором?"
+  },
+  {
+    "original_id": 2,
+    "ru_id": "rag_002",
+    "task": "definition request",
+    "en_user_last_turn": "What does Carbine mean?",
+    "ru_user_last_turn": "Что такое карабин?"
+  },
+  {
+    "original_id": 3,
+    "ru_id": "rag_003",
+    "task": "definition request",
+    "en_user_last_turn": "What does CGI stand for?",
+    "ru_user_last_turn": "Что означает CGI?"
+  },
+  {
+    "original_id": 4,
+    "ru_id": "rag_004",
+    "task": "definition request",
+    "en_user_last_turn": "What does Hispanophones mean?",
+    "ru_user_last_turn": "Что значит испаноязычные?"
+  },
+  {
+    "original_id": 5,
+    "ru_id": "rag_005",
+    "task": "definition request",
+    "en_user_last_turn": "What is garnered?",
+    "ru_user_last_turn": "Что значит «заслужил признание»?"
+  },
+  {
+    "original_id": 6,
+    "ru_id": "rag_006",
+    "task": "definition request",
+    "en_user_last_turn": "What does inert mean?",
+    "ru_user_last_turn": "Что значит «инертные»?"
+  },
+  {
+    "original_id": 7,
+    "ru_id": "rag_007",
+    "task": "definition request",
+    "en_user_last_turn": "What do you mean by plain wrap?",
+    "ru_user_last_turn": "Что вы имеете в виду под дженериком?"
+  },
+  {
+    "original_id": 8,
+    "ru_id": "rag_008",
+    "task": "definition request",
+    "en_user_last_turn": "Define existentialism?",
+    "ru_user_last_turn": "Дай определение экзистенциализму?"
+  },
+  {
+    "original_id": 9,
+    "ru_id": "rag_009",
+    "task": "definition request",
+    "en_user_last_turn": "What do you mean by executing the code?",
+    "ru_user_last_turn": "Что вы имеете в виду под выполнением кода?"
+  },
+  {
+    "original_id": 10,
+    "ru_id": "rag_010",
+    "task": "definition request",
+    "en_user_last_turn": "What's a polypeptide?",
+    "ru_user_last_turn": "Что такое полипептид?"
+  },
+  {
+    "original_id": 11,
+    "ru_id": "rag_011",
+    "task": "definition request",
+    "en_user_last_turn": "What's a blue tang?",
+    "ru_user_last_turn": "Кто такой синий хирург?"
+  },
+  {
+    "original_id": 12,
+    "ru_id": "rag_012",
+    "task": "definition request",
+    "en_user_last_turn": "What does radiocarbon dated mean?",
+    "ru_user_last_turn": "Что значит «датированный радиоуглеродным методом»?"
+  },
+  {
+    "original_id": 13,
+    "ru_id": "rag_013",
+    "task": "definition request",
+    "en_user_last_turn": "What's that?",
+    "ru_user_last_turn": "Что это такое?"
+  },
+  {
+    "original_id": 14,
+    "ru_id": "rag_014",
+    "task": "definition request",
+    "en_user_last_turn": "What does saboteur mean?",
+    "ru_user_last_turn": "Что значит «диверсант»?"
+  },
+  {
+    "original_id": 15,
+    "ru_id": "rag_015",
+    "task": "definition request",
+    "en_user_last_turn": "What is Southeast Asia?",
+    "ru_user_last_turn": "Что такое Юго-Восточная Азия?"
+  },
+  {
+    "original_id": 16,
+    "ru_id": "rag_016",
+    "task": "definition request",
+    "en_user_last_turn": "What does pulp-magazine mean?",
+    "ru_user_last_turn": "Что такое бульварный журнал?"
+  },
+  {
+    "original_id": 17,
+    "ru_id": "rag_017",
+    "task": "definition request",
+    "en_user_last_turn": "What do you mean by umpire?",
+    "ru_user_last_turn": "Что вы имеете в виду под «рассудить»?"
+  },
+  {
+    "original_id": 18,
+    "ru_id": "rag_018",
+    "task": "definition request",
+    "en_user_last_turn": "Pali Canon? What's that?",
+    "ru_user_last_turn": "Палийский канон? Что это?"
+  },
+  {
+    "original_id": 19,
+    "ru_id": "rag_019",
+    "task": "definition request",
+    "en_user_last_turn": "What is Chongqing?",
+    "ru_user_last_turn": "Что такое Чунцин?"
+  },
+  {
+    "original_id": 20,
+    "ru_id": "rag_020",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можешь привести пример?"
+  },
+  {
+    "original_id": 21,
+    "ru_id": "rag_021",
+    "task": "example request",
+    "en_user_last_turn": "Can you give some examples of where?",
+    "ru_user_last_turn": "Можешь привести несколько примеров, откуда именно?"
+  },
+  {
+    "original_id": 22,
+    "ru_id": "rag_022",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можешь привести пример?"
+  },
+  {
+    "original_id": 23,
+    "ru_id": "rag_023",
+    "task": "example request",
+    "en_user_last_turn": "What's an example of informal?",
+    "ru_user_last_turn": "Можешь привести пример правила?"
+  },
+  {
+    "original_id": 24,
+    "ru_id": "rag_024",
+    "task": "example request",
+    "en_user_last_turn": "Can you give some examples of how?",
+    "ru_user_last_turn": "Приведи пример?"
+  },
+  {
+    "original_id": 25,
+    "ru_id": "rag_025",
+    "task": "example request",
+    "en_user_last_turn": "Examples please.",
+    "ru_user_last_turn": "Можешь привести пример розыгрыша?"
+  },
+  {
+    "original_id": 26,
+    "ru_id": "rag_026",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Какой пример оружия?"
+  },
+  {
+    "original_id": 27,
+    "ru_id": "rag_027",
+    "task": "example request",
+    "en_user_last_turn": "What's an example?",
+    "ru_user_last_turn": "Какой пример проекта?"
+  },
+  {
+    "original_id": 28,
+    "ru_id": "rag_028",
+    "task": "example request",
+    "en_user_last_turn": "What are some examples?",
+    "ru_user_last_turn": "Можешь привести пример другого транспорта на дорогах?"
+  },
+  {
+    "original_id": 29,
+    "ru_id": "rag_029",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Что там, к примеру, исследовали?"
+  },
+  {
+    "original_id": 30,
+    "ru_id": "rag_030",
+    "task": "example request",
+    "en_user_last_turn": "Can you give some examples?",
+    "ru_user_last_turn": "Приведи пример награды?"
+  },
+  {
+    "original_id": 31,
+    "ru_id": "rag_031",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можешь привести пример жанра, с которого он начинал?"
+  },
+  {
+    "original_id": 32,
+    "ru_id": "rag_032",
+    "task": "example request",
+    "en_user_last_turn": "What are some examples?",
+    "ru_user_last_turn": "Можешь привести пример такого газа?"
+  },
+  {
+    "original_id": 33,
+    "ru_id": "rag_033",
+    "task": "example request",
+    "en_user_last_turn": "What are some examples?",
+    "ru_user_last_turn": "Можешь привести пример философа из этого направления?"
+  },
+  {
+    "original_id": 34,
+    "ru_id": "rag_034",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можешь привести пример такого альбома?"
+  },
+  {
+    "original_id": 35,
+    "ru_id": "rag_035",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Приведи пример артефакта, который при этом проверяется?"
+  },
+  {
+    "original_id": 36,
+    "ru_id": "rag_036",
+    "task": "example request",
+    "en_user_last_turn": "Can you give some examples?",
+    "ru_user_last_turn": "Можешь привести пример направления реформ?"
+  },
+  {
+    "original_id": 37,
+    "ru_id": "rag_037",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можешь привести пример погодного явления?"
+  },
+  {
+    "original_id": 38,
+    "ru_id": "rag_038",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можешь привести пример провинции, где начали открываться университеты?"
+  },
+  {
+    "original_id": 39,
+    "ru_id": "rag_039",
+    "task": "example request",
+    "en_user_last_turn": "What are some examples?",
+    "ru_user_last_turn": "Приведи пример, кого мы можем увидеть?"
+  },
+  {
+    "original_id": 40,
+    "ru_id": "rag_040",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about the military?",
+    "ru_user_last_turn": "А что насчёт армии?"
+  },
+  {
+    "original_id": 41,
+    "ru_id": "rag_041",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "No, I mean does it use electric vehicles.",
+    "ru_user_last_turn": "Нет, я имею в виду — использует ли она электробусы?"
+  },
+  {
+    "original_id": 42,
+    "ru_id": "rag_042",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about vehicles?",
+    "ru_user_last_turn": "А что насчёт транспортных средств?"
+  },
+  {
+    "original_id": 43,
+    "ru_id": "rag_043",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "How about the use of oil?",
+    "ru_user_last_turn": "А пластика?"
+  },
+  {
+    "original_id": 44,
+    "ru_id": "rag_044",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "How about German?",
+    "ru_user_last_turn": "А что насчёт французского языка?"
+  },
+  {
+    "original_id": 45,
+    "ru_id": "rag_045",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about Desperately Seeking Susan?",
+    "ru_user_last_turn": "А как насчёт кассовых сборов?"
+  },
+  {
+    "original_id": 46,
+    "ru_id": "rag_046",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "No, I mean, Lucas.",
+    "ru_user_last_turn": "А над фильмом «Парк Юрского периода»?"
+  },
+  {
+    "original_id": 47,
+    "ru_id": "rag_047",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about helium?",
+    "ru_user_last_turn": "А какое там рабочее напряжение?"
+  },
+  {
+    "original_id": 48,
+    "ru_id": "rag_048",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "No, I mean when it is issued.",
+    "ru_user_last_turn": "А что происходит с ценами?"
+  },
+  {
+    "original_id": 49,
+    "ru_id": "rag_049",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about the Logical Positivists?",
+    "ru_user_last_turn": "А конкретно Гегель?"
+  },
+  {
+    "original_id": 50,
+    "ru_id": "rag_050",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about unit and regression testing?",
+    "ru_user_last_turn": "А как насчёт модульного тестирования?"
+  },
+  {
+    "original_id": 51,
+    "ru_id": "rag_051",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about proteasomes?",
+    "ru_user_last_turn": "А какую роль играет ДНК?"
+  },
+  {
+    "original_id": 52,
+    "ru_id": "rag_052",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about sharks?",
+    "ru_user_last_turn": "А акулы здесь водятся?"
+  },
+  {
+    "original_id": 53,
+    "ru_id": "rag_053",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "How about Los Angeles?",
+    "ru_user_last_turn": "А что насчёт технологических стартапов?"
+  },
+  {
+    "original_id": 54,
+    "ru_id": "rag_054",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "How about tools?",
+    "ru_user_last_turn": "А каменные орудия там нашли?"
+  },
+  {
+    "original_id": 55,
+    "ru_id": "rag_055",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "How about Oppenheimer?",
+    "ru_user_last_turn": "Нет, я имел в виду его шутки над цензурой."
+  },
+  {
+    "original_id": 56,
+    "ru_id": "rag_056",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "No, I mean DC Comics.",
+    "ru_user_last_turn": "А какую роль играл Стэн Ли?"
+  },
+  {
+    "original_id": 57,
+    "ru_id": "rag_057",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "No, I mean when?",
+    "ru_user_last_turn": "А что случилось с Лувром?"
+  },
+  {
+    "original_id": 58,
+    "ru_id": "rag_058",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "What about Vajrayana?",
+    "ru_user_last_turn": "А как насчёт дзэн-буддизма?"
+  },
+  {
+    "original_id": 59,
+    "ru_id": "rag_059",
+    "task": "incremental-self-correction",
+    "en_user_last_turn": "No, I mean, when was it moved?",
+    "ru_user_last_turn": "А почему не в Чэнду?"
+  },
+  {
+    "original_id": 60,
+    "ru_id": "rag_060",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How did German idealism influence the development of science in the 19th century?",
+    "ru_user_last_turn": "Как немецкий идеализм повлиял на развитие естественных наук в XIX веке?"
+  },
+  {
+    "original_id": 61,
+    "ru_id": "rag_061",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How did Pan and Apollo become acquainted?",
+    "ru_user_last_turn": "Как именно Пан и Аполлон изначально познакомились друг с другом?"
+  },
+  {
+    "original_id": 62,
+    "ru_id": "rag_062",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How did the Parisians react to Louis XIV's decision to move his court to Versailles?",
+    "ru_user_last_turn": "Как парижане отреагировали на решение Людовика XIV перенести двор в Версаль?"
+  },
+  {
+    "original_id": 63,
+    "ru_id": "rag_063",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How did the prehistoric people use the bear skulls?",
+    "ru_user_last_turn": "Какие ещё исторические предметы, кроме угля и черепов, были найдены в пещере Драхлох?"
+  },
+  {
+    "original_id": 64,
+    "ru_id": "rag_064",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How did the Soviet people respond to Gorbachev's reforms?",
+    "ru_user_last_turn": "Как советские граждане отреагировали на экономические реформы Горбачёва?"
+  },
+  {
+    "original_id": 65,
+    "ru_id": "rag_065",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How efficient are LED filaments compared to traditional incandescent light bulbs?",
+    "ru_user_last_turn": "В чём главные различия между филаментными лампами и обычными лампами накаливания по энергоэффективности?"
+  },
+  {
+    "original_id": 66,
+    "ru_id": "rag_066",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How many buses does the DTC own?",
+    "ru_user_last_turn": "Какова текущая загруженность дорог и средняя скорость пробок в Нью-Дели сегодня?"
+  },
+  {
+    "original_id": 67,
+    "ru_id": "rag_067",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "How prevalent is the French language in the U.S.?",
+    "ru_user_last_turn": "Каково экономическое влияние испаноязычного населения на розничные продажи в США?"
+  },
+  {
+    "original_id": 68,
+    "ru_id": "rag_068",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "Was Men in Black inspired by Spielberg's Close Encounters of the Third Kind?",
+    "ru_user_last_turn": "Какие ещё анимационные фильмы продюсировал Стивен Спилберг на студии Pixar?"
+  },
+  {
+    "original_id": 69,
+    "ru_id": "rag_069",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What are the main differences between Theravada and Mahayana Buddhism?",
+    "ru_user_last_turn": "В чём заключаются основные различия в медитативных практиках Тхеравады и Махаяны?"
+  },
+  {
+    "original_id": 70,
+    "ru_id": "rag_070",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What is the average cost of developing a new drug?",
+    "ru_user_last_turn": "Как производители дженериков доказывают биоэквивалентность своих препаратов клиническими испытаниями?"
+  },
+  {
+    "original_id": 71,
+    "ru_id": "rag_071",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What is the average salary of a private sector job in New York City?",
+    "ru_user_last_turn": "Назовите пять ведущих отраслей промышленности по объёму прямых иностранных инвестиций в Нью-Йорк?"
+  },
+  {
+    "original_id": 72,
+    "ru_id": "rag_072",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What is the average water temperature in this area?",
+    "ru_user_last_turn": "Какова средняя продолжительность жизни морских ежей и актиний в этом рифе?"
+  },
+  {
+    "original_id": 73,
+    "ru_id": "rag_073",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What is the plot of the movie Evita?",
+    "ru_user_last_turn": "Как критики оценили вокальные данные Антонио Бандераса в саундтреке к фильму «Эвита»?"
+  },
+  {
+    "original_id": 74,
+    "ru_id": "rag_074",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What is the total population of Seattle?",
+    "ru_user_last_turn": "Какова общая численность населения города Сиэтл по последней переписи?"
+  },
+  {
+    "original_id": 75,
+    "ru_id": "rag_075",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What was the name of IBM's CEO in 1937?",
+    "ru_user_last_turn": "Какое медицинское оборудование производила компания IBM во время Второй мировой войны?"
+  },
+  {
+    "original_id": 76,
+    "ru_id": "rag_076",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What was the name of Martin Goodman's first comic book title?",
+    "ru_user_last_turn": "Как назывался самый первый комикс, изданный Мартином Гудманом?"
+  },
+  {
+    "original_id": 77,
+    "ru_id": "rag_077",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "What was the role of the Kuomintang government in the development of modern Western-style universities in the nearby inland provinces?",
+    "ru_user_last_turn": "Каков был бюджет гоминьдановского правительства на строительство университетов в Сычуани?"
+  },
+  {
+    "original_id": 78,
+    "ru_id": "rag_078",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "Which country consumes the most paper per capita?",
+    "ru_user_last_turn": "Какая страна в мире потребляет больше всего бумаги на душу населения?"
+  },
+  {
+    "original_id": 79,
+    "ru_id": "rag_079",
+    "task": "inquiry ungrounded",
+    "en_user_last_turn": "Who was Feynman's ailing wife?",
+    "ru_user_last_turn": "Кто была тяжелобольная первая жена Ричарда Фейнмана?"
+  },
+  {
+    "original_id": 80,
+    "ru_id": "rag_080",
+    "task": "inquiry",
+    "en_user_last_turn": "What was Mikhail Gorbachev's top priority as general secretary?",
+    "ru_user_last_turn": "Каков был главный приоритет Михаила Горбачёва на посту генерального секретаря?"
+  },
+  {
+    "original_id": 81,
+    "ru_id": "rag_081",
+    "task": "inquiry",
+    "en_user_last_turn": "Does DTC use clean energy?",
+    "ru_user_last_turn": "Использует ли DTC экологически чистую энергию?"
+  },
+  {
+    "original_id": 82,
+    "ru_id": "rag_082",
+    "task": "inquiry",
+    "en_user_last_turn": "Has IBM ever produced things that are not related to computers or the office?",
+    "ru_user_last_turn": "Производила ли IBM когда-либо продукцию, не связанную с компьютерами или офисом?"
+  },
+  {
+    "original_id": 83,
+    "ru_id": "rag_083",
+    "task": "inquiry",
+    "en_user_last_turn": "How much has the use of paper gone up around the world?",
+    "ru_user_last_turn": "Насколько выросло потребление бумаги в мире?"
+  },
+  {
+    "original_id": 84,
+    "ru_id": "rag_084",
+    "task": "inquiry",
+    "en_user_last_turn": "How prevalent is the Spanish language in the U.S.?",
+    "ru_user_last_turn": "Насколько распространён испанский язык в США?"
+  },
+  {
+    "original_id": 85,
+    "ru_id": "rag_085",
+    "task": "inquiry",
+    "en_user_last_turn": "How was the movie Evita received at the time?",
+    "ru_user_last_turn": "Как в своё время был принят фильм «Эвита»?"
+  },
+  {
+    "original_id": 86,
+    "ru_id": "rag_086",
+    "task": "inquiry",
+    "en_user_last_turn": "On what movies is Spielberg an uncredited executive producer?",
+    "ru_user_last_turn": "Сотрудничали ли Спилберг и Земекис после фильма «Назад в будущее»?"
+  },
+  {
+    "original_id": 87,
+    "ru_id": "rag_087",
+    "task": "inquiry",
+    "en_user_last_turn": "What gases are used to around an LED filament?",
+    "ru_user_last_turn": "Какие газы используются вокруг светодиодной нити накаливания?"
+  },
+  {
+    "original_id": 88,
+    "ru_id": "rag_088",
+    "task": "inquiry",
+    "en_user_last_turn": "What happens when the patent protection for a drug expires?",
+    "ru_user_last_turn": "Что происходит, когда истекает патентная защита лекарства?"
+  },
+  {
+    "original_id": 89,
+    "ru_id": "rag_089",
+    "task": "inquiry",
+    "en_user_last_turn": "What impact did the German Idealists have on philosophy?",
+    "ru_user_last_turn": "Какое влияние немецкие идеалисты оказали на философию?"
+  },
+  {
+    "original_id": 90,
+    "ru_id": "rag_090",
+    "task": "inquiry",
+    "en_user_last_turn": "What is the difference between static and dynamic testing in software testing?",
+    "ru_user_last_turn": "В чём разница между статическим и динамическим тестированием в разработке ПО?"
+  },
+  {
+    "original_id": 91,
+    "ru_id": "rag_091",
+    "task": "inquiry",
+    "en_user_last_turn": "What is the role of ribosomes in translation?",
+    "ru_user_last_turn": "Какова роль рибосом в трансляции?"
+  },
+  {
+    "original_id": 92,
+    "ru_id": "rag_092",
+    "task": "inquiry",
+    "en_user_last_turn": "What kind of marine life do you have here?",
+    "ru_user_last_turn": "Какая морская жизнь здесь обитает?"
+  },
+  {
+    "original_id": 93,
+    "ru_id": "rag_093",
+    "task": "inquiry",
+    "en_user_last_turn": "What percentage of private sector jobs in New York City are for foreign companies?",
+    "ru_user_last_turn": "Привлекает ли Нью-Йорк много компаний из-за рубежа?"
+  },
+  {
+    "original_id": 94,
+    "ru_id": "rag_094",
+    "task": "inquiry",
+    "en_user_last_turn": "What was found in the Drachloch cave?",
+    "ru_user_last_turn": "Что было найдено в пещере Драхлох?"
+  },
+  {
+    "original_id": 95,
+    "ru_id": "rag_095",
+    "task": "inquiry",
+    "en_user_last_turn": "What was one of the pranks Feynman played while at Los Alamos?",
+    "ru_user_last_turn": "Какую шалость совершил Фейнман во время работы в Лос-Аламосе?"
+  },
+  {
+    "original_id": 96,
+    "ru_id": "rag_096",
+    "task": "inquiry",
+    "en_user_last_turn": "Who created Marvel Comics?",
+    "ru_user_last_turn": "Кто создал Marvel Comics?"
+  },
+  {
+    "original_id": 97,
+    "ru_id": "rag_097",
+    "task": "inquiry",
+    "en_user_last_turn": "Why did Louis XIV move his court from Paris?",
+    "ru_user_last_turn": "Почему Людовик XIV перенёс свой двор из Парижа?"
+  },
+  {
+    "original_id": 98,
+    "ru_id": "rag_098",
+    "task": "inquiry",
+    "en_user_last_turn": "Why doesn't Theravada recognize Mahayana works?",
+    "ru_user_last_turn": "Почему Тхеравада не признаёт тексты Махаяны?"
+  },
+  {
+    "original_id": 99,
+    "ru_id": "rag_099",
+    "task": "inquiry",
+    "en_user_last_turn": "Why was the capital of China moved to the Sichuan Basin in the early 1940s?",
+    "ru_user_last_turn": "Почему столица Китая была перенесена в Сычуаньскую котловину в XX веке?"
+  },
+  {
+    "original_id": 100,
+    "ru_id": "rag_100",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 101,
+    "ru_id": "rag_101",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I'm confused.",
+    "ru_user_last_turn": "Я запутался."
+  },
+  {
+    "original_id": 102,
+    "ru_id": "rag_102",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I'm not following you.",
+    "ru_user_last_turn": "Я не совсем улавливаю вашу мысль."
+  },
+  {
+    "original_id": 103,
+    "ru_id": "rag_103",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 104,
+    "ru_id": "rag_104",
+    "task": "paraphrase request",
+    "en_user_last_turn": "No comprendo.",
+    "ru_user_last_turn": "В каком смысле?"
+  },
+  {
+    "original_id": 105,
+    "ru_id": "rag_105",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 106,
+    "ru_id": "rag_106",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What does that mean?",
+    "ru_user_last_turn": "Не понимаю."
+  },
+  {
+    "original_id": 107,
+    "ru_id": "rag_107",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What does that mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 108,
+    "ru_id": "rag_108",
+    "task": "paraphrase request",
+    "en_user_last_turn": "Can you say that a different way?",
+    "ru_user_last_turn": "Как это понимать?"
+  },
+  {
+    "original_id": 109,
+    "ru_id": "rag_109",
+    "task": "paraphrase request",
+    "en_user_last_turn": "Can you say that a different way?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 110,
+    "ru_id": "rag_110",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What does that mean?",
+    "ru_user_last_turn": "Я не понял."
+  },
+  {
+    "original_id": 111,
+    "ru_id": "rag_111",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 112,
+    "ru_id": "rag_112",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't get it.",
+    "ru_user_last_turn": "В смысле?"
+  },
+  {
+    "original_id": 113,
+    "ru_id": "rag_113",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't get it.",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 114,
+    "ru_id": "rag_114",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't understand.",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 115,
+    "ru_id": "rag_115",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 116,
+    "ru_id": "rag_116",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't understand.",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 117,
+    "ru_id": "rag_117",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't understand?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 118,
+    "ru_id": "rag_118",
+    "task": "paraphrase request",
+    "en_user_last_turn": "Could you say that a different way?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 119,
+    "ru_id": "rag_119",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't understand.",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 120,
+    "ru_id": "rag_120",
+    "task": "repeat request",
+    "en_user_last_turn": "What was that you said?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 121,
+    "ru_id": "rag_121",
+    "task": "repeat request",
+    "en_user_last_turn": "Say again. I missed that.",
+    "ru_user_last_turn": "Повторите ещё раз, я пропустил."
+  },
+  {
+    "original_id": 122,
+    "ru_id": "rag_122",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 123,
+    "ru_id": "rag_123",
+    "task": "repeat request",
+    "en_user_last_turn": "Say that again please.",
+    "ru_user_last_turn": "Повторите, пожалуйста."
+  },
+  {
+    "original_id": 124,
+    "ru_id": "rag_124",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что-что?"
+  },
+  {
+    "original_id": 125,
+    "ru_id": "rag_125",
+    "task": "repeat request",
+    "en_user_last_turn": "Say that again?",
+    "ru_user_last_turn": "Не расслышал, повторите."
+  },
+  {
+    "original_id": 126,
+    "ru_id": "rag_126",
+    "task": "repeat request",
+    "en_user_last_turn": "Please repeat that.",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 127,
+    "ru_id": "rag_127",
+    "task": "repeat request",
+    "en_user_last_turn": "Could you repeat that?",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 128,
+    "ru_id": "rag_128",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 129,
+    "ru_id": "rag_129",
+    "task": "repeat request",
+    "en_user_last_turn": "I couldn't hear you.",
+    "ru_user_last_turn": "Прошу прощения, повторите."
+  },
+  {
+    "original_id": 130,
+    "ru_id": "rag_130",
+    "task": "repeat request",
+    "en_user_last_turn": "Say that again?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 131,
+    "ru_id": "rag_131",
+    "task": "repeat request",
+    "en_user_last_turn": "Pardon me?",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 132,
+    "ru_id": "rag_132",
+    "task": "repeat request",
+    "en_user_last_turn": "I couldn't hear you.",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 133,
+    "ru_id": "rag_133",
+    "task": "repeat request",
+    "en_user_last_turn": "Sorry, I missed that.",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 134,
+    "ru_id": "rag_134",
+    "task": "repeat request",
+    "en_user_last_turn": "What was that you said?",
+    "ru_user_last_turn": "Повторите, пожалуйста."
+  },
+  {
+    "original_id": 135,
+    "ru_id": "rag_135",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 136,
+    "ru_id": "rag_136",
+    "task": "repeat request",
+    "en_user_last_turn": "Pardon me?",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 137,
+    "ru_id": "rag_137",
+    "task": "repeat request",
+    "en_user_last_turn": "Say again. I missed that.",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 138,
+    "ru_id": "rag_138",
+    "task": "repeat request",
+    "en_user_last_turn": "Could you repeat that?",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 139,
+    "ru_id": "rag_139",
+    "task": "repeat request",
+    "en_user_last_turn": "Sorry, I missed that.",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 140,
+    "ru_id": "rag_140",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind then.",
+    "ru_user_last_turn": "Ну тогда неважно."
+  },
+  {
+    "original_id": 141,
+    "ru_id": "rag_141",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 142,
+    "ru_id": "rag_142",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind then.",
+    "ru_user_last_turn": "Ну тогда неважно."
+  },
+  {
+    "original_id": 143,
+    "ru_id": "rag_143",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Ладно, забудь."
+  },
+  {
+    "original_id": 144,
+    "ru_id": "rag_144",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 145,
+    "ru_id": "rag_145",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Тогда проехали."
+  },
+  {
+    "original_id": 146,
+    "ru_id": "rag_146",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 147,
+    "ru_id": "rag_147",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Ладно, не надо."
+  },
+  {
+    "original_id": 148,
+    "ru_id": "rag_148",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 149,
+    "ru_id": "rag_149",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Тогда неважно."
+  },
+  {
+    "original_id": 150,
+    "ru_id": "rag_150",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 151,
+    "ru_id": "rag_151",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Ладно, проехали."
+  },
+  {
+    "original_id": 152,
+    "ru_id": "rag_152",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 153,
+    "ru_id": "rag_153",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Тогда забудь."
+  },
+  {
+    "original_id": 154,
+    "ru_id": "rag_154",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 155,
+    "ru_id": "rag_155",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Ладно, не надо."
+  },
+  {
+    "original_id": 156,
+    "ru_id": "rag_156",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 157,
+    "ru_id": "rag_157",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Тогда неважно."
+  },
+  {
+    "original_id": 158,
+    "ru_id": "rag_158",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 159,
+    "ru_id": "rag_159",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Отбой."
+  },
+  {
+    "original_id": 160,
+    "ru_id": "rag_160",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh, right.",
+    "ru_user_last_turn": "А, точно."
+  },
+  {
+    "original_id": 161,
+    "ru_id": "rag_161",
+    "task": "sequence closer",
+    "en_user_last_turn": "Wow!",
+    "ru_user_last_turn": "Ого!"
+  },
+  {
+    "original_id": 162,
+    "ru_id": "rag_162",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh my gosh!",
+    "ru_user_last_turn": "Ничего себе!"
+  },
+  {
+    "original_id": 163,
+    "ru_id": "rag_163",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "Понятно, спасибо."
+  },
+  {
+    "original_id": 164,
+    "ru_id": "rag_164",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh, that's great!",
+    "ru_user_last_turn": "Ясно."
+  },
+  {
+    "original_id": 165,
+    "ru_id": "rag_165",
+    "task": "sequence closer",
+    "en_user_last_turn": "Thank you!",
+    "ru_user_last_turn": "Отлично!"
+  },
+  {
+    "original_id": 166,
+    "ru_id": "rag_166",
+    "task": "sequence closer",
+    "en_user_last_turn": "All right.",
+    "ru_user_last_turn": "Хорошо, спасибо."
+  },
+  {
+    "original_id": 167,
+    "ru_id": "rag_167",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh of course.",
+    "ru_user_last_turn": "Понял!"
+  },
+  {
+    "original_id": 168,
+    "ru_id": "rag_168",
+    "task": "sequence closer",
+    "en_user_last_turn": "Thank you very much!",
+    "ru_user_last_turn": "Ясно."
+  },
+  {
+    "original_id": 169,
+    "ru_id": "rag_169",
+    "task": "sequence closer",
+    "en_user_last_turn": "Got it.",
+    "ru_user_last_turn": "Понятно."
+  },
+  {
+    "original_id": 170,
+    "ru_id": "rag_170",
+    "task": "sequence closer",
+    "en_user_last_turn": "Okay.",
+    "ru_user_last_turn": "Спасибо, всё понятно."
+  },
+  {
+    "original_id": 171,
+    "ru_id": "rag_171",
+    "task": "sequence closer",
+    "en_user_last_turn": "Thank you!",
+    "ru_user_last_turn": "Понятно."
+  },
+  {
+    "original_id": 172,
+    "ru_id": "rag_172",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "Красота, спасибо!"
+  },
+  {
+    "original_id": 173,
+    "ru_id": "rag_173",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh cool!",
+    "ru_user_last_turn": "Очень интересно, спасибо."
+  },
+  {
+    "original_id": 174,
+    "ru_id": "rag_174",
+    "task": "sequence closer",
+    "en_user_last_turn": "Haha that's funny!",
+    "ru_user_last_turn": "Ха-ха, забавно!"
+  },
+  {
+    "original_id": 175,
+    "ru_id": "rag_175",
+    "task": "sequence closer",
+    "en_user_last_turn": "Got it.",
+    "ru_user_last_turn": "Понятно, спасибо."
+  },
+  {
+    "original_id": 176,
+    "ru_id": "rag_176",
+    "task": "sequence closer",
+    "en_user_last_turn": "Who knew!",
+    "ru_user_last_turn": "Ясно."
+  },
+  {
+    "original_id": 177,
+    "ru_id": "rag_177",
+    "task": "sequence closer",
+    "en_user_last_turn": "Okay.",
+    "ru_user_last_turn": "Понятно."
+  },
+  {
+    "original_id": 178,
+    "ru_id": "rag_178",
+    "task": "sequence closer",
+    "en_user_last_turn": "Got it.",
+    "ru_user_last_turn": "Спасибо за ответ."
+  },
+  {
+    "original_id": 179,
+    "ru_id": "rag_179",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh, right.",
+    "ru_user_last_turn": "Понял, спасибо!"
+  }
+]

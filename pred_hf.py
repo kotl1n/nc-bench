@@ -60,7 +60,13 @@ def main(args):
         if use_chat_template:
             prompt = tokenizer.apply_chat_template(x['chat_prompt'], add_generation_prompt=True, tokenize=False)
         else:
-            prompt = x['freeform_prompt']
+            # Fallback for models without chat template or when --no_chat_template is specified
+            lines = []
+            for t in x['chat_prompt']:
+                role_name = "User" if t['role'] == "user" else ("Assistant" if t['role'] in ("assistant", "agent") else "System")
+                lines.append(f"{role_name}: {t['content']}")
+            lines.append("Assistant:")
+            prompt = "\n".join(lines)
         return {'prompt': prompt}
     formatted_dataset = dataset.map(format_inputs)
 
@@ -99,6 +105,8 @@ def main(args):
                     'task': tasks[i],
                     'output': preds[i],
                 }
+                if 'request_details' in batch and batch['request_details'][i]:
+                    model_output['request_details'] = batch['request_details'][i]
                 model_outputs.append(model_output)
 
             pbar.update(len(prompts))

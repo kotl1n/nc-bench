@@ -1,4 +1,16 @@
-# Natural Conversation Benchmarks (NC-Bench)
+# Natural Conversation Benchmarks (NC-Bench) & NC-Bench-RU
+
+> [!NOTE]
+> **NC-Bench-RU: Unofficial Russian Adaptation**
+> This repository contains the complete Russian-language adaptation of the IBM NC-Bench benchmark for conversational competence:
+> - **Russian Documentation**: [README_RU.md](README_RU.md)
+> - **Hugging Face Dataset Card**: [DATASET_CARD.md](DATASET_CARD.md)
+> - **Adaptation Methodology & Log**: [ADAPTATION_LOG.md](ADAPTATION_LOG.md)
+> - **Two-Pass Verification Report**: [VERIFICATION_REPORT.md](VERIFICATION_REPORT.md)
+> - **Review Set for Human Review (draft/unvalidated)**: [review/REVIEW_SET.md](review/REVIEW_SET.md)
+> - **Changelog & Upstream Bugfixes**: [CHANGELOG.md](CHANGELOG.md)
+> 
+> *Notice: This project is an independent community adaptation and is NOT an official IBM product.*
 
 ## Overview
 

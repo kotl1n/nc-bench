@@ -1,0 +1,1262 @@
+[
+  {
+    "original_id": 0,
+    "ru_id": "basic_000",
+    "task": "definition request",
+    "en_user_last_turn": "What does passively managed mean?",
+    "ru_user_last_turn": "Что значит «пассивно управляются»?"
+  },
+  {
+    "original_id": 1,
+    "ru_id": "basic_001",
+    "task": "definition request",
+    "en_user_last_turn": "What does diligent mean?",
+    "ru_user_last_turn": "Что значит «прилежный»?"
+  },
+  {
+    "original_id": 2,
+    "ru_id": "basic_002",
+    "task": "definition request",
+    "en_user_last_turn": "What is a tooth fairy?",
+    "ru_user_last_turn": "Кто такая Зубная фея?"
+  },
+  {
+    "original_id": 3,
+    "ru_id": "basic_003",
+    "task": "definition request",
+    "en_user_last_turn": "What does idiomatic expression mean?",
+    "ru_user_last_turn": "Что значит «идиоматическое выражение»?"
+  },
+  {
+    "original_id": 4,
+    "ru_id": "basic_004",
+    "task": "definition request",
+    "en_user_last_turn": "What does stereotype mean?",
+    "ru_user_last_turn": "Что такое стереотип?"
+  },
+  {
+    "original_id": 5,
+    "ru_id": "basic_005",
+    "task": "definition request",
+    "en_user_last_turn": "What does maturate mean?",
+    "ru_user_last_turn": "Что значит «созреть»?"
+  },
+  {
+    "original_id": 6,
+    "ru_id": "basic_006",
+    "task": "definition request",
+    "en_user_last_turn": "Define homeschooling.",
+    "ru_user_last_turn": "Дай определение семейному обучению."
+  },
+  {
+    "original_id": 7,
+    "ru_id": "basic_007",
+    "task": "definition request",
+    "en_user_last_turn": "What is jargon?",
+    "ru_user_last_turn": "Что такое жаргон?"
+  },
+  {
+    "original_id": 8,
+    "ru_id": "basic_008",
+    "task": "definition request",
+    "en_user_last_turn": "What's a dossier?",
+    "ru_user_last_turn": "Что такое досье?"
+  },
+  {
+    "original_id": 9,
+    "ru_id": "basic_009",
+    "task": "definition request",
+    "en_user_last_turn": "Define what you mean by blurred please.",
+    "ru_user_last_turn": "Уточни, пожалуйста, что ты имеешь в виду под «смазано»."
+  },
+  {
+    "original_id": 10,
+    "ru_id": "basic_010",
+    "task": "definition request",
+    "en_user_last_turn": "What does that mean?",
+    "ru_user_last_turn": "А что это значит?"
+  },
+  {
+    "original_id": 11,
+    "ru_id": "basic_011",
+    "task": "definition request",
+    "en_user_last_turn": "What does stolen a march mean?",
+    "ru_user_last_turn": "Что значит «сыграть на опережение»?"
+  },
+  {
+    "original_id": 12,
+    "ru_id": "basic_012",
+    "task": "definition request",
+    "en_user_last_turn": "What does that mean?",
+    "ru_user_last_turn": "Что это значит?"
+  },
+  {
+    "original_id": 13,
+    "ru_id": "basic_013",
+    "task": "definition request",
+    "en_user_last_turn": "What does verboten mean?",
+    "ru_user_last_turn": "Что значит «табу»?"
+  },
+  {
+    "original_id": 14,
+    "ru_id": "basic_014",
+    "task": "definition request",
+    "en_user_last_turn": "What's that?",
+    "ru_user_last_turn": "А что это такое?"
+  },
+  {
+    "original_id": 15,
+    "ru_id": "basic_015",
+    "task": "definition request",
+    "en_user_last_turn": "What's your doctorate?",
+    "ru_user_last_turn": "Какая у тебя докторская степень?"
+  },
+  {
+    "original_id": 16,
+    "ru_id": "basic_016",
+    "task": "definition request",
+    "en_user_last_turn": "What are those?",
+    "ru_user_last_turn": "А что это такое?"
+  },
+  {
+    "original_id": 17,
+    "ru_id": "basic_017",
+    "task": "definition request",
+    "en_user_last_turn": "What do you mean a slave?",
+    "ru_user_last_turn": "Что ты имеешь в виду под «рабом на галерах»?"
+  },
+  {
+    "original_id": 18,
+    "ru_id": "basic_018",
+    "task": "definition request",
+    "en_user_last_turn": "What's an atelier?",
+    "ru_user_last_turn": "Что такое ателье?"
+  },
+  {
+    "original_id": 19,
+    "ru_id": "basic_019",
+    "task": "definition request",
+    "en_user_last_turn": "What do you mean by strong A.I. lead?",
+    "ru_user_last_turn": "Что ты имеешь в виду под сильным искусственным интеллектом в главной роли?"
+  },
+  {
+    "original_id": 20,
+    "ru_id": "basic_020",
+    "task": "example request",
+    "en_user_last_turn": "What is an example of a mutual fund?",
+    "ru_user_last_turn": "Какой пример взаимного фонда можно привести?"
+  },
+  {
+    "original_id": 21,
+    "ru_id": "basic_021",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example of a disadvantage?",
+    "ru_user_last_turn": "Можешь привести пример недостатка?"
+  },
+  {
+    "original_id": 22,
+    "ru_id": "basic_022",
+    "task": "example request",
+    "en_user_last_turn": "Can you give us an example?",
+    "ru_user_last_turn": "Можешь привести нам пример?"
+  },
+  {
+    "original_id": 23,
+    "ru_id": "basic_023",
+    "task": "example request",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете привести пример?"
+  },
+  {
+    "original_id": 24,
+    "ru_id": "basic_024",
+    "task": "example request",
+    "en_user_last_turn": "Can you give me some examples?",
+    "ru_user_last_turn": "Можешь привести примеры?"
+  },
+  {
+    "original_id": 25,
+    "ru_id": "basic_025",
+    "task": "example request",
+    "en_user_last_turn": "What would be examples.",
+    "ru_user_last_turn": "Например, что именно?"
+  },
+  {
+    "original_id": 26,
+    "ru_id": "basic_026",
+    "task": "example request",
+    "en_user_last_turn": "Like what kind of things?",
+    "ru_user_last_turn": "Например, каких вещей?"
+  },
+  {
+    "original_id": 27,
+    "ru_id": "basic_027",
+    "task": "example request",
+    "en_user_last_turn": "What's an example?",
+    "ru_user_last_turn": "Какой, к примеру?"
+  },
+  {
+    "original_id": 28,
+    "ru_id": "basic_028",
+    "task": "example request",
+    "en_user_last_turn": "Like what kind of differences?",
+    "ru_user_last_turn": "Каких именно различий?"
+  },
+  {
+    "original_id": 29,
+    "ru_id": "basic_029",
+    "task": "example request",
+    "en_user_last_turn": "What's an example?",
+    "ru_user_last_turn": "Приведи пример?"
+  },
+  {
+    "original_id": 30,
+    "ru_id": "basic_030",
+    "task": "example request",
+    "en_user_last_turn": "Like which ones?",
+    "ru_user_last_turn": "Например, какие виды?"
+  },
+  {
+    "original_id": 31,
+    "ru_id": "basic_031",
+    "task": "example request",
+    "en_user_last_turn": "What kind of things?",
+    "ru_user_last_turn": "Какие именно дела?"
+  },
+  {
+    "original_id": 32,
+    "ru_id": "basic_032",
+    "task": "example request",
+    "en_user_last_turn": "What are some examples?",
+    "ru_user_last_turn": "Можешь привести несколько примеров?"
+  },
+  {
+    "original_id": 33,
+    "ru_id": "basic_033",
+    "task": "example request",
+    "en_user_last_turn": "Can you give some examples of groups you like?",
+    "ru_user_last_turn": "Можешь привести примеры групп, которые тебе нравятся?"
+  },
+  {
+    "original_id": 34,
+    "ru_id": "basic_034",
+    "task": "example request",
+    "en_user_last_turn": "What's an example?",
+    "ru_user_last_turn": "Какой пример можно привести?"
+  },
+  {
+    "original_id": 35,
+    "ru_id": "basic_035",
+    "task": "example request",
+    "en_user_last_turn": "Like what's an example?",
+    "ru_user_last_turn": "Например, какие?"
+  },
+  {
+    "original_id": 36,
+    "ru_id": "basic_036",
+    "task": "example request",
+    "en_user_last_turn": "What's an example?",
+    "ru_user_last_turn": "Приведи пример?"
+  },
+  {
+    "original_id": 37,
+    "ru_id": "basic_037",
+    "task": "example request",
+    "en_user_last_turn": "What's an example?",
+    "ru_user_last_turn": "Например, что именно вы слышали?"
+  },
+  {
+    "original_id": 38,
+    "ru_id": "basic_038",
+    "task": "example request",
+    "en_user_last_turn": "Like what kind of problems?",
+    "ru_user_last_turn": "Например, какого рода проблемы?"
+  },
+  {
+    "original_id": 39,
+    "ru_id": "basic_039",
+    "task": "example request",
+    "en_user_last_turn": "What are some examples of workouts that would be good?",
+    "ru_user_last_turn": "Какие примеры тренировок здесь подошли бы?"
+  },
+  {
+    "original_id": 40,
+    "ru_id": "basic_040",
+    "task": "incremental request",
+    "en_user_last_turn": "What about a mutual fund and a hedge fund?",
+    "ru_user_last_turn": "А между взаимным фондом и хедж-фондом?"
+  },
+  {
+    "original_id": 41,
+    "ru_id": "basic_041",
+    "task": "incremental request",
+    "en_user_last_turn": "What about homonyms?",
+    "ru_user_last_turn": "А омонимов?"
+  },
+  {
+    "original_id": 42,
+    "ru_id": "basic_042",
+    "task": "incremental request",
+    "en_user_last_turn": "How about football?",
+    "ru_user_last_turn": "А как насчёт футбола?"
+  },
+  {
+    "original_id": 43,
+    "ru_id": "basic_043",
+    "task": "incremental request",
+    "en_user_last_turn": "What about Geometry?",
+    "ru_user_last_turn": "А по геометрии?"
+  },
+  {
+    "original_id": 44,
+    "ru_id": "basic_044",
+    "task": "incremental request",
+    "en_user_last_turn": "Oh, very interesting. And what about Sarah?",
+    "ru_user_last_turn": "О, очень интересно. А что насчёт Сары?"
+  },
+  {
+    "original_id": 45,
+    "ru_id": "basic_045",
+    "task": "incremental request",
+    "en_user_last_turn": "What about your sister?",
+    "ru_user_last_turn": "А сестре?"
+  },
+  {
+    "original_id": 46,
+    "ru_id": "basic_046",
+    "task": "incremental request",
+    "en_user_last_turn": "What about elasticity?",
+    "ru_user_last_turn": "А что насчёт эластичности?"
+  },
+  {
+    "original_id": 47,
+    "ru_id": "basic_047",
+    "task": "incremental request",
+    "en_user_last_turn": "What about in London?",
+    "ru_user_last_turn": "А в Лондоне?"
+  },
+  {
+    "original_id": 48,
+    "ru_id": "basic_048",
+    "task": "incremental request",
+    "en_user_last_turn": "What about tomorrow?",
+    "ru_user_last_turn": "А завтра?"
+  },
+  {
+    "original_id": 49,
+    "ru_id": "basic_049",
+    "task": "incremental request",
+    "en_user_last_turn": "How about by car?",
+    "ru_user_last_turn": "А на машине?"
+  },
+  {
+    "original_id": 50,
+    "ru_id": "basic_050",
+    "task": "incremental request",
+    "en_user_last_turn": "How about in real estate?",
+    "ru_user_last_turn": "А как насчёт недвижимости?"
+  },
+  {
+    "original_id": 51,
+    "ru_id": "basic_051",
+    "task": "incremental request",
+    "en_user_last_turn": "How about the Kouign amann?",
+    "ru_user_last_turn": "А куин-аман?"
+  },
+  {
+    "original_id": 52,
+    "ru_id": "basic_052",
+    "task": "incremental request",
+    "en_user_last_turn": "How about a good movie?",
+    "ru_user_last_turn": "А какой-нибудь хороший фильм?"
+  },
+  {
+    "original_id": 53,
+    "ru_id": "basic_053",
+    "task": "incremental request",
+    "en_user_last_turn": "What about diesel?",
+    "ru_user_last_turn": "А дизельного топлива?"
+  },
+  {
+    "original_id": 54,
+    "ru_id": "basic_054",
+    "task": "incremental request",
+    "en_user_last_turn": "What about Los Angeles?",
+    "ru_user_last_turn": "А Лос-Анджелеса?"
+  },
+  {
+    "original_id": 55,
+    "ru_id": "basic_055",
+    "task": "incremental request",
+    "en_user_last_turn": "What about the top-rated TV shows?",
+    "ru_user_last_turn": "А какие телешоу с самым высоким рейтингом?"
+  },
+  {
+    "original_id": 56,
+    "ru_id": "basic_056",
+    "task": "incremental request",
+    "en_user_last_turn": "How about in Asia?",
+    "ru_user_last_turn": "А в Азии?"
+  },
+  {
+    "original_id": 57,
+    "ru_id": "basic_057",
+    "task": "incremental request",
+    "en_user_last_turn": "What about for business?",
+    "ru_user_last_turn": "А по бизнесу?"
+  },
+  {
+    "original_id": 58,
+    "ru_id": "basic_058",
+    "task": "incremental request",
+    "en_user_last_turn": "What about a cold?",
+    "ru_user_last_turn": "А простуды?"
+  },
+  {
+    "original_id": 59,
+    "ru_id": "basic_059",
+    "task": "incremental request",
+    "en_user_last_turn": "What about the effects?",
+    "ru_user_last_turn": "А каковы последствия?"
+  },
+  {
+    "original_id": 60,
+    "ru_id": "basic_060",
+    "task": "inquiry",
+    "en_user_last_turn": "What's the difference between an index fund and a mutual fund?",
+    "ru_user_last_turn": "В чём разница между индексным фондом и взаимным фондом?"
+  },
+  {
+    "original_id": 61,
+    "ru_id": "basic_061",
+    "task": "inquiry",
+    "en_user_last_turn": "Would you like to live in the country? I'm not sure i'd like it.",
+    "ru_user_last_turn": "Ты хотел бы жить в деревне? Я вот не уверен, что мне бы понравилось."
+  },
+  {
+    "original_id": 62,
+    "ru_id": "basic_062",
+    "task": "inquiry",
+    "en_user_last_turn": "I'm starving! Do you know what's for dinner?",
+    "ru_user_last_turn": "Я умираю с голоду! Ты знаешь, что на ужин?"
+  },
+  {
+    "original_id": 63,
+    "ru_id": "basic_063",
+    "task": "inquiry",
+    "en_user_last_turn": "Are there many idioms in english?",
+    "ru_user_last_turn": "В английском языке много идиом?"
+  },
+  {
+    "original_id": 64,
+    "ru_id": "basic_064",
+    "task": "inquiry",
+    "en_user_last_turn": "What if i don't know the title of the book?",
+    "ru_user_last_turn": "А что, если я не знаю названия книги?"
+  },
+  {
+    "original_id": 65,
+    "ru_id": "basic_065",
+    "task": "inquiry",
+    "en_user_last_turn": "What were your duties like in your previous job?",
+    "ru_user_last_turn": "Каковы были ваши обязанности на предыдущей работе?"
+  },
+  {
+    "original_id": 66,
+    "ru_id": "basic_066",
+    "task": "inquiry",
+    "en_user_last_turn": "Do you know anything about health food?",
+    "ru_user_last_turn": "Вы что-нибудь знаете о здоровом питании?"
+  },
+  {
+    "original_id": 67,
+    "ru_id": "basic_067",
+    "task": "inquiry",
+    "en_user_last_turn": "So it is hard to be a black student on campus?",
+    "ru_user_last_turn": "Так тяжело быть темнокожим студентом в кампусе?"
+  },
+  {
+    "original_id": 68,
+    "ru_id": "basic_068",
+    "task": "inquiry",
+    "en_user_last_turn": "What are your hobbies?",
+    "ru_user_last_turn": "Какие у тебя хобби?"
+  },
+  {
+    "original_id": 69,
+    "ru_id": "basic_069",
+    "task": "inquiry",
+    "en_user_last_turn": "You must be pretty excited about your trip to Europe. When is it that you are leaving?",
+    "ru_user_last_turn": "Ты, наверное, в предвкушении поездки в Европу. Когда ты уезжаешь?"
+  },
+  {
+    "original_id": 70,
+    "ru_id": "basic_070",
+    "task": "inquiry",
+    "en_user_last_turn": "What type of music do you like to listen to?",
+    "ru_user_last_turn": "Какую музыку ты любишь слушать?"
+  },
+  {
+    "original_id": 71,
+    "ru_id": "basic_071",
+    "task": "inquiry",
+    "en_user_last_turn": "Why would you like to join our company?",
+    "ru_user_last_turn": "Почему вы хотите присоединиться к нашей компании?"
+  },
+  {
+    "original_id": 72,
+    "ru_id": "basic_072",
+    "task": "inquiry",
+    "en_user_last_turn": "Could you and your wife be ready at nine o'clock?",
+    "ru_user_last_turn": "Вы с женой сможете быть готовы к девяти часам?"
+  },
+  {
+    "original_id": 73,
+    "ru_id": "basic_073",
+    "task": "inquiry",
+    "en_user_last_turn": "What sports do you like to play?",
+    "ru_user_last_turn": "В какие виды спорта ты любишь играть?"
+  },
+  {
+    "original_id": 74,
+    "ru_id": "basic_074",
+    "task": "inquiry",
+    "en_user_last_turn": "Which days is your Physics class on?",
+    "ru_user_last_turn": "По каким дням у тебя занятия по физике?"
+  },
+  {
+    "original_id": 75,
+    "ru_id": "basic_075",
+    "task": "inquiry",
+    "en_user_last_turn": "How old is your brother?",
+    "ru_user_last_turn": "Сколько лет твоему брату?"
+  },
+  {
+    "original_id": 76,
+    "ru_id": "basic_076",
+    "task": "inquiry",
+    "en_user_last_turn": "When?",
+    "ru_user_last_turn": "Когда?"
+  },
+  {
+    "original_id": 77,
+    "ru_id": "basic_077",
+    "task": "inquiry",
+    "en_user_last_turn": "Do you know what time it is?",
+    "ru_user_last_turn": "Ты не знаешь, который час?"
+  },
+  {
+    "original_id": 78,
+    "ru_id": "basic_078",
+    "task": "inquiry",
+    "en_user_last_turn": "What do you know about julia roberts?",
+    "ru_user_last_turn": "Что вы знаете о Джулии Робертс?"
+  },
+  {
+    "original_id": 79,
+    "ru_id": "basic_079",
+    "task": "inquiry",
+    "en_user_last_turn": "What sports do you think women excel at most?",
+    "ru_user_last_turn": "В каких видах спорта, по вашему мнению, женщины преуспевают больше всего?"
+  },
+  {
+    "original_id": 80,
+    "ru_id": "basic_080",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 81,
+    "ru_id": "basic_081",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 82,
+    "ru_id": "basic_082",
+    "task": "paraphrase request",
+    "en_user_last_turn": "I don't understand.",
+    "ru_user_last_turn": "Я не понимаю."
+  },
+  {
+    "original_id": 83,
+    "ru_id": "basic_083",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 84,
+    "ru_id": "basic_084",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 85,
+    "ru_id": "basic_085",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 86,
+    "ru_id": "basic_086",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "В каком смысле?"
+  },
+  {
+    "original_id": 87,
+    "ru_id": "basic_087",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean by that?",
+    "ru_user_last_turn": "Что ты под этим имеешь в виду?"
+  },
+  {
+    "original_id": 88,
+    "ru_id": "basic_088",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 89,
+    "ru_id": "basic_089",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 90,
+    "ru_id": "basic_090",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 91,
+    "ru_id": "basic_091",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 92,
+    "ru_id": "basic_092",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "В смысле?"
+  },
+  {
+    "original_id": 93,
+    "ru_id": "basic_093",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 94,
+    "ru_id": "basic_094",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 95,
+    "ru_id": "basic_095",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 96,
+    "ru_id": "basic_096",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean ?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 97,
+    "ru_id": "basic_097",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 98,
+    "ru_id": "basic_098",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean ?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 99,
+    "ru_id": "basic_099",
+    "task": "paraphrase request",
+    "en_user_last_turn": "What do you mean ?",
+    "ru_user_last_turn": "Что ты имеешь в виду?"
+  },
+  {
+    "original_id": 100,
+    "ru_id": "basic_100",
+    "task": "repeat request",
+    "en_user_last_turn": "Say that again.",
+    "ru_user_last_turn": "Повтори ещё раз."
+  },
+  {
+    "original_id": 101,
+    "ru_id": "basic_101",
+    "task": "repeat request",
+    "en_user_last_turn": "Pardon me.",
+    "ru_user_last_turn": "Прошу прощения, что?"
+  },
+  {
+    "original_id": 102,
+    "ru_id": "basic_102",
+    "task": "repeat request",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повтори ещё раз."
+  },
+  {
+    "original_id": 103,
+    "ru_id": "basic_103",
+    "task": "repeat request",
+    "en_user_last_turn": "I don't think I heard you right.",
+    "ru_user_last_turn": "Кажется, я не расслышал."
+  },
+  {
+    "original_id": 104,
+    "ru_id": "basic_104",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что ты сказал?"
+  },
+  {
+    "original_id": 105,
+    "ru_id": "basic_105",
+    "task": "repeat request",
+    "en_user_last_turn": "I didn't hear you",
+    "ru_user_last_turn": "Я не расслышал."
+  },
+  {
+    "original_id": 106,
+    "ru_id": "basic_106",
+    "task": "repeat request",
+    "en_user_last_turn": "Say that again.",
+    "ru_user_last_turn": "Повтори ещё раз."
+  },
+  {
+    "original_id": 107,
+    "ru_id": "basic_107",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 108,
+    "ru_id": "basic_108",
+    "task": "repeat request",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повтори ещё раз."
+  },
+  {
+    "original_id": 109,
+    "ru_id": "basic_109",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что ты сказал?"
+  },
+  {
+    "original_id": 110,
+    "ru_id": "basic_110",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что ты сказала?"
+  },
+  {
+    "original_id": 111,
+    "ru_id": "basic_111",
+    "task": "repeat request",
+    "en_user_last_turn": "Could you repeat that?",
+    "ru_user_last_turn": "Не мог бы ты повторить?"
+  },
+  {
+    "original_id": 112,
+    "ru_id": "basic_112",
+    "task": "repeat request",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повторите, пожалуйста."
+  },
+  {
+    "original_id": 113,
+    "ru_id": "basic_113",
+    "task": "repeat request",
+    "en_user_last_turn": "Sorry, I couldn't hear you.",
+    "ru_user_last_turn": "Извини, я не расслышал."
+  },
+  {
+    "original_id": 114,
+    "ru_id": "basic_114",
+    "task": "repeat request",
+    "en_user_last_turn": "What was that?",
+    "ru_user_last_turn": "Что-что?"
+  },
+  {
+    "original_id": 115,
+    "ru_id": "basic_115",
+    "task": "repeat request",
+    "en_user_last_turn": "Say that again please.",
+    "ru_user_last_turn": "Повтори, пожалуйста, ещё раз."
+  },
+  {
+    "original_id": 116,
+    "ru_id": "basic_116",
+    "task": "repeat request",
+    "en_user_last_turn": "Sorry, i didn't hear you. can you say that again please?",
+    "ru_user_last_turn": "Извини, я не расслышал. Можешь повторить, пожалуйста?"
+  },
+  {
+    "original_id": 117,
+    "ru_id": "basic_117",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что ты сказал?"
+  },
+  {
+    "original_id": 118,
+    "ru_id": "basic_118",
+    "task": "repeat request",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что ты сказал?"
+  },
+  {
+    "original_id": 119,
+    "ru_id": "basic_119",
+    "task": "repeat request",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 120,
+    "ru_id": "basic_120",
+    "task": "self-correction",
+    "en_user_last_turn": "No, i mean let's go out for dinner!",
+    "ru_user_last_turn": "Нет, я имею в виду — пойдём лучше поужинаем где-нибудь!"
+  },
+  {
+    "original_id": 121,
+    "ru_id": "basic_121",
+    "task": "self-correction",
+    "en_user_last_turn": "No, i mean the eiffel tower.",
+    "ru_user_last_turn": "Нет, я имею в виду Эйфелеву башню."
+  },
+  {
+    "original_id": 122,
+    "ru_id": "basic_122",
+    "task": "self-correction",
+    "en_user_last_turn": "I mean, what are some artists?",
+    "ru_user_last_turn": "Я имею в виду, каких исполнителей?"
+  },
+  {
+    "original_id": 123,
+    "ru_id": "basic_123",
+    "task": "self-correction",
+    "en_user_last_turn": "No. not that. i mean a training card.the card allows you to keep track of how much weight you use on each machine.here, let me show you.",
+    "ru_user_last_turn": "Нет, не то. Я имею в виду тренировочную карту. Карта позволяет отслеживать, какой вес ты используешь на каждом тренажёре. Вот, давай покажу."
+  },
+  {
+    "original_id": 124,
+    "ru_id": "basic_124",
+    "task": "self-correction",
+    "en_user_last_turn": "I mean her personality.",
+    "ru_user_last_turn": "Я имею в виду её характер."
+  },
+  {
+    "original_id": 125,
+    "ru_id": "basic_125",
+    "task": "self-correction",
+    "en_user_last_turn": "No, i mean it.",
+    "ru_user_last_turn": "Нет, я серьёзно."
+  },
+  {
+    "original_id": 126,
+    "ru_id": "basic_126",
+    "task": "self-correction",
+    "en_user_last_turn": "No, no. i mean stealing vegetables on internet is very popular now. many white collars join in this game and have a lot of fun by stealing others'vegetables.",
+    "ru_user_last_turn": "Нет-нет. Я имею в виду, что воровать виртуальные овощи в интернете сейчас очень популярно. Многие офисные работники играют в эту игру и веселятся, таская чужие овощи."
+  },
+  {
+    "original_id": 127,
+    "ru_id": "basic_127",
+    "task": "self-correction",
+    "en_user_last_turn": "I mean which ones are they better at than men?",
+    "ru_user_last_turn": "Я имею в виду, в каких из них они лучше мужчин?"
+  },
+  {
+    "original_id": 128,
+    "ru_id": "basic_128",
+    "task": "self-correction",
+    "en_user_last_turn": "I mean, do you like snake meat?",
+    "ru_user_last_turn": "Я имею в виду, любишь ли ты змеиное мясо?"
+  },
+  {
+    "original_id": 129,
+    "ru_id": "basic_129",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean the weather forecast.",
+    "ru_user_last_turn": "Нет, я имею в виду прогноз погоды."
+  },
+  {
+    "original_id": 130,
+    "ru_id": "basic_130",
+    "task": "self-correction",
+    "en_user_last_turn": "I meant drip coffee.",
+    "ru_user_last_turn": "Я имел в виду фильтр-кофе."
+  },
+  {
+    "original_id": 131,
+    "ru_id": "basic_131",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean a real map.",
+    "ru_user_last_turn": "Нет, я имею в виду настоящую карту."
+  },
+  {
+    "original_id": 132,
+    "ru_id": "basic_132",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean by car.",
+    "ru_user_last_turn": "Нет, я имею в виду на машине."
+  },
+  {
+    "original_id": 133,
+    "ru_id": "basic_133",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean the time of my appointment.",
+    "ru_user_last_turn": "Нет, я имею в виду время моей записи."
+  },
+  {
+    "original_id": 134,
+    "ru_id": "basic_134",
+    "task": "self-correction",
+    "en_user_last_turn": "For my laptop",
+    "ru_user_last_turn": "Для моего ноутбука."
+  },
+  {
+    "original_id": 135,
+    "ru_id": "basic_135",
+    "task": "self-correction",
+    "en_user_last_turn": "I mean the new iPhone.",
+    "ru_user_last_turn": "Я имею в виду новый iPhone."
+  },
+  {
+    "original_id": 136,
+    "ru_id": "basic_136",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean the flight to Rome.",
+    "ru_user_last_turn": "Нет, я имею в виду рейс в Рим."
+  },
+  {
+    "original_id": 137,
+    "ru_id": "basic_137",
+    "task": "self-correction",
+    "en_user_last_turn": "I mean the dosage for a child.",
+    "ru_user_last_turn": "Я имею в виду дозировку для ребёнка."
+  },
+  {
+    "original_id": 138,
+    "ru_id": "basic_138",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean the balance of my savings account.",
+    "ru_user_last_turn": "Нет, я имею в виду баланс сберегательного счёта."
+  },
+  {
+    "original_id": 139,
+    "ru_id": "basic_139",
+    "task": "self-correction",
+    "en_user_last_turn": "No, I mean the co-insurance.",
+    "ru_user_last_turn": "Нет, я имею в виду процент сострахования."
+  },
+  {
+    "original_id": 140,
+    "ru_id": "basic_140",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 141,
+    "ru_id": "basic_141",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 142,
+    "ru_id": "basic_142",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 143,
+    "ru_id": "basic_143",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 144,
+    "ru_id": "basic_144",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 145,
+    "ru_id": "basic_145",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 146,
+    "ru_id": "basic_146",
+    "task": "sequence abort",
+    "en_user_last_turn": "Oh, never mind then.",
+    "ru_user_last_turn": "А, ну тогда неважно."
+  },
+  {
+    "original_id": 147,
+    "ru_id": "basic_147",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 148,
+    "ru_id": "basic_148",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 149,
+    "ru_id": "basic_149",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 150,
+    "ru_id": "basic_150",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 151,
+    "ru_id": "basic_151",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 152,
+    "ru_id": "basic_152",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 153,
+    "ru_id": "basic_153",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 154,
+    "ru_id": "basic_154",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 155,
+    "ru_id": "basic_155",
+    "task": "sequence abort",
+    "en_user_last_turn": "Okay, never mind.",
+    "ru_user_last_turn": "Ладно, не надо."
+  },
+  {
+    "original_id": 156,
+    "ru_id": "basic_156",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 157,
+    "ru_id": "basic_157",
+    "task": "sequence abort",
+    "en_user_last_turn": "Oh, never mind.",
+    "ru_user_last_turn": "Ой, забудь."
+  },
+  {
+    "original_id": 158,
+    "ru_id": "basic_158",
+    "task": "sequence abort",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 159,
+    "ru_id": "basic_159",
+    "task": "sequence abort",
+    "en_user_last_turn": "Okay, never mind.",
+    "ru_user_last_turn": "Ладно, проехали."
+  },
+  {
+    "original_id": 160,
+    "ru_id": "basic_160",
+    "task": "sequence closer",
+    "en_user_last_turn": "Got it!",
+    "ru_user_last_turn": "Понял!"
+  },
+  {
+    "original_id": 161,
+    "ru_id": "basic_161",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh, okay.",
+    "ru_user_last_turn": "А, хорошо."
+  },
+  {
+    "original_id": 162,
+    "ru_id": "basic_162",
+    "task": "sequence closer",
+    "en_user_last_turn": "That's great!",
+    "ru_user_last_turn": "Отлично!"
+  },
+  {
+    "original_id": 163,
+    "ru_id": "basic_163",
+    "task": "sequence closer",
+    "en_user_last_turn": "Okay, that sounds reasonable.",
+    "ru_user_last_turn": "Хорошо, звучит разумно."
+  },
+  {
+    "original_id": 164,
+    "ru_id": "basic_164",
+    "task": "sequence closer",
+    "en_user_last_turn": "Got it.",
+    "ru_user_last_turn": "Понятно."
+  },
+  {
+    "original_id": 165,
+    "ru_id": "basic_165",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh, that's a relief!",
+    "ru_user_last_turn": "Фух, это радует!"
+  },
+  {
+    "original_id": 166,
+    "ru_id": "basic_166",
+    "task": "sequence closer",
+    "en_user_last_turn": "All right.",
+    "ru_user_last_turn": "Хорошо."
+  },
+  {
+    "original_id": 167,
+    "ru_id": "basic_167",
+    "task": "sequence closer",
+    "en_user_last_turn": "Okay, I'll try that.",
+    "ru_user_last_turn": "Хорошо, попробую."
+  },
+  {
+    "original_id": 168,
+    "ru_id": "basic_168",
+    "task": "sequence closer",
+    "en_user_last_turn": "Yeah, that's what I think.",
+    "ru_user_last_turn": "Да, я тоже так думаю."
+  },
+  {
+    "original_id": 169,
+    "ru_id": "basic_169",
+    "task": "sequence closer",
+    "en_user_last_turn": "Thank you.",
+    "ru_user_last_turn": "Спасибо."
+  },
+  {
+    "original_id": 170,
+    "ru_id": "basic_170",
+    "task": "sequence closer",
+    "en_user_last_turn": "Thank you very much.",
+    "ru_user_last_turn": "Большое спасибо."
+  },
+  {
+    "original_id": 171,
+    "ru_id": "basic_171",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "А, ясно."
+  },
+  {
+    "original_id": 172,
+    "ru_id": "basic_172",
+    "task": "sequence closer",
+    "en_user_last_turn": "Cheers!",
+    "ru_user_last_turn": "Спасибо!"
+  },
+  {
+    "original_id": 173,
+    "ru_id": "basic_173",
+    "task": "sequence closer",
+    "en_user_last_turn": "Thank you very much!",
+    "ru_user_last_turn": "Большое спасибо!"
+  },
+  {
+    "original_id": 174,
+    "ru_id": "basic_174",
+    "task": "sequence closer",
+    "en_user_last_turn": "I'm sorry to hear that.",
+    "ru_user_last_turn": "Очень жаль это слышать."
+  },
+  {
+    "original_id": 175,
+    "ru_id": "basic_175",
+    "task": "sequence closer",
+    "en_user_last_turn": "Great, thanks!",
+    "ru_user_last_turn": "Отлично, спасибо!"
+  },
+  {
+    "original_id": 176,
+    "ru_id": "basic_176",
+    "task": "sequence closer",
+    "en_user_last_turn": "Okay, give me a minute.",
+    "ru_user_last_turn": "Хорошо, дайте мне минутку."
+  },
+  {
+    "original_id": 177,
+    "ru_id": "basic_177",
+    "task": "sequence closer",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "А, понятно."
+  },
+  {
+    "original_id": 178,
+    "ru_id": "basic_178",
+    "task": "sequence closer",
+    "en_user_last_turn": "That sounds about right.",
+    "ru_user_last_turn": "Вполне похоже на правду."
+  },
+  {
+    "original_id": 179,
+    "ru_id": "basic_179",
+    "task": "sequence closer",
+    "en_user_last_turn": "Wow! Thanks!",
+    "ru_user_last_turn": "Ого! Спасибо!"
+  }
+]

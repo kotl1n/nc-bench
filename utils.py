@@ -198,13 +198,17 @@ def_expansion_open_request = '''
 - Other: An utterance that does not fit any of the above classes.
 '''
 
-def generate_judge_prompts(prompts_file, generations_file):
+def generate_judge_prompts(prompts_file, generations_file, language='en'):
+    if language == 'ru':
+        from utils_ru import generate_judge_prompts_ru
+        return generate_judge_prompts_ru(prompts_file, generations_file, language='ru')
+
     # Read the chat prompts from the first JSONL file (chat)
-    with open(prompts_file, 'r') as f:
+    with open(prompts_file, 'r', encoding='utf-8') as f:
         chat_data = {json.loads(line)['id']: json.loads(line) for line in f}
 
     # Read the response data from the second JSONL file (responses)
-    with open(generations_file, 'r') as f:
+    with open(generations_file, 'r', encoding='utf-8') as f:
         response_data = {json.loads(line)['id']: json.loads(line) for line in f}
 
     # Prepare the output data
@@ -215,10 +219,8 @@ def generate_judge_prompts(prompts_file, generations_file):
             response_entry = response_data[task_id]
             prior_turn = ''
             task_description = response_entry['task']
-            if 'request_details' in response_entry:
-                request_details = response_entry['request_details']
-            else:
-                request_details = ''
+            # Bug fix: fall back to chat_entry['request_details'] if absent in response_entry
+            request_details = response_entry.get('request_details') or chat_entry.get('request_details', '')
 
             # Task label assignment based on task description
             if task_description in ('inquiry', 'incremental request', 'inquiry ungrounded', 'incremental-self-correction'):

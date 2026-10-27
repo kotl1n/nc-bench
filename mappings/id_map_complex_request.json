@@ -1,0 +1,3242 @@
+[
+  {
+    "original_id": 0,
+    "ru_id": "complex_000",
+    "task": "Abort",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 1,
+    "ru_id": "complex_001",
+    "task": "Abort",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 2,
+    "ru_id": "complex_002",
+    "task": "Abort",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 3,
+    "ru_id": "complex_003",
+    "task": "Abort",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 4,
+    "ru_id": "complex_004",
+    "task": "Abort",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 5,
+    "ru_id": "complex_005",
+    "task": "Abort",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Never mind then.",
+    "ru_user_last_turn": "Ну тогда не надо."
+  },
+  {
+    "original_id": 6,
+    "ru_id": "complex_006",
+    "task": "Abort",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 7,
+    "ru_id": "complex_007",
+    "task": "Abort",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 8,
+    "ru_id": "complex_008",
+    "task": "Abort",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Never mind then.",
+    "ru_user_last_turn": "Ну тогда не надо."
+  },
+  {
+    "original_id": 9,
+    "ru_id": "complex_009",
+    "task": "Abort",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 10,
+    "ru_id": "complex_010",
+    "task": "Abort",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Oh never mind then.",
+    "ru_user_last_turn": "О, тогда не надо."
+  },
+  {
+    "original_id": 11,
+    "ru_id": "complex_011",
+    "task": "Abort",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Oh, never mind.",
+    "ru_user_last_turn": "О, тогда не надо."
+  },
+  {
+    "original_id": 12,
+    "ru_id": "complex_012",
+    "task": "Abort",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 13,
+    "ru_id": "complex_013",
+    "task": "Abort",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Okay, never mind.",
+    "ru_user_last_turn": "Ладно, тогда не надо."
+  },
+  {
+    "original_id": 14,
+    "ru_id": "complex_014",
+    "task": "Abort",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Oh never mind. I need it today.",
+    "ru_user_last_turn": "О, тогда отбой. Мне машина нужна сегодня."
+  },
+  {
+    "original_id": 15,
+    "ru_id": "complex_015",
+    "task": "Abort",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Oh never mind.",
+    "ru_user_last_turn": "О, тогда не надо."
+  },
+  {
+    "original_id": 16,
+    "ru_id": "complex_016",
+    "task": "Abort",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Тогда не надо."
+  },
+  {
+    "original_id": 17,
+    "ru_id": "complex_017",
+    "task": "Abort",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 18,
+    "ru_id": "complex_018",
+    "task": "Abort",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Never mind.",
+    "ru_user_last_turn": "Неважно."
+  },
+  {
+    "original_id": 19,
+    "ru_id": "complex_019",
+    "task": "Abort",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "Oh, never mind.",
+    "ru_user_last_turn": "О, тогда не надо."
+  },
+  {
+    "original_id": 20,
+    "ru_id": "complex_020",
+    "task": "Closer",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "А, хорошо."
+  },
+  {
+    "original_id": 21,
+    "ru_id": "complex_021",
+    "task": "Closer",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Thank you.",
+    "ru_user_last_turn": "Спасибо."
+  },
+  {
+    "original_id": 22,
+    "ru_id": "complex_022",
+    "task": "Closer",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Okay, great!",
+    "ru_user_last_turn": "Хорошо, отлично!"
+  },
+  {
+    "original_id": 23,
+    "ru_id": "complex_023",
+    "task": "Closer",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "Thanks.",
+    "ru_user_last_turn": "Спасибо."
+  },
+  {
+    "original_id": 24,
+    "ru_id": "complex_024",
+    "task": "Closer",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Got it.",
+    "ru_user_last_turn": "Понятно."
+  },
+  {
+    "original_id": 25,
+    "ru_id": "complex_025",
+    "task": "Closer",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Oh, great!",
+    "ru_user_last_turn": "О, отлично!"
+  },
+  {
+    "original_id": 26,
+    "ru_id": "complex_026",
+    "task": "Closer",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Oh, okay.",
+    "ru_user_last_turn": "А, понятно."
+  },
+  {
+    "original_id": 27,
+    "ru_id": "complex_027",
+    "task": "Closer",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Thank you.",
+    "ru_user_last_turn": "Спасибо."
+  },
+  {
+    "original_id": 28,
+    "ru_id": "complex_028",
+    "task": "Closer",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Thank you very much!",
+    "ru_user_last_turn": "Большое спасибо!"
+  },
+  {
+    "original_id": 29,
+    "ru_id": "complex_029",
+    "task": "Closer",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "Great!",
+    "ru_user_last_turn": "Отлично!"
+  },
+  {
+    "original_id": 30,
+    "ru_id": "complex_030",
+    "task": "Closer",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "А, понятно."
+  },
+  {
+    "original_id": 31,
+    "ru_id": "complex_031",
+    "task": "Closer",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Thank you!",
+    "ru_user_last_turn": "Спасибо!"
+  },
+  {
+    "original_id": 32,
+    "ru_id": "complex_032",
+    "task": "Closer",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "All right.",
+    "ru_user_last_turn": "Хорошо."
+  },
+  {
+    "original_id": 33,
+    "ru_id": "complex_033",
+    "task": "Closer",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Fantastic!",
+    "ru_user_last_turn": "Потрясающе!"
+  },
+  {
+    "original_id": 34,
+    "ru_id": "complex_034",
+    "task": "Closer",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Oh okay.",
+    "ru_user_last_turn": "А, ясно."
+  },
+  {
+    "original_id": 35,
+    "ru_id": "complex_035",
+    "task": "Closer",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Oh great!",
+    "ru_user_last_turn": "Отлично!"
+  },
+  {
+    "original_id": 36,
+    "ru_id": "complex_036",
+    "task": "Closer",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "Okay.",
+    "ru_user_last_turn": "Хорошо."
+  },
+  {
+    "original_id": 37,
+    "ru_id": "complex_037",
+    "task": "Closer",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Okay thanks.",
+    "ru_user_last_turn": "Хорошо, спасибо."
+  },
+  {
+    "original_id": 38,
+    "ru_id": "complex_038",
+    "task": "Closer",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Oh, all right.",
+    "ru_user_last_turn": "А, понятно."
+  },
+  {
+    "original_id": 39,
+    "ru_id": "complex_039",
+    "task": "Closer",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "All right.",
+    "ru_user_last_turn": "Хорошо."
+  },
+  {
+    "original_id": 40,
+    "ru_id": "complex_040",
+    "task": "Definition",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "What's a Paloma?",
+    "ru_user_last_turn": "Что такое «Палома»?"
+  },
+  {
+    "original_id": 41,
+    "ru_id": "complex_041",
+    "task": "Definition",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "What do you mean by Cap?",
+    "ru_user_last_turn": "Что вы имеете в виду под «кап»?"
+  },
+  {
+    "original_id": 42,
+    "ru_id": "complex_042",
+    "task": "Definition",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "What does SE mean?",
+    "ru_user_last_turn": "Что означает SE?"
+  },
+  {
+    "original_id": 43,
+    "ru_id": "complex_043",
+    "task": "Definition",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "What does troubleshooting mean?",
+    "ru_user_last_turn": "Что значит траблшутинг?"
+  },
+  {
+    "original_id": 44,
+    "ru_id": "complex_044",
+    "task": "Definition",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "What do you mean by Algarve?",
+    "ru_user_last_turn": "Что вы имеете в виду под Алгарве?"
+  },
+  {
+    "original_id": 45,
+    "ru_id": "complex_045",
+    "task": "Definition",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "What is a math mentor?",
+    "ru_user_last_turn": "А кто такой тьютор?"
+  },
+  {
+    "original_id": 46,
+    "ru_id": "complex_046",
+    "task": "Definition",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "What is mindfulness?",
+    "ru_user_last_turn": "Что такое осознанность?"
+  },
+  {
+    "original_id": 47,
+    "ru_id": "complex_047",
+    "task": "Definition",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "What does gotcha mean?",
+    "ru_user_last_turn": "Что вы имеете в виду под сюрпризами?"
+  },
+  {
+    "original_id": 48,
+    "ru_id": "complex_048",
+    "task": "Definition",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "What is a diocese?",
+    "ru_user_last_turn": "Что такое епархия?"
+  },
+  {
+    "original_id": 49,
+    "ru_id": "complex_049",
+    "task": "Definition",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "What does feasible mean?",
+    "ru_user_last_turn": "Что значит реализуемо?"
+  },
+  {
+    "original_id": 50,
+    "ru_id": "complex_050",
+    "task": "Definition",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "What do you mean by somewhat comfortably?",
+    "ru_user_last_turn": "Что вы имеете в виду под «относительно комфортно»?"
+  },
+  {
+    "original_id": 51,
+    "ru_id": "complex_051",
+    "task": "Definition",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "What does market price mean?",
+    "ru_user_last_turn": "Что значит рыночная цена?"
+  },
+  {
+    "original_id": 52,
+    "ru_id": "complex_052",
+    "task": "Definition",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "What's PTO?",
+    "ru_user_last_turn": "Что такое PTO?"
+  },
+  {
+    "original_id": 53,
+    "ru_id": "complex_053",
+    "task": "Definition",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "What's that?",
+    "ru_user_last_turn": "А что это такое?"
+  },
+  {
+    "original_id": 54,
+    "ru_id": "complex_054",
+    "task": "Definition",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "What's that?",
+    "ru_user_last_turn": "А что это такое?"
+  },
+  {
+    "original_id": 55,
+    "ru_id": "complex_055",
+    "task": "Definition",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "What's geomatics?",
+    "ru_user_last_turn": "А что такое Caltrans?"
+  },
+  {
+    "original_id": 56,
+    "ru_id": "complex_056",
+    "task": "Definition",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "What do you mean by tap?",
+    "ru_user_last_turn": "Что значит «приложите»?"
+  },
+  {
+    "original_id": 57,
+    "ru_id": "complex_057",
+    "task": "Definition",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "What do you mean by non-stop?",
+    "ru_user_last_turn": "Что вы имеете в виду под прямыми рейсами?"
+  },
+  {
+    "original_id": 58,
+    "ru_id": "complex_058",
+    "task": "Definition",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "What's that?",
+    "ru_user_last_turn": "А что это такое?"
+  },
+  {
+    "original_id": 59,
+    "ru_id": "complex_059",
+    "task": "Definition",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "What is does term life mean?",
+    "ru_user_last_turn": "Что означает срочное страхование жизни?"
+  },
+  {
+    "original_id": 60,
+    "ru_id": "complex_060",
+    "task": "Detail Request-All",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Can you recommend a place to eat?",
+    "ru_user_last_turn": "Можете порекомендовать, где здесь можно поесть?"
+  },
+  {
+    "original_id": 61,
+    "ru_id": "complex_061",
+    "task": "Detail Request-All",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "I'd like to order a coffee.",
+    "ru_user_last_turn": "Я хотел бы заказать кофе."
+  },
+  {
+    "original_id": 62,
+    "ru_id": "complex_062",
+    "task": "Detail Request-All",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Can you recommend a smartphone?",
+    "ru_user_last_turn": "Можете порекомендовать смартфон?"
+  },
+  {
+    "original_id": 63,
+    "ru_id": "complex_063",
+    "task": "Detail Request-All",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "My Wifi is not working.",
+    "ru_user_last_turn": "У меня не работает Wi-Fi."
+  },
+  {
+    "original_id": 64,
+    "ru_id": "complex_064",
+    "task": "Detail Request-All",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "I'd like to book a holiday.",
+    "ru_user_last_turn": "Я хотел бы забронировать отпуск."
+  },
+  {
+    "original_id": 65,
+    "ru_id": "complex_065",
+    "task": "Detail Request-All",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "I need help in math.",
+    "ru_user_last_turn": "Мне нужна помощь по математике."
+  },
+  {
+    "original_id": 66,
+    "ru_id": "complex_066",
+    "task": "Detail Request-All",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "I've been feeling anxious.",
+    "ru_user_last_turn": "В последнее время я чувствую тревогу."
+  },
+  {
+    "original_id": 67,
+    "ru_id": "complex_067",
+    "task": "Detail Request-All",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Could you install a new countertop in the kitchen?",
+    "ru_user_last_turn": "Вы могли бы установить новую столешницу на кухне?"
+  },
+  {
+    "original_id": 68,
+    "ru_id": "complex_068",
+    "task": "Detail Request-All",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "We need help planning our wedding ceremony.",
+    "ru_user_last_turn": "Нам нужна помощь в организации свадебной церемонии."
+  },
+  {
+    "original_id": 69,
+    "ru_id": "complex_069",
+    "task": "Detail Request-All",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "I want a new logo for my company.",
+    "ru_user_last_turn": "Мне нужен новый логотип для моей компании."
+  },
+  {
+    "original_id": 70,
+    "ru_id": "complex_070",
+    "task": "Detail Request-All",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "I need advice on saving for retirement.",
+    "ru_user_last_turn": "Мне нужен совет по пенсионным накоплениям."
+  },
+  {
+    "original_id": 71,
+    "ru_id": "complex_071",
+    "task": "Detail Request-All",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Hello, we're ready to order.",
+    "ru_user_last_turn": "Здравствуйте, мы готовы сделать заказ."
+  },
+  {
+    "original_id": 72,
+    "ru_id": "complex_072",
+    "task": "Detail Request-All",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "How much vacation do I get?",
+    "ru_user_last_turn": "Сколько отпуска мне положено?"
+  },
+  {
+    "original_id": 73,
+    "ru_id": "complex_073",
+    "task": "Detail Request-All",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Can you help us find a home?",
+    "ru_user_last_turn": "Можете помочь нам найти дом?"
+  },
+  {
+    "original_id": 74,
+    "ru_id": "complex_074",
+    "task": "Detail Request-All",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Can you fix my car?",
+    "ru_user_last_turn": "Можете починить мою машину?"
+  },
+  {
+    "original_id": 75,
+    "ru_id": "complex_075",
+    "task": "Detail Request-All",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "I need help finding a job.",
+    "ru_user_last_turn": "Мне нужна карьерная консультация."
+  },
+  {
+    "original_id": 76,
+    "ru_id": "complex_076",
+    "task": "Detail Request-All",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "I need to open an account.",
+    "ru_user_last_turn": "Мне нужно открыть счёт."
+  },
+  {
+    "original_id": 77,
+    "ru_id": "complex_077",
+    "task": "Detail Request-All",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "I need to book a flight.",
+    "ru_user_last_turn": "Мне нужно забронировать рейс."
+  },
+  {
+    "original_id": 78,
+    "ru_id": "complex_078",
+    "task": "Detail Request-All",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "I need to buy a car.",
+    "ru_user_last_turn": "Мне нужно купить машину."
+  },
+  {
+    "original_id": 79,
+    "ru_id": "complex_079",
+    "task": "Detail Request-All",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "I need to get life insurance.",
+    "ru_user_last_turn": "Мне нужно оформить страхование жизни."
+  },
+  {
+    "original_id": 80,
+    "ru_id": "complex_080",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Walking.",
+    "ru_user_last_turn": "Пешком."
+  },
+  {
+    "original_id": 81,
+    "ru_id": "complex_081",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Whole milk please.",
+    "ru_user_last_turn": "С цельным молоком, пожалуйста."
+  },
+  {
+    "original_id": 82,
+    "ru_id": "complex_082",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Android.",
+    "ru_user_last_turn": "Android."
+  },
+  {
+    "original_id": 83,
+    "ru_id": "complex_083",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "No.",
+    "ru_user_last_turn": "Нет."
+  },
+  {
+    "original_id": 84,
+    "ru_id": "complex_084",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "I like to hike and visit ancient ruins!",
+    "ru_user_last_turn": "Я люблю ходить в походы и осматривать древние руины!"
+  },
+  {
+    "original_id": 85,
+    "ru_id": "complex_085",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "An F.",
+    "ru_user_last_turn": "Двойку."
+  },
+  {
+    "original_id": 86,
+    "ru_id": "complex_086",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Not really.",
+    "ru_user_last_turn": "Да вроде нет."
+  },
+  {
+    "original_id": 87,
+    "ru_id": "complex_087",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Yes, definitely!",
+    "ru_user_last_turn": "Да, обязательно!"
+  },
+  {
+    "original_id": 88,
+    "ru_id": "complex_088",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Outdoor.",
+    "ru_user_last_turn": "На открытом воздухе."
+  },
+  {
+    "original_id": 89,
+    "ru_id": "complex_089",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "No, whatever you think is best.",
+    "ru_user_last_turn": "Нет, сделайте так, как считаете лучше."
+  },
+  {
+    "original_id": 90,
+    "ru_id": "complex_090",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "I'm debt free.",
+    "ru_user_last_turn": "У меня нет долгов."
+  },
+  {
+    "original_id": 91,
+    "ru_id": "complex_091",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Mmmm that sounds good. I'll have the ribeye.",
+    "ru_user_last_turn": "М-м, звучит вкусно. Я возьму рибай."
+  },
+  {
+    "original_id": 92,
+    "ru_id": "complex_092",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "Full time.",
+    "ru_user_last_turn": "На полную ставку."
+  },
+  {
+    "original_id": 93,
+    "ru_id": "complex_093",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Either.",
+    "ru_user_last_turn": "Любые."
+  },
+  {
+    "original_id": 94,
+    "ru_id": "complex_094",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "For two days.",
+    "ru_user_last_turn": "Два дня назад."
+  },
+  {
+    "original_id": 95,
+    "ru_id": "complex_095",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "I worked at three start ups as a backend developer.",
+    "ru_user_last_turn": "Диплом бакалавра."
+  },
+  {
+    "original_id": 96,
+    "ru_id": "complex_096",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "Personal.",
+    "ru_user_last_turn": "Личный."
+  },
+  {
+    "original_id": 97,
+    "ru_id": "complex_097",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Two adults and one child.",
+    "ru_user_last_turn": "Двое взрослых и один ребёнок."
+  },
+  {
+    "original_id": 98,
+    "ru_id": "complex_098",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Gas.",
+    "ru_user_last_turn": "Бензиновую."
+  },
+  {
+    "original_id": 99,
+    "ru_id": "complex_099",
+    "task": "Detail Request-Expanded",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "My husband.",
+    "ru_user_last_turn": "Мой муж."
+  },
+  {
+    "original_id": 100,
+    "ru_id": "complex_100",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Can you recommend a Mexican restaurant?",
+    "ru_user_last_turn": "Можете порекомендовать мексиканский ресторан?"
+  },
+  {
+    "original_id": 101,
+    "ru_id": "complex_101",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Give me a drip coffee please.",
+    "ru_user_last_turn": "Налейте мне фильтр-кофе, пожалуйста."
+  },
+  {
+    "original_id": 102,
+    "ru_id": "complex_102",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "I'm looking for a smartphone with a smaller screen?",
+    "ru_user_last_turn": "Я ищу смартфон с экраном поменьше."
+  },
+  {
+    "original_id": 103,
+    "ru_id": "complex_103",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "My Wifi is not working even after I reset my router.",
+    "ru_user_last_turn": "У меня не работает Wi-Fi, даже после того как я перезагрузил роутер."
+  },
+  {
+    "original_id": 104,
+    "ru_id": "complex_104",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "I would like to book a trip to South America!",
+    "ru_user_last_turn": "Я хотел бы забронировать поездку в Южную Америку!"
+  },
+  {
+    "original_id": 105,
+    "ru_id": "complex_105",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "I'm looking for a tutor for my geometry class.",
+    "ru_user_last_turn": "Я ищу репетитора по геометрии."
+  },
+  {
+    "original_id": 106,
+    "ru_id": "complex_106",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "I am struggling with severe anxiety and depression.",
+    "ru_user_last_turn": "Я борюсь с тяжёлой тревогой и депрессией."
+  },
+  {
+    "original_id": 107,
+    "ru_id": "complex_107",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "I want a new granite countertop.",
+    "ru_user_last_turn": "Я хочу новую гранитную столешницу."
+  },
+  {
+    "original_id": 108,
+    "ru_id": "complex_108",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "We need your help in planning an outdoor wedding.",
+    "ru_user_last_turn": "Нам нужна ваша помощь в организации свадьбы на открытом воздухе."
+  },
+  {
+    "original_id": 109,
+    "ru_id": "complex_109",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "I'm looking for a new company logo with our bear.",
+    "ru_user_last_turn": "Я ищу новый логотип компании с нашим медведем."
+  },
+  {
+    "original_id": 110,
+    "ru_id": "complex_110",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "My 401K's have about $400,000 in them. That's all my savings. Is that enough to retire on?",
+    "ru_user_last_turn": "На моих счетах 401(k) около 400 000 долларов. Это все мои сбережения. Хватит ли этого для выхода на пенсию?"
+  },
+  {
+    "original_id": 111,
+    "ru_id": "complex_111",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Hi, what are your specials today?",
+    "ru_user_last_turn": "Здравствуйте, какие у вас сегодня блюда дня?"
+  },
+  {
+    "original_id": 112,
+    "ru_id": "complex_112",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "How many days do I get for vacation if I've worked here for 3 years?",
+    "ru_user_last_turn": "Сколько дней отпуска мне полагается, если я работаю здесь 3 года?"
+  },
+  {
+    "original_id": 113,
+    "ru_id": "complex_113",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Can you show us some single family homes?",
+    "ru_user_last_turn": "Можете показать нам варианты отдельных домов?"
+  },
+  {
+    "original_id": 114,
+    "ru_id": "complex_114",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "My oil pressure light is coming on.",
+    "ru_user_last_turn": "У меня загорается лампочка давления масла."
+  },
+  {
+    "original_id": 115,
+    "ru_id": "complex_115",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Do you know about any opportunities in software development?",
+    "ru_user_last_turn": "Можете помочь мне найти работу инженером-строителем? Я уже прошёл стажировку."
+  },
+  {
+    "original_id": 116,
+    "ru_id": "complex_116",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "I need to open a savings account.",
+    "ru_user_last_turn": "Мне нужно открыть сберегательный счёт."
+  },
+  {
+    "original_id": 117,
+    "ru_id": "complex_117",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "I want to book a flight from Chicago to Las Vegas.",
+    "ru_user_last_turn": "Я хочу забронировать рейс из Чикаго в Лас-Вегас."
+  },
+  {
+    "original_id": 118,
+    "ru_id": "complex_118",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Do you have any SUVs?",
+    "ru_user_last_turn": "У вас есть кроссоверы?"
+  },
+  {
+    "original_id": 119,
+    "ru_id": "complex_119",
+    "task": "Detail Request-Partial",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "I'm looking for affordable whole life insurance.",
+    "ru_user_last_turn": "Я ищу доступное пожизненное страхование жизни."
+  },
+  {
+    "original_id": 120,
+    "ru_id": "complex_120",
+    "task": "Example",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете привести пример?"
+  },
+  {
+    "original_id": 121,
+    "ru_id": "complex_121",
+    "task": "Example",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, что?"
+  },
+  {
+    "original_id": 122,
+    "ru_id": "complex_122",
+    "task": "Example",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете привести пример?"
+  },
+  {
+    "original_id": 123,
+    "ru_id": "complex_123",
+    "task": "Example",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "Like what would that be?",
+    "ru_user_last_turn": "Например, что они будут делать?"
+  },
+  {
+    "original_id": 124,
+    "ru_id": "complex_124",
+    "task": "Example",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете привести пример?"
+  },
+  {
+    "original_id": 125,
+    "ru_id": "complex_125",
+    "task": "Example",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете привести пример?"
+  },
+  {
+    "original_id": 126,
+    "ru_id": "complex_126",
+    "task": "Example",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Like what kind?",
+    "ru_user_last_turn": "Например, какой именно?"
+  },
+  {
+    "original_id": 127,
+    "ru_id": "complex_127",
+    "task": "Example",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, каких?"
+  },
+  {
+    "original_id": 128,
+    "ru_id": "complex_128",
+    "task": "Example",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете привести пример?"
+  },
+  {
+    "original_id": 129,
+    "ru_id": "complex_129",
+    "task": "Example",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, каких?"
+  },
+  {
+    "original_id": 130,
+    "ru_id": "complex_130",
+    "task": "Example",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например?"
+  },
+  {
+    "original_id": 131,
+    "ru_id": "complex_131",
+    "task": "Example",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "В каком смысле?"
+  },
+  {
+    "original_id": 132,
+    "ru_id": "complex_132",
+    "task": "Example",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какие?"
+  },
+  {
+    "original_id": 133,
+    "ru_id": "complex_133",
+    "task": "Example",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Can you give some examples?",
+    "ru_user_last_turn": "Можете привести примеры?"
+  },
+  {
+    "original_id": 134,
+    "ru_id": "complex_134",
+    "task": "Example",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какие?"
+  },
+  {
+    "original_id": 135,
+    "ru_id": "complex_135",
+    "task": "Example",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Можете привести примеры?"
+  },
+  {
+    "original_id": 136,
+    "ru_id": "complex_136",
+    "task": "Example",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какое?"
+  },
+  {
+    "original_id": 137,
+    "ru_id": "complex_137",
+    "task": "Example",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, каких?"
+  },
+  {
+    "original_id": 138,
+    "ru_id": "complex_138",
+    "task": "Example",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какие?"
+  },
+  {
+    "original_id": 139,
+    "ru_id": "complex_139",
+    "task": "Example",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какие?"
+  },
+  {
+    "original_id": 140,
+    "ru_id": "complex_140",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "What are my choices around here?",
+    "ru_user_last_turn": "А какие здесь вообще варианты поблизости?"
+  },
+  {
+    "original_id": 141,
+    "ru_id": "complex_141",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какой у меня выбор?"
+  },
+  {
+    "original_id": 142,
+    "ru_id": "complex_142",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у меня варианты?"
+  },
+  {
+    "original_id": 143,
+    "ru_id": "complex_143",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какой?"
+  },
+  {
+    "original_id": 144,
+    "ru_id": "complex_144",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Like what kinds of things?",
+    "ru_user_last_turn": "А какие вообще есть варианты занятий?"
+  },
+  {
+    "original_id": 145,
+    "ru_id": "complex_145",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какие темы вы имеете в виду?"
+  },
+  {
+    "original_id": 146,
+    "ru_id": "complex_146",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Like what?",
+    "ru_user_last_turn": "Например, какого рода события?"
+  },
+  {
+    "original_id": 147,
+    "ru_id": "complex_147",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у меня есть варианты?"
+  },
+  {
+    "original_id": 148,
+    "ru_id": "complex_148",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "What are my options?",
+    "ru_user_last_turn": "А какие у меня варианты?"
+  },
+  {
+    "original_id": 149,
+    "ru_id": "complex_149",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у меня варианты?"
+  },
+  {
+    "original_id": 150,
+    "ru_id": "complex_150",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Like what kind of debt?",
+    "ru_user_last_turn": "Каких именно долгов?"
+  },
+  {
+    "original_id": 151,
+    "ru_id": "complex_151",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у вас варианты?"
+  },
+  {
+    "original_id": 152,
+    "ru_id": "complex_152",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "What are the options?",
+    "ru_user_last_turn": "А какие есть варианты?"
+  },
+  {
+    "original_id": 153,
+    "ru_id": "complex_153",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у меня есть варианты?"
+  },
+  {
+    "original_id": 154,
+    "ru_id": "complex_154",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Which ones are there?",
+    "ru_user_last_turn": "А какие вообще бывают?"
+  },
+  {
+    "original_id": 155,
+    "ru_id": "complex_155",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "What are my options?",
+    "ru_user_last_turn": "А какие бывают варианты?"
+  },
+  {
+    "original_id": 156,
+    "ru_id": "complex_156",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "What types are there?",
+    "ru_user_last_turn": "А какие типы счетов бывают?"
+  },
+  {
+    "original_id": 157,
+    "ru_id": "complex_157",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у меня есть варианты?"
+  },
+  {
+    "original_id": 158,
+    "ru_id": "complex_158",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "What are my options?",
+    "ru_user_last_turn": "А какие есть варианты?"
+  },
+  {
+    "original_id": 159,
+    "ru_id": "complex_159",
+    "task": "Expansion-Choices",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "What are my choices?",
+    "ru_user_last_turn": "А какие у меня есть варианты?"
+  },
+  {
+    "original_id": 160,
+    "ru_id": "complex_160",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 161,
+    "ru_id": "complex_161",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "What do you mean by sweetener?",
+    "ru_user_last_turn": "Что вы имеете в виду под подсластителем?"
+  },
+  {
+    "original_id": 162,
+    "ru_id": "complex_162",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 163,
+    "ru_id": "complex_163",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 164,
+    "ru_id": "complex_164",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Can you give an example?",
+    "ru_user_last_turn": "Можете повторить вопрос?"
+  },
+  {
+    "original_id": 165,
+    "ru_id": "complex_165",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Say that again.",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 166,
+    "ru_id": "complex_166",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 167,
+    "ru_id": "complex_167",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "What kind of what?",
+    "ru_user_last_turn": "О каком чём?"
+  },
+  {
+    "original_id": 168,
+    "ru_id": "complex_168",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "What do you mean by ceremony?",
+    "ru_user_last_turn": "Что вы имеете в виду под церемонией?"
+  },
+  {
+    "original_id": 169,
+    "ru_id": "complex_169",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 170,
+    "ru_id": "complex_170",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 171,
+    "ru_id": "complex_171",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "In what?",
+    "ru_user_last_turn": "Что предложить?"
+  },
+  {
+    "original_id": 172,
+    "ru_id": "complex_172",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 173,
+    "ru_id": "complex_173",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 174,
+    "ru_id": "complex_174",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 175,
+    "ru_id": "complex_175",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 176,
+    "ru_id": "complex_176",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 177,
+    "ru_id": "complex_177",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 178,
+    "ru_id": "complex_178",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "What's that?",
+    "ru_user_last_turn": "Что это значит?"
+  },
+  {
+    "original_id": 179,
+    "ru_id": "complex_179",
+    "task": "Expansion-Repair",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "The what?",
+    "ru_user_last_turn": "Кто-кто?"
+  },
+  {
+    "original_id": 180,
+    "ru_id": "complex_180",
+    "task": "Paraphrase",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 181,
+    "ru_id": "complex_181",
+    "task": "Paraphrase",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 182,
+    "ru_id": "complex_182",
+    "task": "Paraphrase",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 183,
+    "ru_id": "complex_183",
+    "task": "Paraphrase",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 184,
+    "ru_id": "complex_184",
+    "task": "Paraphrase",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 185,
+    "ru_id": "complex_185",
+    "task": "Paraphrase",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 186,
+    "ru_id": "complex_186",
+    "task": "Paraphrase",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 187,
+    "ru_id": "complex_187",
+    "task": "Paraphrase",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 188,
+    "ru_id": "complex_188",
+    "task": "Paraphrase",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 189,
+    "ru_id": "complex_189",
+    "task": "Paraphrase",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 190,
+    "ru_id": "complex_190",
+    "task": "Paraphrase",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "I don't understand.",
+    "ru_user_last_turn": "Я не понял."
+  },
+  {
+    "original_id": 191,
+    "ru_id": "complex_191",
+    "task": "Paraphrase",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 192,
+    "ru_id": "complex_192",
+    "task": "Paraphrase",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 193,
+    "ru_id": "complex_193",
+    "task": "Paraphrase",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 194,
+    "ru_id": "complex_194",
+    "task": "Paraphrase",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 195,
+    "ru_id": "complex_195",
+    "task": "Paraphrase",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 196,
+    "ru_id": "complex_196",
+    "task": "Paraphrase",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 197,
+    "ru_id": "complex_197",
+    "task": "Paraphrase",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 198,
+    "ru_id": "complex_198",
+    "task": "Paraphrase",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 199,
+    "ru_id": "complex_199",
+    "task": "Paraphrase",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "What do you mean?",
+    "ru_user_last_turn": "Что вы имеете в виду?"
+  },
+  {
+    "original_id": 200,
+    "ru_id": "complex_200",
+    "task": "Partial Repeat",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Two blocks down what?",
+    "ru_user_last_turn": "Два квартала по какому бульвару?"
+  },
+  {
+    "original_id": 201,
+    "ru_id": "complex_201",
+    "task": "Partial Repeat",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Small what?",
+    "ru_user_last_turn": "Маленький что?"
+  },
+  {
+    "original_id": 202,
+    "ru_id": "complex_202",
+    "task": "Partial Repeat",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "The iPhone what?",
+    "ru_user_last_turn": "iPhone какой?"
+  },
+  {
+    "original_id": 203,
+    "ru_id": "complex_203",
+    "task": "Partial Repeat",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "Some advanced what?",
+    "ru_user_last_turn": "На специалиста какой линии?"
+  },
+  {
+    "original_id": 204,
+    "ru_id": "complex_204",
+    "task": "Partial Repeat",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Or the what region?",
+    "ru_user_last_turn": "Или какой регион?"
+  },
+  {
+    "original_id": 205,
+    "ru_id": "complex_205",
+    "task": "Partial Repeat",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "In what?",
+    "ru_user_last_turn": "Чем заниматься?"
+  },
+  {
+    "original_id": 206,
+    "ru_id": "complex_206",
+    "task": "Partial Repeat",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Practicing what?",
+    "ru_user_last_turn": "Практиковать что?"
+  },
+  {
+    "original_id": 207,
+    "ru_id": "complex_207",
+    "task": "Partial Repeat",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Sorry, you can what?",
+    "ru_user_last_turn": "Простите, что вы сможете?"
+  },
+  {
+    "original_id": 208,
+    "ru_id": "complex_208",
+    "task": "Partial Repeat",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Will all be what?",
+    "ru_user_last_turn": "Уже будут какими?"
+  },
+  {
+    "original_id": 209,
+    "ru_id": "complex_209",
+    "task": "Partial Repeat",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "That sounds what?",
+    "ru_user_last_turn": "Звучит как?"
+  },
+  {
+    "original_id": 210,
+    "ru_id": "complex_210",
+    "task": "Partial Repeat",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "With those numbers what?",
+    "ru_user_last_turn": "С такими показателями что?"
+  },
+  {
+    "original_id": 211,
+    "ru_id": "complex_211",
+    "task": "Partial Repeat",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Can't do the what?",
+    "ru_user_last_turn": "Не сможете что?"
+  },
+  {
+    "original_id": 212,
+    "ru_id": "complex_212",
+    "task": "Partial Repeat",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "How many?",
+    "ru_user_last_turn": "Сколько-сколько?"
+  },
+  {
+    "original_id": 213,
+    "ru_id": "complex_213",
+    "task": "Partial Repeat",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Sorry, a few what?",
+    "ru_user_last_turn": "Простите, несколько чего?"
+  },
+  {
+    "original_id": 214,
+    "ru_id": "complex_214",
+    "task": "Partial Repeat",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Sorry, time to what?",
+    "ru_user_last_turn": "Простите, времени на что?"
+  },
+  {
+    "original_id": 215,
+    "ru_id": "complex_215",
+    "task": "Partial Repeat",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "My skill are in what?",
+    "ru_user_last_turn": "Мои навыки в чём?"
+  },
+  {
+    "original_id": 216,
+    "ru_id": "complex_216",
+    "task": "Partial Repeat",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "There's a what?",
+    "ru_user_last_turn": "Взимается что?"
+  },
+  {
+    "original_id": 217,
+    "ru_id": "complex_217",
+    "task": "Partial Repeat",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "There are no what?",
+    "ru_user_last_turn": "Нет каких?"
+  },
+  {
+    "original_id": 218,
+    "ru_id": "complex_218",
+    "task": "Partial Repeat",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Sorry, you don't have what?",
+    "ru_user_last_turn": "Простите, у вас нет чего?"
+  },
+  {
+    "original_id": 219,
+    "ru_id": "complex_219",
+    "task": "Partial Repeat",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "Sorry, how much a month?",
+    "ru_user_last_turn": "Простите, сколько в месяц?"
+  },
+  {
+    "original_id": 220,
+    "ru_id": "complex_220",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "I heard the fish tacos are really good around here!",
+    "ru_user_last_turn": "Слышал, здесь поблизости отличные рыбные тако!"
+  },
+  {
+    "original_id": 221,
+    "ru_id": "complex_221",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Oh great! You do pour over coffee!",
+    "ru_user_last_turn": "О, отлично! Вы готовите кофе методом пуровер!"
+  },
+  {
+    "original_id": 222,
+    "ru_id": "complex_222",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "I'm in desperate need of a new phone!",
+    "ru_user_last_turn": "Мне позарез нужен новый телефон!"
+  },
+  {
+    "original_id": 223,
+    "ru_id": "complex_223",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "I just got a brand new MacBook.",
+    "ru_user_last_turn": "Я только что купил новенький MacBook."
+  },
+  {
+    "original_id": 224,
+    "ru_id": "complex_224",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Notre Dame in Paris is on my bucket list!",
+    "ru_user_last_turn": "Нотр-Дам в Париже — в моём списке желаний на жизнь!"
+  },
+  {
+    "original_id": 225,
+    "ru_id": "complex_225",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Geometry proofs don't make any sense.",
+    "ru_user_last_turn": "Геометрические доказательства вообще не укладываются у меня в голове."
+  },
+  {
+    "original_id": 226,
+    "ru_id": "complex_226",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "About a month ago I was in a serious car accident.",
+    "ru_user_last_turn": "Около месяца назад я попал в серьёзную автомобильную аварию."
+  },
+  {
+    "original_id": 227,
+    "ru_id": "complex_227",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "We are planning to remodel our kitchen.",
+    "ru_user_last_turn": "Мы планируем сделать ремонт на кухне."
+  },
+  {
+    "original_id": 228,
+    "ru_id": "complex_228",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "We don't know where to begin planning a wedding!",
+    "ru_user_last_turn": "Мы даже не знаем, с чего начать планирование свадьбы!"
+  },
+  {
+    "original_id": 229,
+    "ru_id": "complex_229",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "My company desperately needs a new image.",
+    "ru_user_last_turn": "Моей компании позарез нужен новый визуальный образ."
+  },
+  {
+    "original_id": 230,
+    "ru_id": "complex_230",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "I'm a bit overwhelmed trying to figure out how much I need to retire.",
+    "ru_user_last_turn": "Я совсем растерялся, пытаясь понять, сколько мне нужно денег для выхода на пенсию."
+  },
+  {
+    "original_id": 231,
+    "ru_id": "complex_231",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "I've been on the beach all day. I'm starving!",
+    "ru_user_last_turn": "Я весь день провёл на пляже. Я ужасно голоден!"
+  },
+  {
+    "original_id": 232,
+    "ru_id": "complex_232",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "I'm planning a vacation in Costa Rica!",
+    "ru_user_last_turn": "Я планирую отпуск в Коста-Рике!"
+  },
+  {
+    "original_id": 233,
+    "ru_id": "complex_233",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "We have finally saved up enough for a downpayment on a house!",
+    "ru_user_last_turn": "Мы наконец-то накопили на первоначальный взнос за дом!"
+  },
+  {
+    "original_id": 234,
+    "ru_id": "complex_234",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "I've got a problem with my car.",
+    "ru_user_last_turn": "У меня проблема с машиной."
+  },
+  {
+    "original_id": 235,
+    "ru_id": "complex_235",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "I recently got laid off after five years.",
+    "ru_user_last_turn": "Меня недавно сократили после пяти лет работы."
+  },
+  {
+    "original_id": 236,
+    "ru_id": "complex_236",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "I'm starting to save for my children's college.",
+    "ru_user_last_turn": "Я начинаю копить детям на учёбу в колледже."
+  },
+  {
+    "original_id": 237,
+    "ru_id": "complex_237",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Visiting Paris is on my bucket list.",
+    "ru_user_last_turn": "Побывать в Париже — мечта всей моей жизни."
+  },
+  {
+    "original_id": 238,
+    "ru_id": "complex_238",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "My car was just totaled in an accident.",
+    "ru_user_last_turn": "Моя машина только что разбита вдребезги в аварии."
+  },
+  {
+    "original_id": 239,
+    "ru_id": "complex_239",
+    "task": "Preliminary-Detail",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "I just had a scare with colon cancer.",
+    "ru_user_last_turn": "У меня недавно было серьёзное подозрение на рак толстой кишки."
+  },
+  {
+    "original_id": 240,
+    "ru_id": "complex_240",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Do you know about restaurants?",
+    "ru_user_last_turn": "Вы разбираетесь в местных ресторанах?"
+  },
+  {
+    "original_id": 241,
+    "ru_id": "complex_241",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Are you open?",
+    "ru_user_last_turn": "Вы открыты?"
+  },
+  {
+    "original_id": 242,
+    "ru_id": "complex_242",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Do you work here?",
+    "ru_user_last_turn": "Вы здесь работаете?"
+  },
+  {
+    "original_id": 243,
+    "ru_id": "complex_243",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "Is this the IT help desk?",
+    "ru_user_last_turn": "Это служба технической поддержки?"
+  },
+  {
+    "original_id": 244,
+    "ru_id": "complex_244",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Do you book vacations?",
+    "ru_user_last_turn": "Вы бронируете туристические поездки?"
+  },
+  {
+    "original_id": 245,
+    "ru_id": "complex_245",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Are you a math tutor?",
+    "ru_user_last_turn": "Вы репетитор по математике?"
+  },
+  {
+    "original_id": 246,
+    "ru_id": "complex_246",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "Is this the psychiatry department?",
+    "ru_user_last_turn": "Это отделение психотерапии?"
+  },
+  {
+    "original_id": 247,
+    "ru_id": "complex_247",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Have you installed a kitchen countertop before?",
+    "ru_user_last_turn": "Вы раньше устанавливали кухонные столешницы?"
+  },
+  {
+    "original_id": 248,
+    "ru_id": "complex_248",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Do you plan weddings?",
+    "ru_user_last_turn": "Вы занимаетесь организацией свадеб?"
+  },
+  {
+    "original_id": 249,
+    "ru_id": "complex_249",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "Do you do logos?",
+    "ru_user_last_turn": "Вы разрабатываете логотипы?"
+  },
+  {
+    "original_id": 250,
+    "ru_id": "complex_250",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Do you give financial advice on retirement?",
+    "ru_user_last_turn": "Вы даёте финансовые консультации по выходу на пенсию?"
+  },
+  {
+    "original_id": 251,
+    "ru_id": "complex_251",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Are you still serving breakfast?",
+    "ru_user_last_turn": "Вы ещё подаёте завтрак?"
+  },
+  {
+    "original_id": 252,
+    "ru_id": "complex_252",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "Is this Human Resources?",
+    "ru_user_last_turn": "Это отдел кадров?"
+  },
+  {
+    "original_id": 253,
+    "ru_id": "complex_253",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Are you a realtor in the Bay Area?",
+    "ru_user_last_turn": "Вы работаете риелтором в районе Залива?"
+  },
+  {
+    "original_id": 254,
+    "ru_id": "complex_254",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "Do you take walk-in customers?",
+    "ru_user_last_turn": "Вы принимаете клиентов без предварительной записи?"
+  },
+  {
+    "original_id": 255,
+    "ru_id": "complex_255",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Do you offer career guidance?",
+    "ru_user_last_turn": "Вы предоставляете консультации по профориентации и карьере?"
+  },
+  {
+    "original_id": 256,
+    "ru_id": "complex_256",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "Is this window open?",
+    "ru_user_last_turn": "Это окно работает?"
+  },
+  {
+    "original_id": 257,
+    "ru_id": "complex_257",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Can you help me book a flight?",
+    "ru_user_last_turn": "Вы можете помочь мне забронировать авиабилет?"
+  },
+  {
+    "original_id": 258,
+    "ru_id": "complex_258",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Do you sell used cars?",
+    "ru_user_last_turn": "Вы продаёте подержанные автомобили?"
+  },
+  {
+    "original_id": 259,
+    "ru_id": "complex_259",
+    "task": "Preliminary-Screen",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "Do you offer life insurance?",
+    "ru_user_last_turn": "Вы предлагаете страхование жизни?"
+  },
+  {
+    "original_id": 260,
+    "ru_id": "complex_260",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Can you recommend a Mexican restaurant within walking distance?",
+    "ru_user_last_turn": "Можете порекомендовать мексиканский ресторан в пешей доступности?"
+  },
+  {
+    "original_id": 261,
+    "ru_id": "complex_261",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "I'd like a small Cappuccino with no sugar.",
+    "ru_user_last_turn": "Я хотел бы маленький капучино без сахара."
+  },
+  {
+    "original_id": 262,
+    "ru_id": "complex_262",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "I'd like to buy a mid-range Apple phone with a smaller screen.",
+    "ru_user_last_turn": "Я хотел бы купить среднебюджетный телефон Apple с экраном поменьше."
+  },
+  {
+    "original_id": 263,
+    "ru_id": "complex_263",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "I double checked that my WiFi was on and I reset my router but I still can't load google.com or bing.com.",
+    "ru_user_last_turn": "Я перепроверил, что Wi-Fi включён, и перезагрузил роутер, но google.com и bing.com всё равно не открываются."
+  },
+  {
+    "original_id": 264,
+    "ru_id": "complex_264",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "I would like to go somewhere warm, in Europe where I can lay on a beach and climb a mountain.",
+    "ru_user_last_turn": "Я хотел бы поехать куда-нибудь в тёплое место в Европе, где можно полежать на пляже и подняться в горы."
+  },
+  {
+    "original_id": 265,
+    "ru_id": "complex_265",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "I'm looking for a tutor for my geometry class. I can't do proofs and I'm getting a D.",
+    "ru_user_last_turn": "Я ищу репетитора по геометрии. У меня не получаются доказательства теорем, и я получаю двойки."
+  },
+  {
+    "original_id": 266,
+    "ru_id": "complex_266",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "I've been feeling extremely anxious lately, but nothing bad has happened so I don't know what is triggering it.",
+    "ru_user_last_turn": "В последнее время я чувствую сильную тревогу, но ничего плохого не произошло, поэтому я не понимаю, что её вызывает."
+  },
+  {
+    "original_id": 267,
+    "ru_id": "complex_267",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "I want an undermounted sink and a granite countertop with a backsplash.",
+    "ru_user_last_turn": "Я хочу подстольную мойку и гранитную столешницу с фартуком."
+  },
+  {
+    "original_id": 268,
+    "ru_id": "complex_268",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "We would like a morning wedding, indoors someplace like a church, for about one hundred people.",
+    "ru_user_last_turn": "Мы хотели бы утреннюю свадьбу в помещении, в месте вроде церкви, примерно на сто человек."
+  },
+  {
+    "original_id": 269,
+    "ru_id": "complex_269",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "I'd like a round-shaped logo with a bear in it and just the company acronym.",
+    "ru_user_last_turn": "Я хотел бы круглый логотип с медведем внутри и только аббревиатурой компании."
+  },
+  {
+    "original_id": 270,
+    "ru_id": "complex_270",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "I'm not sure if I have enough savings for retirement. I have about $300,000 in 401K's, $200,000 in savings accounts and about $500,000 of mortgage still to pay off.",
+    "ru_user_last_turn": "Я не уверен, хватит ли мне сбережений на пенсию. У меня около 300 000 долларов в пенсионных планах 401(k), 200 000 долларов на сберегательных счетах и ещё около 500 000 долларов ипотечного долга."
+  },
+  {
+    "original_id": 271,
+    "ru_id": "complex_271",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "I'd like the salmon daily special with a mussels for a starter and tiramisu for dessert.",
+    "ru_user_last_turn": "Я бы хотел сегодняшнее блюдо дня — лосося, мидии на закуску и тирамису на десерт."
+  },
+  {
+    "original_id": 272,
+    "ru_id": "complex_272",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "How many vacation days do I get? I have worked full-time in the United States for five years.",
+    "ru_user_last_turn": "Сколько дней отпуска мне положено? Я работаю на полную ставку в США уже пять лет."
+  },
+  {
+    "original_id": 273,
+    "ru_id": "complex_273",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "We are looking for a single family home with three bedrooms and that's a good school district.",
+    "ru_user_last_turn": "Мы ищем отдельный дом с тремя спальнями в хорошем школьном районе."
+  },
+  {
+    "original_id": 274,
+    "ru_id": "complex_274",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "The engine light has been coming on the past two days in my twenty year old car.",
+    "ru_user_last_turn": "Последние два дня на моей двадцатилетней машине загорается лампочка «Check Engine»."
+  },
+  {
+    "original_id": 275,
+    "ru_id": "complex_275",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Can you help me find a civil engineering job? I have a B.S. in civil engineering and I've done an internship.",
+    "ru_user_last_turn": "Можете помочь мне найти работу инженером-строителем? У меня диплом бакалавра по строительству и есть опыт стажировки."
+  },
+  {
+    "original_id": 276,
+    "ru_id": "complex_276",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "I'd like to open a personal checking account. I already have a savings account with you.",
+    "ru_user_last_turn": "Я бы хотел открыть личный текущий счёт. У меня уже есть у вас сберегательный счёт."
+  },
+  {
+    "original_id": 277,
+    "ru_id": "complex_277",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "I'd like to book a flight for two adults from San Jose, California to San Jose, Costa Rica on November 9th to the 20th..",
+    "ru_user_last_turn": "Я бы хотел забронировать рейс на двух взрослых из Сан-Хосе (Калифорния) в Сан-Хосе (Коста-Рика) с 9 по 20 ноября."
+  },
+  {
+    "original_id": 278,
+    "ru_id": "complex_278",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "I'm looking for an electric sedan under thirty thousand.",
+    "ru_user_last_turn": "Я ищу электрический седан дешевле тридцати тысяч."
+  },
+  {
+    "original_id": 279,
+    "ru_id": "complex_279",
+    "task": "Recommendation-Compact",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "I'm interested in a million dollars in term life insurance for my wife and children.",
+    "ru_user_last_turn": "Меня интересует срочное страхование жизни на один миллион долларов для моей жены и детей."
+  },
+  {
+    "original_id": 280,
+    "ru_id": "complex_280",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Short car ride.",
+    "ru_user_last_turn": "Короткая поездка на машине."
+  },
+  {
+    "original_id": 281,
+    "ru_id": "complex_281",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Large.",
+    "ru_user_last_turn": "Большой."
+  },
+  {
+    "original_id": 282,
+    "ru_id": "complex_282",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "A larger screen so I can read the text.",
+    "ru_user_last_turn": "Экран побольше, чтобы удобно было читать текст."
+  },
+  {
+    "original_id": 283,
+    "ru_id": "complex_283",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "No.",
+    "ru_user_last_turn": "Нет."
+  },
+  {
+    "original_id": 284,
+    "ru_id": "complex_284",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "I prefer mild weather.",
+    "ru_user_last_turn": "Я предпочитаю мягкую погоду."
+  },
+  {
+    "original_id": 285,
+    "ru_id": "complex_285",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "I can't do proofs.",
+    "ru_user_last_turn": "У меня не получаются доказательства теорем."
+  },
+  {
+    "original_id": 286,
+    "ru_id": "complex_286",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "When I go out for a nice meal with other people.",
+    "ru_user_last_turn": "Когда я иду куда-нибудь пообедать в компании других людей."
+  },
+  {
+    "original_id": 287,
+    "ru_id": "complex_287",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Yes please!",
+    "ru_user_last_turn": "Да, пожалуйста!"
+  },
+  {
+    "original_id": 288,
+    "ru_id": "complex_288",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "Indoors, ideally at St. Michael's church in the late afternoon.",
+    "ru_user_last_turn": "В помещении, в идеале в церкви Святого Михаила во второй половине дня."
+  },
+  {
+    "original_id": 289,
+    "ru_id": "complex_289",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "Acronym probably.",
+    "ru_user_last_turn": "Скорее всего, аббревиатуру."
+  },
+  {
+    "original_id": 290,
+    "ru_id": "complex_290",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Around $50,000.",
+    "ru_user_last_turn": "Около 50 000 долларов."
+  },
+  {
+    "original_id": 291,
+    "ru_id": "complex_291",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Um, I would like the creme brulee please.",
+    "ru_user_last_turn": "Эм, крем-брюле, пожалуйста."
+  },
+  {
+    "original_id": 292,
+    "ru_id": "complex_292",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "Canada.",
+    "ru_user_last_turn": "В Канаде."
+  },
+  {
+    "original_id": 293,
+    "ru_id": "complex_293",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Definitely.",
+    "ru_user_last_turn": "Обязательно."
+  },
+  {
+    "original_id": 294,
+    "ru_id": "complex_294",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "It's a 2004 Accord Coupe.",
+    "ru_user_last_turn": "Это Accord Coupe 2004 года."
+  },
+  {
+    "original_id": 295,
+    "ru_id": "complex_295",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "Yes, a Master's.",
+    "ru_user_last_turn": "Да, степень магистра."
+  },
+  {
+    "original_id": 296,
+    "ru_id": "complex_296",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "Yes.",
+    "ru_user_last_turn": "Да."
+  },
+  {
+    "original_id": 297,
+    "ru_id": "complex_297",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "July 21st to the 30th.",
+    "ru_user_last_turn": "С 21 по 30 июля."
+  },
+  {
+    "original_id": 298,
+    "ru_id": "complex_298",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "Under twelve thousand.",
+    "ru_user_last_turn": "Дешевле двенадцати тысяч."
+  },
+  {
+    "original_id": 299,
+    "ru_id": "complex_299",
+    "task": "Recommendation-Expanded",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "Maybe $500,000.",
+    "ru_user_last_turn": "Примерно 500 000 долларов."
+  },
+  {
+    "original_id": 300,
+    "ru_id": "complex_300",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "What about pizza?",
+    "ru_user_last_turn": "А что насчёт пиццы?"
+  },
+  {
+    "original_id": 301,
+    "ru_id": "complex_301",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "What about caramel syrup?",
+    "ru_user_last_turn": "А что насчёт карамельного сиропа?"
+  },
+  {
+    "original_id": 302,
+    "ru_id": "complex_302",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "How about for Android?",
+    "ru_user_last_turn": "А что насчёт Android?"
+  },
+  {
+    "original_id": 303,
+    "ru_id": "complex_303",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "What about resetting the modem?",
+    "ru_user_last_turn": "А как насчёт перезагрузки модема?"
+  },
+  {
+    "original_id": 304,
+    "ru_id": "complex_304",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "What about in South America?",
+    "ru_user_last_turn": "А как насчёт Южной Америки?"
+  },
+  {
+    "original_id": 305,
+    "ru_id": "complex_305",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "What about Trigonometry?",
+    "ru_user_last_turn": "А как насчёт тригонометрии?"
+  },
+  {
+    "original_id": 306,
+    "ru_id": "complex_306",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "I've also had suicidal thoughts.",
+    "ru_user_last_turn": "У меня также появлялись суицидальные мысли."
+  },
+  {
+    "original_id": 307,
+    "ru_id": "complex_307",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "What about new cabinets?",
+    "ru_user_last_turn": "А как насчёт новых шкафов?"
+  },
+  {
+    "original_id": 308,
+    "ru_id": "complex_308",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "What about in a garden venue?",
+    "ru_user_last_turn": "А как насчёт площадки в саду?"
+  },
+  {
+    "original_id": 309,
+    "ru_id": "complex_309",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "How about a chevron?",
+    "ru_user_last_turn": "А как насчёт формы шеврона?"
+  },
+  {
+    "original_id": 310,
+    "ru_id": "complex_310",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "What if I sell the house and have no mortgage payment?",
+    "ru_user_last_turn": "А если я продам дом и у меня не будет выплат по ипотеке?"
+  },
+  {
+    "original_id": 311,
+    "ru_id": "complex_311",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "What about the tiramisu?",
+    "ru_user_last_turn": "А тирамису?"
+  },
+  {
+    "original_id": 312,
+    "ru_id": "complex_312",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "How about in Japan?",
+    "ru_user_last_turn": "А как насчёт Японии?"
+  },
+  {
+    "original_id": 313,
+    "ru_id": "complex_313",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "What about townhouses?",
+    "ru_user_last_turn": "А как насчёт таунхаусов?"
+  },
+  {
+    "original_id": 314,
+    "ru_id": "complex_314",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "How about tomorrow?",
+    "ru_user_last_turn": "А как насчёт завтра?"
+  },
+  {
+    "original_id": 315,
+    "ru_id": "complex_315",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "What about short-order cook roles?",
+    "ru_user_last_turn": "А как насчёт вакансий повара быстрого питания?"
+  },
+  {
+    "original_id": 316,
+    "ru_id": "complex_316",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "What about for a savings account?",
+    "ru_user_last_turn": "А как насчёт сберегательного счёта?"
+  },
+  {
+    "original_id": 317,
+    "ru_id": "complex_317",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "What about from San Francisco?",
+    "ru_user_last_turn": "А из Сан-Франциско?"
+  },
+  {
+    "original_id": 318,
+    "ru_id": "complex_318",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "How about a hybrid?",
+    "ru_user_last_turn": "А как насчёт гибрида?"
+  },
+  {
+    "original_id": 319,
+    "ru_id": "complex_319",
+    "task": "Recommendation-Incremental",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "What about for term?",
+    "ru_user_last_turn": "А как насчёт срочного?"
+  },
+  {
+    "original_id": 320,
+    "ru_id": "complex_320",
+    "task": "Repeat",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 321,
+    "ru_id": "complex_321",
+    "task": "Repeat",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "Say that again.",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 322,
+    "ru_id": "complex_322",
+    "task": "Repeat",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 323,
+    "ru_id": "complex_323",
+    "task": "Repeat",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 324,
+    "ru_id": "complex_324",
+    "task": "Repeat",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "Say that all again.",
+    "ru_user_last_turn": "Повторите всё это ещё раз."
+  },
+  {
+    "original_id": 325,
+    "ru_id": "complex_325",
+    "task": "Repeat",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 326,
+    "ru_id": "complex_326",
+    "task": "Repeat",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 327,
+    "ru_id": "complex_327",
+    "task": "Repeat",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "Say that again please.",
+    "ru_user_last_turn": "Повторите, пожалуйста, ещё раз."
+  },
+  {
+    "original_id": 328,
+    "ru_id": "complex_328",
+    "task": "Repeat",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 329,
+    "ru_id": "complex_329",
+    "task": "Repeat",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 330,
+    "ru_id": "complex_330",
+    "task": "Repeat",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "Say that again please.",
+    "ru_user_last_turn": "Повторите это ещё раз, пожалуйста."
+  },
+  {
+    "original_id": 331,
+    "ru_id": "complex_331",
+    "task": "Repeat",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повторите ещё раз."
+  },
+  {
+    "original_id": 332,
+    "ru_id": "complex_332",
+    "task": "Repeat",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 333,
+    "ru_id": "complex_333",
+    "task": "Repeat",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "Sorry, say that again.",
+    "ru_user_last_turn": "Простите, повторите ещё раз."
+  },
+  {
+    "original_id": 334,
+    "ru_id": "complex_334",
+    "task": "Repeat",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 335,
+    "ru_id": "complex_335",
+    "task": "Repeat",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 336,
+    "ru_id": "complex_336",
+    "task": "Repeat",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 337,
+    "ru_id": "complex_337",
+    "task": "Repeat",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "Say again.",
+    "ru_user_last_turn": "Повторите, пожалуйста."
+  },
+  {
+    "original_id": 338,
+    "ru_id": "complex_338",
+    "task": "Repeat",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "What did you say?",
+    "ru_user_last_turn": "Что вы сказали?"
+  },
+  {
+    "original_id": 339,
+    "ru_id": "complex_339",
+    "task": "Repeat",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "Could you please repeat that?",
+    "ru_user_last_turn": "Не могли бы вы повторить это?"
+  },
+  {
+    "original_id": 340,
+    "ru_id": "complex_340",
+    "task": "Self-Correction",
+    "assistant_role_en": "hotel concierge",
+    "assistant_role_ru": "консьерж в отеле",
+    "en_user_last_turn": "Munchies Pizza is a block up Main Street by the pier.",
+    "ru_user_last_turn": "Пиццерия «Munchies Pizza» находится в одном квартале вверх по Мейн-стрит у пирса."
+  },
+  {
+    "original_id": 341,
+    "ru_id": "complex_341",
+    "task": "Self-Correction",
+    "assistant_role_en": "barista",
+    "assistant_role_ru": "бариста",
+    "en_user_last_turn": "No, I meant with sugar.",
+    "ru_user_last_turn": "Нет, я имел в виду с сахаром."
+  },
+  {
+    "original_id": 342,
+    "ru_id": "complex_342",
+    "task": "Self-Correction",
+    "assistant_role_en": "salesperson",
+    "assistant_role_ru": "продавец-консультант",
+    "en_user_last_turn": "No, I mean normal size, not the huge size.",
+    "ru_user_last_turn": "Нет, я имел в виду обычный размер, а не совсем крошечный."
+  },
+  {
+    "original_id": 343,
+    "ru_id": "complex_343",
+    "task": "Self-Correction",
+    "assistant_role_en": "IT support",
+    "assistant_role_ru": "специалист технической поддержки",
+    "en_user_last_turn": "No, I mean I haven't tried to reach google yet.",
+    "ru_user_last_turn": "Нет, я имел в виду, что я ещё не пробовал зайти на google."
+  },
+  {
+    "original_id": 344,
+    "ru_id": "complex_344",
+    "task": "Self-Correction",
+    "assistant_role_en": "travel agent",
+    "assistant_role_ru": "турагент",
+    "en_user_last_turn": "I mean, with a beach or with mountains.",
+    "ru_user_last_turn": "Я имею в виду — либо с пляжем, либо с горами."
+  },
+  {
+    "original_id": 345,
+    "ru_id": "complex_345",
+    "task": "Self-Correction",
+    "assistant_role_en": "tutor",
+    "assistant_role_ru": "репетитор",
+    "en_user_last_turn": "No, I mean a student tutor.",
+    "ru_user_last_turn": "Нет, я имел в виду репетитора из числа студентов."
+  },
+  {
+    "original_id": 346,
+    "ru_id": "complex_346",
+    "task": "Self-Correction",
+    "assistant_role_en": "therapist",
+    "assistant_role_ru": "психотерапевт",
+    "en_user_last_turn": "I mean, I think I need anti-anxiety medication.",
+    "ru_user_last_turn": "Я имею в виду, мне кажется, мне нужны противотревожные препараты."
+  },
+  {
+    "original_id": 347,
+    "ru_id": "complex_347",
+    "task": "Self-Correction",
+    "assistant_role_en": "contractor",
+    "assistant_role_ru": "подрядчик по ремонту",
+    "en_user_last_turn": "No, I mean I want an estimate for the job.",
+    "ru_user_last_turn": "Нет, я имею в виду — я хочу получить предварительную смету на работу."
+  },
+  {
+    "original_id": 348,
+    "ru_id": "complex_348",
+    "task": "Self-Correction",
+    "assistant_role_en": "wedding planner",
+    "assistant_role_ru": "свадебный организатор",
+    "en_user_last_turn": "No, I mean for some time next year.",
+    "ru_user_last_turn": "Нет, я имею в виду — на какой-нибудь день в следующем году."
+  },
+  {
+    "original_id": 349,
+    "ru_id": "complex_349",
+    "task": "Self-Correction",
+    "assistant_role_en": "graphic designer",
+    "assistant_role_ru": "графический дизайнер",
+    "en_user_last_turn": "No, I mean that's my starting idea, but I'd like your recommendation as a professional.",
+    "ru_user_last_turn": "Нет, я имею в виду — это моя начальная идея, но мне хотелось бы услышать вашу профессиональную рекомендацию."
+  },
+  {
+    "original_id": 350,
+    "ru_id": "complex_350",
+    "task": "Self-Correction",
+    "assistant_role_en": "financial advisor",
+    "assistant_role_ru": "финансовый консультант",
+    "en_user_last_turn": "No, I mean enough to retire at 65.",
+    "ru_user_last_turn": "Нет, я имею в виду — достаточно ли, чтобы выйти на пенсию в 65."
+  },
+  {
+    "original_id": 351,
+    "ru_id": "complex_351",
+    "task": "Self-Correction",
+    "assistant_role_en": "waiter",
+    "assistant_role_ru": "официант",
+    "en_user_last_turn": "No, I mean for here.",
+    "ru_user_last_turn": "Нет, я имел в виду здесь, в зале."
+  },
+  {
+    "original_id": 352,
+    "ru_id": "complex_352",
+    "task": "Self-Correction",
+    "assistant_role_en": "HR representative",
+    "assistant_role_ru": "HR-специалист",
+    "en_user_last_turn": "No, I mean including holidays.",
+    "ru_user_last_turn": "Нет, я имел в виду включая праздники."
+  },
+  {
+    "original_id": 353,
+    "ru_id": "complex_353",
+    "task": "Self-Correction",
+    "assistant_role_en": "realtor",
+    "assistant_role_ru": "риелтор",
+    "en_user_last_turn": "No, I don't mean today. I need to wait until my husband can join us.",
+    "ru_user_last_turn": "Нет, я не имею в виду прямо сегодня. Мне нужно подождать, пока муж сможет присоединиться."
+  },
+  {
+    "original_id": 354,
+    "ru_id": "complex_354",
+    "task": "Self-Correction",
+    "assistant_role_en": "mechanic",
+    "assistant_role_ru": "автомеханик",
+    "en_user_last_turn": "No, I mean can I schedule an appointment for it.",
+    "ru_user_last_turn": "Нет, я имею в виду — могу ли я записаться на приём."
+  },
+  {
+    "original_id": 355,
+    "ru_id": "complex_355",
+    "task": "Self-Correction",
+    "assistant_role_en": "career advisor",
+    "assistant_role_ru": "карьерный консультант",
+    "en_user_last_turn": "No, I mean jobs in the San Diego area.",
+    "ru_user_last_turn": "Нет, я имею в виду вакансии в районе Сан-Диего."
+  },
+  {
+    "original_id": 356,
+    "ru_id": "complex_356",
+    "task": "Self-Correction",
+    "assistant_role_en": "bank teller",
+    "assistant_role_ru": "банковский сотрудник",
+    "en_user_last_turn": "No, I want free checking.",
+    "ru_user_last_turn": "Нет, мне нужен бесплатный текущий счёт."
+  },
+  {
+    "original_id": 357,
+    "ru_id": "complex_357",
+    "task": "Self-Correction",
+    "assistant_role_en": "airlines rep",
+    "assistant_role_ru": "представитель авиакомпании",
+    "en_user_last_turn": "No, I mean from any Bay Area airports.",
+    "ru_user_last_turn": "Нет, я имею в виду вылет из любых аэропортов района Залива."
+  },
+  {
+    "original_id": 358,
+    "ru_id": "complex_358",
+    "task": "Self-Correction",
+    "assistant_role_en": "used car salesman",
+    "assistant_role_ru": "продавец подержанных автомобилей",
+    "en_user_last_turn": "No, I mean can you get them?",
+    "ru_user_last_turn": "Нет, я имею в виду — можете ли вы их привезти под заказ?"
+  },
+  {
+    "original_id": 359,
+    "ru_id": "complex_359",
+    "task": "Self-Correction",
+    "assistant_role_en": "insurance salesman",
+    "assistant_role_ru": "страховой агент",
+    "en_user_last_turn": "No, I meant whole life insurance.",
+    "ru_user_last_turn": "Нет, я имел в виду пожизненное страхование."
+  }
+]

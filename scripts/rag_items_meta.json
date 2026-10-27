@@ -1,0 +1,3102 @@
+[
+  {
+    "id": 0,
+    "task": "definition request",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does DTC use clean energy?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Delhi Transport Corporation operates one of the world's largest fleets of CNG-fueled buses to reduce pollution."
+      },
+      {
+        "role": "user",
+        "content": "What does CNG stand for?"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "task": "definition request",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does New York City attract a lot of businesses from outside the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "One out of ten private sector jobs in the city is with a foreign company."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean by private sector?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "task": "definition request",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      },
+      {
+        "role": "assistant",
+        "content": "During World War II, IBM produced small arms for the American war effort, including the M1 Carbine and the Browning Automatic Rifle."
+      },
+      {
+        "role": "user",
+        "content": "What does Carbine mean?"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "task": "definition request",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Have Spielberg and Zemeckis teamed up since Back to the Future?"
+      },
+      {
+        "role": "assistant",
+        "content": "They were co-executive producers on a CGI children's film called Monster House."
+      },
+      {
+        "role": "user",
+        "content": "What does CGI stand for?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "task": "definition request",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the Spanish language in the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language students, making it the second largest Hispanophone country globally after Mexico."
+      },
+      {
+        "role": "user",
+        "content": "What does Hispanophones mean?"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "task": "definition request",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How was the movie Evita received at the time?"
+      },
+      {
+        "role": "assistant",
+        "content": "The movie Evita garnered critical appreciation, with Zach Conner from Time magazine commenting that it's 'pretty damn fine, well cast and handsomely visualized.'"
+      },
+      {
+        "role": "user",
+        "content": "What is garnered?"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "task": "definition request",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inert gases like nitrogen or carbon dioxide are typically used around LED filaments to efficiently remove heat and improve longevity."
+      },
+      {
+        "role": "user",
+        "content": "What does inert mean?"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "task": "definition request",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What happens when the patent protection for a drug expires?"
+      },
+      {
+        "role": "assistant",
+        "content": "When it expires, a plain wrap version of the drug is typically developed and sold by competing companies at a lower price."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean by plain wrap?"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "task": "definition request",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Their ideas regarding the mental or ideal character of reality gave birth to various idealistic and subjectivist schools, such as British idealism, phenomenalism, and existentialism."
+      },
+      {
+        "role": "user",
+        "content": "Define existentialism?"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "task": "definition request",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between static and dynamic testing in software testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "Static testing is performed without executing the code, while dynamic testing involves executing the code with a given set of test cases."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean by executing the code?"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "task": "definition request",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the role of ribosomes in translation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ribosomes are responsible for adding new amino acids to a growing polypeptide chain by forming peptide bonds."
+      },
+      {
+        "role": "user",
+        "content": "What's a polypeptide?"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "task": "definition request",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What kind of marine life do you have here?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are anemones, urchins, sea cucumbers, eels, turtles, conch, and a variety of fish species like sergeant majors, chromis, surgeon fish, blue tangs, and trumpet fish, along with ghost crabs and hermit crabs found on the shore."
+      },
+      {
+        "role": "user",
+        "content": "What's a blue tang?"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "task": "definition request",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was found in the Drachloch cave?"
+      },
+      {
+        "role": "assistant",
+        "content": "Radiocarbon dated charcoal placed around 50,000 year old charcoal and seven bear skulls were found in the Drachloch cave."
+      },
+      {
+        "role": "user",
+        "content": "What does radiocarbon dated mean?"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "task": "definition request",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      },
+      {
+        "role": "assistant",
+        "content": "His initial goal as general secretary was to revive the Soviet economy by reforming the Politburo."
+      },
+      {
+        "role": "user",
+        "content": "What's that?"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "task": "definition request",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was one of the pranks Feynman played while at Los Alamos?"
+      },
+      {
+        "role": "assistant",
+        "content": "He left a series of notes in a colleague's filing cabinets, making it seem like a saboteur had gained access to atomic bomb secrets."
+      },
+      {
+        "role": "user",
+        "content": "What does saboteur mean?"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "task": "definition request",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Where do Chinese immigrants living in Seattle tend to come from?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Chinese population in the Seattle area has origins in mainland China, Hong Kong, Southeast Asia, and Taiwan."
+      },
+      {
+        "role": "user",
+        "content": "What is Southeast Asia?"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "task": "definition request",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who created Marvel Comics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Pulp-magazine publisher Martin Goodman created the company later known as Marvel Comics under the name Timely Publications in 1939."
+      },
+      {
+        "role": "user",
+        "content": "What does pulp-magazine mean?"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "task": "definition request",
+    "ctx_id": 17,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who was the judge of the music competition between Pan and Apollo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tmolus, the mountain-god, was chosen to umpire it."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean by umpire?"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "task": "definition request",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why doesn't Theravada recognize Mahayana works?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because it traces its roots to a branch of Buddhism that diverged before Mahayana scriptures existed, basing its teachings solely on the Pali Canon."
+      },
+      {
+        "role": "user",
+        "content": "Pali Canon? What's that?"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "task": "definition request",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why was the capital of China moved to the Sichuan Basin in the early 1940s?"
+      },
+      {
+        "role": "assistant",
+        "content": "China moved its capital to Chongqing in the early 1940s due to the Second Sino-Japanese War, seeking safety from Japanese occupation and leveraging the geographical advantages of the Sichuan Basin."
+      },
+      {
+        "role": "user",
+        "content": "What is Chongqing?"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "task": "example request",
+    "ctx_id": 20,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Do Americans really treat their dogs as members of their family?"
+      },
+      {
+        "role": "assistant",
+        "content": "Studies find that pet dogs play an active role in family life."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "task": "example request",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Are many Seattle residents immigrants from outside the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Seattle is home to foreign-born residents from all over the world."
+      },
+      {
+        "role": "user",
+        "content": "Can you give some examples of where?"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "task": "example request",
+    "ctx_id": 21,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Are paper companies doing anything to decrease deforestation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, they are striving to achieve sustainable production."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "task": "example request",
+    "ctx_id": 22,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Are the rules for capitalization dependent on context?"
+      },
+      {
+        "role": "assistant",
+        "content": "Capitalization in English is universally standarized for formal writing but not for informal communication."
+      },
+      {
+        "role": "user",
+        "content": "What's an example of informal?"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "task": "example request",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Did Louis XIV abandon Paris?"
+      },
+      {
+        "role": "assistant",
+        "content": "Although Louis XIV moved his court to Versailles, Paris still still flourished under his reign."
+      },
+      {
+        "role": "user",
+        "content": "Can you give some examples of how?"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "task": "example request",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Did Richard Feynman like working at Los Alamos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Feynman found it boring in the isolated lab and played many jokes on his colleagues to pass the time."
+      },
+      {
+        "role": "user",
+        "content": "Examples please."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "task": "example request",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      },
+      {
+        "role": "assistant",
+        "content": "During World War II, IBM produced small arms for the American war effort."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "task": "example request",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Have Spielberg and Zemeckis teamed up since Back to the Future?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, they have collaborated eight times since Back to the Future III."
+      },
+      {
+        "role": "user",
+        "content": "What's an example?"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "task": "example request",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Is the traffic bad in New Delhi?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, New Delhi road density is one of the highest in India with many public and private vehicles."
+      },
+      {
+        "role": "user",
+        "content": "What are some examples?"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "task": "example request",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Is there any place interesting to explore near Vattis?"
+      },
+      {
+        "role": "assistant",
+        "content": "Drachloch is a cave near Vattis with a supernatural reputation."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "task": "example request",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Was Madonna successful as lead role in Evita, the movie?"
+      },
+      {
+        "role": "assistant",
+        "content": "She won awards for her performance and released hit singles from the soundtrack."
+      },
+      {
+        "role": "user",
+        "content": "Can you give some examples?"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "task": "example request",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What did Martin Goodman do at Timely Publications?"
+      },
+      {
+        "role": "assistant",
+        "content": "He wore many hats."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "task": "example request",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inert gases are typically used around LED filaments to efficiently remove heat and improve longevity."
+      },
+      {
+        "role": "user",
+        "content": "What are some examples?"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "task": "example request",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Their ideas regarding the mental or ideal character of reality gave birth to various idealistic and subjectivist schools."
+      },
+      {
+        "role": "user",
+        "content": "What are some examples?"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "task": "example request",
+    "ctx_id": 24,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is a lock groove on an LP?"
+      },
+      {
+        "role": "assistant",
+        "content": "It is where the groove joins itself at the end so it can circle repeatedly, which can give a strange repeating effect on some records."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "task": "example request",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is dynamic testing in software testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "Dynamic testing involves executing the code with a given set of test cases."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "task": "example request",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      },
+      {
+        "role": "assistant",
+        "content": "He instituted a variety of governmental reforms in an attempt to revive the Soviet economy."
+      },
+      {
+        "role": "user",
+        "content": "Can you give some examples?"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "task": "example request",
+    "ctx_id": 25,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What's the weather on Neptune like?"
+      },
+      {
+        "role": "assistant",
+        "content": "Unlike Uranus, Neptune's atmosphere has active and visible weather patterns."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "task": "example request",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why was the capital of China moved to the Sichuan Basin in the early 1940s?"
+      },
+      {
+        "role": "assistant",
+        "content": "To seek safety from Japanese occupation and leverage the geographical advantages of the Sichuan Basin."
+      },
+      {
+        "role": "user",
+        "content": "Can you give an example?"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "task": "example request",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Will we see many animals on this tour?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, this area is very diverse with many different species marine life."
+      },
+      {
+        "role": "user",
+        "content": "What are some examples?"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "task": "incremental-self-correction",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mikhail Gorbachev's top priority as general secretary was to revive the Soviet economy."
+      },
+      {
+        "role": "user",
+        "content": "What about the military?"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "task": "incremental-self-correction",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does DTC use clean energy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, DTC uses compressed natural gas (CNG) as a cleaner fuel for its buses."
+      },
+      {
+        "role": "user",
+        "content": "No, I mean does it use electric vehicles."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "task": "incremental-self-correction",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, during World War II, IBM produced small arms for the American war effort, such as the M1 Carbine and Browning Automatic Rifle."
+      },
+      {
+        "role": "user",
+        "content": "What about vehicles?"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "task": "incremental-self-correction",
+    "ctx_id": 21,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How much has the use of paper gone up around the world?"
+      },
+      {
+        "role": "assistant",
+        "content": "Worldwide consumption of paper has risen by 400% in the past 40 years."
+      },
+      {
+        "role": "user",
+        "content": "How about the use of oil?"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "task": "incremental-self-correction",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the Spanish language in the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Spanish language is the second most spoken language in the U.S., with 45 million Hispanophones."
+      },
+      {
+        "role": "user",
+        "content": "How about German?"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "task": "incremental-self-correction",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How was the movie Evita received at the time?"
+      },
+      {
+        "role": "assistant",
+        "content": "The movie Evita was critically appreciated and Madonna's performance was praised."
+      },
+      {
+        "role": "user",
+        "content": "What about Desperately Seeking Susan?"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "task": "incremental-self-correction",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "On what movies is Spielberg an uncredited executive producer?"
+      },
+      {
+        "role": "assistant",
+        "content": "Spielberg served as an uncredited executive producer on The Haunting, The Prince of Egypt, Just Like Heaven, Shrek, Road to Perdition, and Evolution."
+      },
+      {
+        "role": "user",
+        "content": "No, I mean, Lucas."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "task": "incremental-self-correction",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inert nitrogen or carbon dioxide gas is typically used around an LED filament."
+      },
+      {
+        "role": "user",
+        "content": "What about helium?"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "task": "incremental-self-correction",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What happens when the patent for a drug expires?"
+      },
+      {
+        "role": "assistant",
+        "content": "A generic drug is usually developed and sold by a competing company."
+      },
+      {
+        "role": "user",
+        "content": "No, I mean when it is issued."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "task": "incremental-self-correction",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      },
+      {
+        "role": "assistant",
+        "content": "The German Idealists, starting with Kant, significantly influenced 19th-century philosophy, giving rise to various schools of thought like British idealism, phenomenalism, and existentialism."
+      },
+      {
+        "role": "user",
+        "content": "What about the Logical Positivists?"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "task": "incremental-self-correction",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between static and dynamic testing in software testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "Static testing involves reviewing code without executing it, while dynamic testing involves executing code with specific test cases."
+      },
+      {
+        "role": "user",
+        "content": "What about unit and regression testing?"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "task": "incremental-self-correction",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the role of ribosomes in translation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ribosomes are responsible for carrying out the chemical reactions to add new amino acids to a growing polypeptide chain during translation."
+      },
+      {
+        "role": "user",
+        "content": "What about proteasomes?"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "task": "incremental-self-correction",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What kind of marine life do you have here?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are anemones, urchins, sea cucumbers, eels, turtles, conch, and various marine fishes like sergeant majors, blue chromis, brown chromis, surgeon fish, blue tangs, and trumpet fish."
+      },
+      {
+        "role": "user",
+        "content": "What about sharks?"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "task": "incremental-self-correction",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What percentage of private sector jobs in New York City are for foreign companies?"
+      },
+      {
+        "role": "assistant",
+        "content": "1 out of 10 private sector jobs in New York City are with a foreign company."
+      },
+      {
+        "role": "user",
+        "content": "How about Los Angeles?"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "task": "incremental-self-correction",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was found in the Drachloch cave?"
+      },
+      {
+        "role": "assistant",
+        "content": "Radiocarbon dated charcoal and seven bear skulls were found in the Drachloch cave."
+      },
+      {
+        "role": "user",
+        "content": "How about tools?"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "task": "incremental-self-correction",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was one of the pranks Feynman played while at Los Alamos?"
+      },
+      {
+        "role": "assistant",
+        "content": "Feynman left a series of notes in a colleague's filing cabinets as a prank, initially causing concern that a spy had gained access to atomic bomb secrets."
+      },
+      {
+        "role": "user",
+        "content": "How about Oppenheimer?"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "task": "incremental-self-correction",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who created Marvel Comics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Martin Goodman created Marvel Comics, originally under the name Timely Publications in 1939."
+      },
+      {
+        "role": "user",
+        "content": "No, I mean DC Comics."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "task": "incremental-self-correction",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why did Louis XIV move his court from Paris?"
+      },
+      {
+        "role": "assistant",
+        "content": "Louis XIV moved his court from Paris to Versailles due to his mistrust of the Parisians."
+      },
+      {
+        "role": "user",
+        "content": "No, I mean when?"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "task": "incremental-self-correction",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why doesn't Theravada recognize Mahayana works?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Theravada school does not include Mahayana scriptures in its canon because it diverged from the mainstream Buddhist tradition prior to the emergence of Mahayana texts."
+      },
+      {
+        "role": "user",
+        "content": "What about Vajrayana?"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "task": "incremental-self-correction",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why was the capital of China moved to the Sichuan Basin?"
+      },
+      {
+        "role": "assistant",
+        "content": "The capital was moved to the Sichuan Basin in the early 1940s due to the occupation of Beijing, Shanghai, Nanjing, and Wuhan by the Japanese during the Second Sino-Japanese War."
+      },
+      {
+        "role": "user",
+        "content": "No, I mean, when was it moved?"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "task": "inquiry ungrounded",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did German idealism influence the development of science in the 19th century?"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "task": "inquiry ungrounded",
+    "ctx_id": 17,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did Pan and Apollo become acquainted?"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "task": "inquiry ungrounded",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did the Parisians react to Louis XIV's decision to move his court to Versailles?"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "task": "inquiry ungrounded",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did the prehistoric people use the bear skulls?"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "task": "inquiry ungrounded",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did the Soviet people respond to Gorbachev's reforms?"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "task": "inquiry ungrounded",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How efficient are LED filaments compared to traditional incandescent light bulbs?"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "task": "inquiry ungrounded",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How many buses does the DTC own?"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "task": "inquiry ungrounded",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the French language in the U.S.?"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "task": "inquiry ungrounded",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Was Men in Black inspired by Spielberg's Close Encounters of the Third Kind?"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "task": "inquiry ungrounded",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What are the main differences between Theravada and Mahayana Buddhism?"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "task": "inquiry ungrounded",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the average cost of developing a new drug?"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "task": "inquiry ungrounded",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the average salary of a private sector job in New York City?"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "task": "inquiry ungrounded",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the average water temperature in this area?"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "task": "inquiry ungrounded",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the plot of the movie Evita?"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "task": "inquiry ungrounded",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the total population of Seattle?"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "task": "inquiry ungrounded",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was the name of IBM's CEO in 1937?"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "task": "inquiry ungrounded",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was the name of Martin Goodman's first comic book title?"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "task": "inquiry ungrounded",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was the role of the Kuomintang government in the development of modern Western-style universities in the nearby inland provinces?"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "task": "inquiry ungrounded",
+    "ctx_id": 21,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Which country consumes the most paper per capita?"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "task": "inquiry ungrounded",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who was Feynman's ailing wife?"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "task": "inquiry",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "task": "inquiry",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does DTC use clean energy?"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "task": "inquiry",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "task": "inquiry",
+    "ctx_id": 21,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How much has the use of paper gone up around the world?"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "task": "inquiry",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the Spanish language in the U.S.?"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "task": "inquiry",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How was the movie Evita received at the time?"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "task": "inquiry",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "On what movies is Spielberg an uncredited executive producer?"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "task": "inquiry",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "task": "inquiry",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What happens when the patent protection for a drug expires?"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "task": "inquiry",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "task": "inquiry",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between static and dynamic testing in software testing?"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "task": "inquiry",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the role of ribosomes in translation?"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "task": "inquiry",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What kind of marine life do you have here?"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "task": "inquiry",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What percentage of private sector jobs in New York City are for foreign companies?"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "task": "inquiry",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was found in the Drachloch cave?"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "task": "inquiry",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was one of the pranks Feynman played while at Los Alamos?"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "task": "inquiry",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who created Marvel Comics?"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "task": "inquiry",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why did Louis XIV move his court from Paris?"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "task": "inquiry",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why doesn't Theravada recognize Mahayana works?"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "task": "inquiry",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why was the capital of China moved to the Sichuan Basin in the early 1940s?"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "task": "paraphrase request",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Are most jobs in New York City working for foreigners?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, only one in ten private sector jobs in New York City are provided by foreign companies."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean?"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "task": "paraphrase request",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Did Steven Spielberg direct Shrek?"
+      },
+      {
+        "role": "assistant",
+        "content": "No, he did not direct Shrek, but he was involved with its production."
+      },
+      {
+        "role": "user",
+        "content": "I'm confused."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "task": "paraphrase request",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does DTC use clean energy?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Delhi Transport Corporation operates one of the world's largest fleets of compressed natural gas-fueled buses to reduce pollution."
+      },
+      {
+        "role": "user",
+        "content": "I'm not following you."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "task": "paraphrase request",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      },
+      {
+        "role": "assistant",
+        "content": "During World War II, IBM produced small arms for the American war effort."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean?"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "task": "paraphrase request",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the Spanish language in the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language students, making it the second largest Hispanophone country globally after Mexico."
+      },
+      {
+        "role": "user",
+        "content": "No comprendo."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "task": "paraphrase request",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How was the movie Evita received at the time?"
+      },
+      {
+        "role": "assistant",
+        "content": "The movie Evita garnered critical appreciation, with Zach Conner from Time magazine commenting that it's 'pretty damn fine, well cast and handsomely visualized.'"
+      },
+      {
+        "role": "user",
+        "content": "What do you mean?"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "task": "paraphrase request",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inert gases like nitrogen or carbon dioxide are typically used around LED filaments to efficiently remove heat and improve longevity."
+      },
+      {
+        "role": "user",
+        "content": "What does that mean?"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "task": "paraphrase request",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What happens when the patent protection for a drug expires?"
+      },
+      {
+        "role": "assistant",
+        "content": "When it expires, a generic version of the drug is typically developed and sold by competing companies at a lower price."
+      },
+      {
+        "role": "user",
+        "content": "What does that mean?"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "task": "paraphrase request",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Their ideas regarding the mental or ideal character of reality gave birth to various idealistic and subjectivist schools, such as British idealism, phenomenalism, and existentialism."
+      },
+      {
+        "role": "user",
+        "content": "Can you say that a different way?"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "task": "paraphrase request",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between static and dynamic testing in software testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "Static testing is performed without executing the code, while dynamic testing involves executing the code with a given set of test cases."
+      },
+      {
+        "role": "user",
+        "content": "Can you say that a different way?"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "task": "paraphrase request",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the role of ribosomes in translation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ribosomes are responsible for adding new amino acids to a growing polypeptide chain by forming peptide bonds."
+      },
+      {
+        "role": "user",
+        "content": "What does that mean?"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "task": "paraphrase request",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What kind of marine life do you have here?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are anemones, urchins, sea cucumbers, eels, turtles, conch, and a variety of fish species like sergeant majors, chromis, surgeon fish, blue tangs, and trumpet fish, along with ghost crabs and hermit crabs found on the shore."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean?"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "task": "paraphrase request",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was found in the Drachloch cave?"
+      },
+      {
+        "role": "assistant",
+        "content": "Fifty thousand year old charcoal and seven bear skulls were found in the Drachloch cave."
+      },
+      {
+        "role": "user",
+        "content": "I don't get it."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "task": "paraphrase request",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      },
+      {
+        "role": "assistant",
+        "content": "His initial goal as general secretary was to revive the Soviet economy."
+      },
+      {
+        "role": "user",
+        "content": "I don't get it."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "task": "paraphrase request",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was one of the pranks Feynman played while at Los Alamos?"
+      },
+      {
+        "role": "assistant",
+        "content": "He left a series of notes in a colleague's filing cabinets, making it seem like a spy or saboteur had gained access to atomic bomb secrets."
+      },
+      {
+        "role": "user",
+        "content": "I don't understand."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "task": "paraphrase request",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Where do Chinese immigrants living in Seattle tend to come from?"
+      },
+      {
+        "role": "assistant",
+        "content": "They come from all over Asia."
+      },
+      {
+        "role": "user",
+        "content": "What do you mean?"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "task": "paraphrase request",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who created Marvel Comics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Martin Goodman. He created Timely Publications in 1939."
+      },
+      {
+        "role": "user",
+        "content": "I don't understand."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "task": "paraphrase request",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why did Louis XIV move his court from Paris?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because he mistrusted the Parisians."
+      },
+      {
+        "role": "user",
+        "content": "I don't understand?"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "task": "paraphrase request",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why doesn't Theravada recognize Mahayana works?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because it traces its roots to a branch of Buddhism that diverged before Mahayana scriptures existed, basing its teachings solely on the Pali Canon."
+      },
+      {
+        "role": "user",
+        "content": "Could you say that a different way?"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "task": "paraphrase request",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why was the capital of China moved to the Sichuan Basin in the early 1940s?"
+      },
+      {
+        "role": "assistant",
+        "content": "China moved its capital to Chongqing in the early 1940s due to the Second Sino-Japanese War, seeking safety from Japanese occupation and leveraging the geographical advantages of the Sichuan Basin."
+      },
+      {
+        "role": "user",
+        "content": "I don't understand."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "task": "repeat request",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does DTC use clean energy?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Delhi Transport Corporation operates one of the world's largest fleets of compressed natural gas-fueled buses to reduce pollution."
+      },
+      {
+        "role": "user",
+        "content": "What was that you said?"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "task": "repeat request",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      },
+      {
+        "role": "assistant",
+        "content": "During World War II, IBM produced small arms for the American war effort."
+      },
+      {
+        "role": "user",
+        "content": "Say again. I missed that."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "task": "repeat request",
+    "ctx_id": 21,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How much has the use of paper gone up around the world?"
+      },
+      {
+        "role": "assistant",
+        "content": "Worldwide consumption of paper has risen by 400% in the past 40 years."
+      },
+      {
+        "role": "user",
+        "content": "What did you say?"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "task": "repeat request",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the Spanish language in the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "Spanish is widely spoken in the United States, with around 45 million Hispanophones and six million Spanish language students, making it the second largest Hispanophone country globally after Mexico."
+      },
+      {
+        "role": "user",
+        "content": "Say that again please."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "task": "repeat request",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How was the movie Evita received at the time?"
+      },
+      {
+        "role": "assistant",
+        "content": "The movie Evita garnered critical appreciation, with Zach Conner from Time magazine commenting that it's 'pretty damn fine, well cast and handsomely visualized.'"
+      },
+      {
+        "role": "user",
+        "content": "What did you say?"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "task": "repeat request",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "On what movies is Spielberg an uncredited executive producer?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Haunting, The Prince of Egypt, Just Like Heaven, Shrek, Road to Perdition, and Evolution."
+      },
+      {
+        "role": "user",
+        "content": "Say that again?"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "task": "repeat request",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inert gases like nitrogen or carbon dioxide are typically used around LED filaments to efficiently remove heat and improve longevity."
+      },
+      {
+        "role": "user",
+        "content": "Please repeat that."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "task": "repeat request",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What happens when the patent protection for a drug expires?"
+      },
+      {
+        "role": "assistant",
+        "content": "When it expires, a generic version of the drug is typically developed and sold by competing companies at a lower price."
+      },
+      {
+        "role": "user",
+        "content": "Could you repeat that?"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "task": "repeat request",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Their ideas regarding the mental or ideal character of reality gave birth to various idealistic and subjectivist schools, such as British idealism, phenomenalism, and existentialism."
+      },
+      {
+        "role": "user",
+        "content": "What did you say?"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "task": "repeat request",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between static and dynamic testing in software testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "Static testing is performed without executing the code, while dynamic testing involves executing the code with a given set of test cases."
+      },
+      {
+        "role": "user",
+        "content": "I couldn't hear you."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "task": "repeat request",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the role of ribosomes in translation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ribosomes are responsible for adding new amino acids to a growing polypeptide chain by forming peptide bonds."
+      },
+      {
+        "role": "user",
+        "content": "Say that again?"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "task": "repeat request",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What percentage of private sector jobs in New York City are for foreign companies?"
+      },
+      {
+        "role": "assistant",
+        "content": "One out of ten."
+      },
+      {
+        "role": "user",
+        "content": "Pardon me?"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "task": "repeat request",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was found in the Drachloch cave?"
+      },
+      {
+        "role": "assistant",
+        "content": "Fifty thousand year old charcoal and seven bear skulls were found in the Drachloch cave."
+      },
+      {
+        "role": "user",
+        "content": "I couldn't hear you."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "task": "repeat request",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      },
+      {
+        "role": "assistant",
+        "content": "His initial goal as general secretary was to revive the Soviet economy."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, I missed that."
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "task": "repeat request",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was one of the pranks Feynman played while at Los Alamos?"
+      },
+      {
+        "role": "assistant",
+        "content": "He left a series of notes in a colleague's filing cabinets, making it seem like a spy or saboteur had gained access to atomic bomb secrets."
+      },
+      {
+        "role": "user",
+        "content": "What was that you said?"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "task": "repeat request",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Where do Chinese immigrants living in Seattle tend to come from?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Chinese population in the Seattle area has origins in mainland China, Hong Kong, Southeast Asia, and Taiwan."
+      },
+      {
+        "role": "user",
+        "content": "What did you say?"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "task": "repeat request",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who created Marvel Comics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Martin Goodman. He created Timely Publications in 1939, which later became known as Marvel Comics."
+      },
+      {
+        "role": "user",
+        "content": "Pardon me?"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "task": "repeat request",
+    "ctx_id": 17,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who was the judge of the music competition between Pan and Apollo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tmolus, the mountain-god, was chosen to umpire it."
+      },
+      {
+        "role": "user",
+        "content": "Say again. I missed that."
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "task": "repeat request",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why did Louis XIV move his court from Paris?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because he mistrusted the Parisians."
+      },
+      {
+        "role": "user",
+        "content": "Could you repeat that?"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "task": "repeat request",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why doesn't Theravada recognize Mahayana works?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because it traces its roots to a branch of Buddhism that diverged before Mahayana scriptures existed, basing its teachings solely on the Pali Canon."
+      },
+      {
+        "role": "user",
+        "content": "Sorry, I missed that."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "task": "sequence abort",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did German idealism influence the development of science in the 19th century?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm afraid I don't have that information."
+      },
+      {
+        "role": "user",
+        "content": "Never mind then."
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "task": "sequence abort",
+    "ctx_id": 17,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did Pan and Apollo become acquainted?"
+      },
+      {
+        "role": "assistant",
+        "content": "They were both gods, so they had known each other for a long time."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "task": "sequence abort",
+    "ctx_id": 26,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did the Parisians react to Louis XIV's decision to move his court to Versailles?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have that information."
+      },
+      {
+        "role": "user",
+        "content": "Never mind then."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "task": "sequence abort",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did the prehistoric people use the bear skulls?"
+      },
+      {
+        "role": "assistant",
+        "content": "They buried them."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "task": "sequence abort",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How did the Soviet people respond to Gorbachev's reforms?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "task": "sequence abort",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How many buses does the DTC own?"
+      },
+      {
+        "role": "assistant",
+        "content": "The DTC owns the largest fleet of compressed natural gas fueled buses in the world."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "task": "sequence abort",
+    "ctx_id": 4,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How prevalent is the French language in the U.S.?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm afraid I don't have that data."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "task": "sequence abort",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Was Men in Black inspired by Spielberg's Close Encounters of the Third Kind?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know, but Spielberg did serve as an executive producer for Men in Black and its sequels."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "task": "sequence abort",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What are the advantages and disadvantages of static testing versus dynamic testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know the specific advantages and disadvantages, but I can explain how they differ."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "task": "sequence abort",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What are the main differences between Theravada and Mahayana Buddhism?"
+      },
+      {
+        "role": "assistant",
+        "content": "Theravada school does not include the Mahayana scriptures in its canon."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "task": "sequence abort",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the average cost of developing a new drug?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm afraid I don't have that information."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "task": "sequence abort",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the average salary of a private sector job in New York City?"
+      },
+      {
+        "role": "assistant",
+        "content": "The average salary of a private sector job in New York City is higher than the national average."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "task": "sequence abort",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the average water temperature in this area?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "task": "sequence abort",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between a codon and an anticodon?"
+      },
+      {
+        "role": "assistant",
+        "content": "The genetic code is read three nucleotides at a time, in units called codons, via interactions with specialized RNA molecules called transfer RNA."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "task": "sequence abort",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the plot of the movie Evita?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's a relief to say that Evita is pretty damn fine, well cast and handsomely visualized."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "task": "sequence abort",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the total population of Seattle?"
+      },
+      {
+        "role": "assistant",
+        "content": "55,000 residents, as well as over 30,000 Somali immigrants."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "task": "sequence abort",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was the name of IBM's CEO in 1937?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "task": "sequence abort",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was the name of Martin Goodman's first comic book title?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "task": "sequence abort",
+    "ctx_id": 19,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was the role of the Kuomintang government in the development of modern Western-style universities in the nearby inland provinces?"
+      },
+      {
+        "role": "assistant",
+        "content": "By relocating the capital to Chongqing during the Second Sino-Japanese War, the Kuomintang government indirectly catalyzed the development of universities in provinces like Shaanxi, Gansu, and Guizhou that previously lacked such institutions."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "task": "sequence abort",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who was Feynman's ailing wife?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm afraid I don't have that information."
+      },
+      {
+        "role": "user",
+        "content": "Never mind."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "task": "sequence closer",
+    "ctx_id": 13,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was Mikhail Gorbachev's top priority as general secretary?"
+      },
+      {
+        "role": "assistant",
+        "content": "His initial goal as general secretary was to revive the Soviet economy."
+      },
+      {
+        "role": "user",
+        "content": "Oh, right."
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "task": "sequence closer",
+    "ctx_id": 0,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Does DTC use clean energy?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Delhi Transport Corporation operates one of the world's largest fleets of compressed natural gas-fueled buses to reduce pollution."
+      },
+      {
+        "role": "user",
+        "content": "Wow!"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "task": "sequence closer",
+    "ctx_id": 2,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Has IBM ever produced things that are not related to computers or the office?"
+      },
+      {
+        "role": "assistant",
+        "content": "During World War II, IBM produced small arms for the American war effort."
+      },
+      {
+        "role": "user",
+        "content": "Oh my gosh!"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "task": "sequence closer",
+    "ctx_id": 21,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How much has the use of paper gone up around the world?"
+      },
+      {
+        "role": "assistant",
+        "content": "Worldwide consumption of paper has risen by 400% in the past 40 years."
+      },
+      {
+        "role": "user",
+        "content": "Oh okay."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "task": "sequence closer",
+    "ctx_id": 5,
+    "turns": [
+      {
+        "role": "user",
+        "content": "How was the movie Evita received at the time?"
+      },
+      {
+        "role": "assistant",
+        "content": "The movie Evita garnered critical appreciation, with Zach Conner from Time magazine commenting that it's pretty damn fine, well cast and handsomely visualized."
+      },
+      {
+        "role": "user",
+        "content": "Oh, that's great!"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "task": "sequence closer",
+    "ctx_id": 3,
+    "turns": [
+      {
+        "role": "user",
+        "content": "On what movies is Spielberg an uncredited executive producer?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Haunting, The Prince of Egypt, Just Like Heaven, Shrek, Road to Perdition, and Evolution."
+      },
+      {
+        "role": "user",
+        "content": "Thank you!"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "task": "sequence closer",
+    "ctx_id": 6,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What gases are used to around an LED filament?"
+      },
+      {
+        "role": "assistant",
+        "content": "Inert gases like nitrogen or carbon dioxide are typically used around LED filaments to efficiently remove heat and improve longevity."
+      },
+      {
+        "role": "user",
+        "content": "All right."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "task": "sequence closer",
+    "ctx_id": 7,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What happens when the patent protection for a drug expires?"
+      },
+      {
+        "role": "assistant",
+        "content": "When it expires, a generic version of the drug is typically developed and sold by competing companies at a lower price."
+      },
+      {
+        "role": "user",
+        "content": "Oh of course."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "task": "sequence closer",
+    "ctx_id": 8,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What impact did the German Idealists have on philosophy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Their ideas regarding the mental or ideal character of reality gave birth to various idealistic and subjectivist schools, such as British idealism, phenomenalism, and existentialism."
+      },
+      {
+        "role": "user",
+        "content": "Thank you very much!"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "task": "sequence closer",
+    "ctx_id": 9,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the difference between static and dynamic testing in software testing?"
+      },
+      {
+        "role": "assistant",
+        "content": "Static testing is performed without executing the code, while dynamic testing involves executing the code with a given set of test cases."
+      },
+      {
+        "role": "user",
+        "content": "Got it."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "task": "sequence closer",
+    "ctx_id": 10,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is the role of ribosomes in translation?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ribosomes are responsible for adding new amino acids to a growing polypeptide chain by forming peptide bonds."
+      },
+      {
+        "role": "user",
+        "content": "Okay."
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "task": "sequence closer",
+    "ctx_id": 11,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What kind of marine life do you have here?"
+      },
+      {
+        "role": "assistant",
+        "content": "There are anemones, urchins, sea cucumbers, eels, turtles, conch, and a variety of fish species like sergeant majors, chromis, surgeon fish, blue tangs, and trumpet fish, along with ghost crabs and hermit crabs found on the shore."
+      },
+      {
+        "role": "user",
+        "content": "Thank you!"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "task": "sequence closer",
+    "ctx_id": 1,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What percentage of private sector jobs in New York City are for foreign companies?"
+      },
+      {
+        "role": "assistant",
+        "content": "One out of ten."
+      },
+      {
+        "role": "user",
+        "content": "Oh okay."
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "task": "sequence closer",
+    "ctx_id": 12,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was found in the Drachloch cave?"
+      },
+      {
+        "role": "assistant",
+        "content": "Fifty thousand year old charcoal and seven bear skulls were found in the Drachloch cave."
+      },
+      {
+        "role": "user",
+        "content": "Oh cool!"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "task": "sequence closer",
+    "ctx_id": 14,
+    "turns": [
+      {
+        "role": "user",
+        "content": "What was one of the pranks Feynman played while at Los Alamos?"
+      },
+      {
+        "role": "assistant",
+        "content": "He left a series of notes in a colleague's filing cabinets, making it seem like a spy or saboteur had gained access to atomic bomb secrets."
+      },
+      {
+        "role": "user",
+        "content": "Haha that's funny!"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "task": "sequence closer",
+    "ctx_id": 15,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Where do Chinese immigrants living in Seattle tend to come from?"
+      },
+      {
+        "role": "assistant",
+        "content": "The Chinese population in the Seattle area has origins in mainland China, Hong Kong, Southeast Asia, and Taiwan."
+      },
+      {
+        "role": "user",
+        "content": "Got it."
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "task": "sequence closer",
+    "ctx_id": 16,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who created Marvel Comics?"
+      },
+      {
+        "role": "assistant",
+        "content": "Martin Goodman. He created Timely Publications in 1939, which later became known as Marvel Comics."
+      },
+      {
+        "role": "user",
+        "content": "Who knew!"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "task": "sequence closer",
+    "ctx_id": 17,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Who was the judge of the music competition between Pan and Apollo?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tmolus, the mountain-god, was chosen to umpire it."
+      },
+      {
+        "role": "user",
+        "content": "Okay."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "task": "sequence closer",
+    "ctx_id": 23,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why did Louis XIV move his court from Paris?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because he mistrusted the Parisians."
+      },
+      {
+        "role": "user",
+        "content": "Got it."
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "task": "sequence closer",
+    "ctx_id": 18,
+    "turns": [
+      {
+        "role": "user",
+        "content": "Why doesn't Theravada recognize Mahayana works?"
+      },
+      {
+        "role": "assistant",
+        "content": "Because it traces its roots to a branch of Buddhism that diverged before Mahayana scriptures existed, basing its teachings solely on the Pali Canon."
+      },
+      {
+        "role": "user",
+        "content": "Oh, right."
+      }
+    ]
+  }
+]
